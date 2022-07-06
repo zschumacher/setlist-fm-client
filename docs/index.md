@@ -1,4 +1,3 @@
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
@@ -21,7 +20,7 @@
     ```
 
 ## Authentication
-In order to authenticate to the setlist.fm REST API, you must [apply for an API key](https://www.setlist.fm/settings/api)  
+In order to authenticate to the setlist.fm REST API, you must [apply for an API key](https://www.setlist.fm/settings/api) 
 (link for logged-in users only) - if you're not registered user yet, then 
 [register first](https://www.setlist.fm/signup) (it's free).
 
