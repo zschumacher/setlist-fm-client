@@ -46,6 +46,7 @@ jobs:
       - name: test and coverage
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+          SETLIST_FM_API_KEY: "DUMMY"
         run: |
           poetry run pytest --cov=. --cov-branch -v --durations=25
           poetry run coverage report -m
