@@ -3,7 +3,9 @@ import typing
 from decimal import Decimal
 
 import humps
-from pydantic import BaseModel, HttpUrl, validator
+from pydantic import BaseModel
+from pydantic import HttpUrl
+from pydantic import validator
 
 
 class SetlistFmBaseModel(BaseModel):

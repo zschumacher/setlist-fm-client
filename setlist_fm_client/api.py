@@ -4,9 +4,10 @@ import typing
 import httpx
 
 from setlist_fm_client import models
-from setlist_fm_client.core import get
 from setlist_fm_client.core import build_params
-from setlist_fm_client.enums import Accept, Sort
+from setlist_fm_client.core import get
+from setlist_fm_client.enums import Accept
+from setlist_fm_client.enums import Sort
 
 __all__ = [
     "get_artist",
@@ -26,7 +27,7 @@ __all__ = [
 
 
 def get_artist(
-        mbid: str, *, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False, **kwargs
+    mbid: str, *, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False, **kwargs
 ) -> typing.Union[httpx.Response, models.Artist]:
     """Returns an artist for a given Musicbrainz MBID
 
@@ -49,7 +50,7 @@ def get_artist(
 
 
 def get_artist_setlists(
-        mbid: str, *, p: int = 1, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False, **kwargs
+    mbid: str, *, p: int = 1, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False, **kwargs
 ) -> typing.Union[httpx.Response, models.ArtistSetListResponse]:
     """Get a list of an artist's setlists
 
@@ -78,7 +79,7 @@ def get_artist_setlists(
 
 
 def get_city(
-        geoid: str, *, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False, **kwargs
+    geoid: str, *, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False, **kwargs
 ) -> typing.Union[httpx.Response, models.City]:
     """Get a city by its unique geoid
 
@@ -100,7 +101,7 @@ def get_city(
 
 
 def get_user(
-        user_id: str, *, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False, **kwargs
+    user_id: str, *, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False, **kwargs
 ) -> typing.Union[httpx.Response, models.User]:
     """Get a user by their userId
 
@@ -122,7 +123,7 @@ def get_user(
 
 
 def get_venue(
-        venue_id: str, *, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False, **kwargs
+    venue_id: str, *, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False, **kwargs
 ) -> typing.Union[httpx.Response, models.Venue]:
     """Get a venue by its venueId
 
@@ -144,13 +145,13 @@ def get_venue(
 
 
 def get_setlists_at_venue(
-        venue_id: str,
-        *,
-        p: int = None,
-        api_key: str = None,
-        accept: Accept = Accept.json,
-        serialize: bool = False,
-        **kwargs,
+    venue_id: str,
+    *,
+    p: int = None,
+    api_key: str = None,
+    accept: Accept = Accept.json,
+    serialize: bool = False,
+    **kwargs,
 ) -> typing.Union[httpx.Response, models.ArtistSetListResponse]:
     """Get setlists for a specific venue
 
@@ -178,8 +179,7 @@ def get_setlists_at_venue(
 
 
 def get_setlists_of_concerts_attended_by_user(
-        user_id: str, *, p: int = 1, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False,
-        **kwargs
+    user_id: str, *, p: int = 1, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False, **kwargs
 ) -> typing.Union[httpx.Response, models.ArtistSetListResponse]:
     """Get a list of setlists of concerts attended by a user
 
@@ -207,8 +207,7 @@ def get_setlists_of_concerts_attended_by_user(
 
 
 def get_setlists_edited_by_user(
-        user_id: str, *, p: int = 1, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False,
-        **kwargs
+    user_id: str, *, p: int = 1, api_key: str = None, accept: Accept = Accept.json, serialize: bool = False, **kwargs
 ) -> typing.Union[httpx.Response, models.ArtistSetListResponse]:
     """Get a list of setlists of concerts edited by a user
 
@@ -238,15 +237,15 @@ def get_setlists_edited_by_user(
 
 
 def search_artists(
-        *,
-        mbid: str = None,
-        name: str = None,
-        p: int = 1,
-        sort: Sort = Sort.sort_name,
-        accept: Accept = Accept.json,
-        api_key: str = None,
-        serialize: bool = False,
-        **kwargs,
+    *,
+    mbid: str = None,
+    name: str = None,
+    p: int = 1,
+    sort: Sort = Sort.sort_name,
+    accept: Accept = Accept.json,
+    api_key: str = None,
+    serialize: bool = False,
+    **kwargs,
 ) -> typing.Union[httpx.Response, models.ArtistSearchResponse]:  # pragma: no branch
     """Search for artists using their mbid or their name.
 
@@ -265,12 +264,7 @@ def search_artists(
     Returns:
         'ArtistSearchResponse` if serialize is True, else `httpx.Response`
     """
-    kwargs["params"] = build_params(
-        p=p,
-        sort=sort.value,
-        artistMbid=mbid,
-        artistName=name
-    )
+    kwargs["params"] = build_params(p=p, sort=sort.value, artistMbid=mbid, artistName=name)
     return get(
         f"/search/artists",
         api_key=api_key,
@@ -281,16 +275,16 @@ def search_artists(
 
 
 def search_cities(
-        *,
-        country: str = None,
-        name: str = None,
-        state: str = None,
-        state_code: str = None,
-        p: int = 1,
-        accept: Accept = Accept.json,
-        api_key: str = None,
-        serialize: bool = False,
-        **kwargs,
+    *,
+    country: str = None,
+    name: str = None,
+    state: str = None,
+    state_code: str = None,
+    p: int = 1,
+    accept: Accept = Accept.json,
+    api_key: str = None,
+    serialize: bool = False,
+    **kwargs,
 ) -> typing.Union[httpx.Response, models.CitiesSearchResponse]:
     """Search for a city using various parameters
 
@@ -310,13 +304,7 @@ def search_cities(
     Returns:
         'CitySearchResponse` if serialize is True, else `httpx.Response`
     """
-    kwargs["params"] = build_params(
-        p=p,
-        country=country,
-        name=name,
-        state=state,
-        stateCode=state_code
-    )
+    kwargs["params"] = build_params(p=p, country=country, name=name, state=state, stateCode=state_code)
     return get(
         f"/search/cities",
         api_key=api_key,
@@ -327,7 +315,7 @@ def search_cities(
 
 
 def search_countries(
-        *, accept: Accept = Accept.json, api_key: str = None, serialize: bool = False, **kwargs
+    *, accept: Accept = Accept.json, api_key: str = None, serialize: bool = False, **kwargs
 ) -> typing.Union[httpx.Response, models.CountrySearchResponse]:
     """Get a list of all supported countries
 
@@ -352,17 +340,17 @@ def search_countries(
 
 
 def search_venues(
-        *,
-        city_id: str = None,
-        city_name: str = None,
-        country: str = None,
-        state: str = None,
-        state_code: str = None,
-        p: int = 1,
-        accept: Accept = Accept.json,
-        api_key: str = None,
-        serialize: bool = False,
-        **kwargs,
+    *,
+    city_id: str = None,
+    city_name: str = None,
+    country: str = None,
+    state: str = None,
+    state_code: str = None,
+    p: int = 1,
+    accept: Accept = Accept.json,
+    api_key: str = None,
+    serialize: bool = False,
+    **kwargs,
 ) -> typing.Union[httpx.Response, models.VenueSearchResponse]:
     """Search for a venue using various parameters
 
@@ -384,12 +372,7 @@ def search_venues(
         'VenueSearchResponse` if serialize is True, else `httpx.Response`
     """
     kwargs["params"] = build_params(
-        cityId=city_id,
-        cityName=city_name,
-        country=country,
-        state=state,
-        stateCode=state_code,
-        p=p
+        cityId=city_id, cityName=city_name, country=country, state=state, stateCode=state_code, p=p
     )
     return get(
         f"/search/venues",
@@ -401,25 +384,25 @@ def search_venues(
 
 
 def search_setlists(
-        *,
-        artist_mbid: str = None,
-        artist_name: str = None,
-        city_id: str = None,
-        city_name: str = None,
-        country_code: str = None,
-        date: datetime.date = None,
-        last_updated: datetime.datetime = None,
-        state: str = None,
-        state_code: str = None,
-        tour_name: str = None,
-        venue_id: str = None,
-        venue_name: str = None,
-        year: typing.Union[int, str] = None,
-        p: int = 1,
-        accept: Accept = Accept.json,
-        api_key: str = None,
-        serialize: bool = False,
-        **kwargs,
+    *,
+    artist_mbid: str = None,
+    artist_name: str = None,
+    city_id: str = None,
+    city_name: str = None,
+    country_code: str = None,
+    date: datetime.date = None,
+    last_updated: datetime.datetime = None,
+    state: str = None,
+    state_code: str = None,
+    tour_name: str = None,
+    venue_id: str = None,
+    venue_name: str = None,
+    year: typing.Union[int, str] = None,
+    p: int = 1,
+    accept: Accept = Accept.json,
+    api_key: str = None,
+    serialize: bool = False,
+    **kwargs,
 ) -> typing.Union[httpx.Response, models.ArtistSetListResponse]:
     """Search for setlists using a variety of query params
 
@@ -462,7 +445,7 @@ def search_setlists(
         venueId=venue_id,
         venueName=venue_name,
         year=year,
-        p=p
+        p=p,
     )
     return get(
         f"/search/setlists",
@@ -474,7 +457,7 @@ def search_setlists(
 
 
 def get_setlist(
-        setlist_id: str, *, accept: Accept = Accept.json, api_key: str = None, serialize: bool = False, **kwargs
+    setlist_id: str, *, accept: Accept = Accept.json, api_key: str = None, serialize: bool = False, **kwargs
 ) -> typing.Union[httpx.Response, models.ArtistSetList]:
     """Returns the current version of a setlist
 
@@ -502,7 +485,7 @@ def get_setlist(
 
 
 def get_setlist_by_version(
-        version_id: str, *, accept: Accept = Accept.json, api_key: str = None, serialize: bool = False, **kwargs
+    version_id: str, *, accept: Accept = Accept.json, api_key: str = None, serialize: bool = False, **kwargs
 ) -> typing.Union[httpx.Response, models.ArtistSetList]:
     """Returns a setlist for the given versionId.
 
