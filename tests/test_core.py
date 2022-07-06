@@ -1,8 +1,9 @@
 import pytest
 
-from setlist_fm_client.core import (SETLIST_FM_API_KEY_VAR_NAME,
-                                    AsyncSetlistFmClient, SetlistFmClient,
-                                    _build_headers)
+from setlist_fm_client.core import SETLIST_FM_API_KEY_VAR_NAME
+from setlist_fm_client.core import AsyncSetlistFmClient
+from setlist_fm_client.core import SetlistFmClient
+from setlist_fm_client.core import _build_headers
 from setlist_fm_client.enums import Accept
 
 

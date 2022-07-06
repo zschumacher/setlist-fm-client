@@ -2,7 +2,10 @@ import datetime
 
 import pytest
 
-from setlist_fm_client import api, async_api, enums, models
+from setlist_fm_client import api
+from setlist_fm_client import async_api
+from setlist_fm_client import enums
+from setlist_fm_client import models
 
 
 @pytest.fixture(scope="module")
