@@ -1,0 +1,59 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/venue/6bd6ca6e
+  response:
+    content: "{\n   \"id\" : \"6bd6ca6e\",\n   \"name\" : \"Compaq Center\",\n   \"city\"
+      : {\n      \"id\" : \"5392171\",\n      \"name\" : \"San Jose\",\n      \"state\"
+      : \"California\",\n      \"stateCode\" : \"CA\",\n      \"coords\" : {\n         \"lat\"
+      : 37.3393857,\n         \"long\" : -121.8949555\n      },\n      \"country\"
+      : {\n         \"code\" : \"US\",\n         \"name\" : \"United States\"\n      }\n
+      \  },\n   \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n}"
+    headers:
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:07:57 GMT
+      Vary:
+      - Accept,Accept-Language
+      Via:
+      - 1.1 b078462cffa3a81b6e262ef7f6040412.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 7jcjm255tf3zrNXpyOXHI7uqoHhVt8nWaYmcIIl0skvrDxznUuLwxw==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Miss from cloudfront
+      x-amz-apigw-id:
+      - U0ozmFEFIAMFSDg=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '441'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:07:57 GMT
+      x-amzn-RequestId:
+      - 476b483e-2d78-4449-b6e9-ab7660d0a861
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

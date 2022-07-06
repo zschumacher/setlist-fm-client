@@ -1,0 +1,943 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/venue/6bd6ca6e/setlists
+  response:
+    content: "{\n   \"type\" : \"setlists\",\n   \"itemsPerPage\" : 20,\n   \"page\"
+      : 1,\n   \"total\" : 64,\n   \"setlist\" : [ {\n      \"id\" : \"43e8a373\",\n
+      \     \"versionId\" : \"1b6685c0\",\n      \"eventDate\" : \"11-12-2002\",\n
+      \     \"lastUpdated\" : \"2018-08-11T13:18:35.000+0000\",\n      \"artist\"
+      : {\n         \"mbid\" : \"7bd9e20e-74b9-446a-a2ed-a223f82a36e7\",\n         \"name\"
+      : \"Cyndi Lauper\",\n         \"sortName\" : \"Lauper, Cyndi\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/cyndi-lauper-1bd6b9e8.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Shine Tour\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/cyndi-lauper/2002/compaq-center-san-jose-ca-43e8a373.html\"\n
+      \  }, {\n      \"id\" : \"bca691e\",\n      \"versionId\" : \"g6bd64232\",\n
+      \     \"eventDate\" : \"17-11-2002\",\n      \"lastUpdated\" : \"2021-01-25T17:47:12.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"9c355987-ef25-4f58-883e-67f5dead35e7\",\n
+      \        \"name\" : \"American Idol Ensemble\",\n         \"sortName\" : \"American
+      Idol Ensemble\",\n         \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/american-idol-ensemble-4bd34fb6.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Black Cat\",\n               \"cover\" : {\n
+      \                 \"mbid\" : \"6be2828f-6c0d-4059-99d4-fa18acf1a296\",\n                  \"name\"
+      : \"Janet Jackson\",\n                  \"sortName\" : \"Jackson, Janet\",\n
+      \                 \"disambiguation\" : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/janet-jackson-33d6bce9.html\"\n
+      \              },\n               \"info\" : \"Sung by EJay Day\"\n            },
+      {\n               \"name\" : \"Easy\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"900ab237-327b-44e2-87e4-73250bbe025a\",\n                  \"name\" : \"Commodores\",\n
+      \                 \"sortName\" : \"Commodores\",\n                  \"disambiguation\"
+      : \"US funk/soul band with Lionel Richie\",\n                  \"url\" : \"https://www.setlist.fm/setlists/commodores-bd6b97e.html\"\n
+      \              },\n               \"info\" : \"Sung by Jim Varraros\"\n            },
+      {\n               \"name\" : \"My Cherie Amour\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e\",\n
+      \                 \"name\" : \"Stevie Wonder\",\n                  \"sortName\"
+      : \"Wonder, Stevie\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/stevie-wonder-13d6b955.html\"\n               },\n
+      \              \"info\" : \"Sung by A.J. Gil\"\n            }, {\n               \"name\"
+      : \"If You Really Love Me\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e\",\n                  \"name\" : \"Stevie
+      Wonder\",\n                  \"sortName\" : \"Wonder, Stevie\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/stevie-wonder-13d6b955.html\"\n
+      \              },\n               \"info\" : \"Sung by Ryan Starr\"\n            },
+      {\n               \"name\" : \"Ain't No Sunshine\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"fd1a2d9d-9bb6-44de-83a3-41560658aba9\",\n
+      \                 \"name\" : \"Bill Withers\",\n                  \"sortName\"
+      : \"Withers, Bill\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/bill-withers-2bd60842.html\"\n               },\n
+      \              \"info\" : \"Sung by Christina Christian\"\n            }, {\n
+      \              \"name\" : \"Lately\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e\",\n                  \"name\" : \"Stevie
+      Wonder\",\n                  \"sortName\" : \"Wonder, Stevie\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/stevie-wonder-13d6b955.html\"\n
+      \              },\n               \"info\" : \"Sung by RJ Helton\"\n            },
+      {\n               \"name\" : \"I'm Every Woman\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"900e9144-019d-4043-86cb-ec0e127c39d0\",\n
+      \                 \"name\" : \"Chaka Khan\",\n                  \"sortName\"
+      : \"Khan, Chaka\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/chaka-khan-1bd6b954.html\"\n               },\n
+      \              \"info\" : \"Sung by Tamyra Gray\"\n            }, {\n               \"name\"
+      : \"Piece of My Heart\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"4ba12614-fcce-462b-8784-8dd1a92fbf2b\",\n                  \"name\" : \"Erma
+      Franklin\",\n                  \"sortName\" : \"Franklin, Erma\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/erma-franklin-5bd63bd0.html\"\n
+      \              },\n               \"info\" : \"Sung by Nikki McKibbon\"\n            },
+      {\n               \"name\" : \"Get Here\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"d3ffeb64-9d7b-4911-98e5-91ee26005ee9\",\n                  \"name\" : \"Oleta
+      Adams\",\n                  \"sortName\" : \"Adams, Oleta\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/oleta-adams-73d6422d.html\"\n
+      \              },\n               \"info\" : \"Sung by Justin Guarini\"\n            },
+      {\n               \"name\" : \"Respect\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"82b1f5fd-cd31-41a9-b5d4-7e33f0eb9751\",\n                  \"name\" : \"Otis
+      Redding\",\n                  \"sortName\" : \"Redding, Otis\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/otis-redding-2bd6b83a.html\"\n
+      \              },\n               \"info\" : \"Sung by Kelly Clarkson\"\n            }
+      ]\n         }, {\n            \"name\" : \"Intermission\",\n            \"song\"
+      : [ {\n               \"name\" : \"Pop\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"603ba565-3967-4be1-931e-9cb945394e86\",\n                  \"name\" : \"*NSYNC\",\n
+      \                 \"sortName\" : \"NSYNC\",\n                  \"disambiguation\"
+      : \"US boy band\",\n                  \"url\" : \"https://www.setlist.fm/setlists/nsync-53d6bf81.html\"\n
+      \              },\n               \"info\" : \"Sung by Top 5 Guys\"\n            },
+      {\n               \"name\" : \"Free Your Mind\",\n               \"cover\" :
+      {\n                  \"mbid\" : \"9a883a69-436b-4d17-9ffd-122a9bf4419a\",\n
+      \                 \"name\" : \"En Vogue\",\n                  \"sortName\" :
+      \"En Vogue\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/en-vogue-73d6befd.html\"\n               },\n
+      \              \"info\" : \"Sung by Top 5 Girls\"\n            }, {\n               \"name\"
+      : \"For Once in My Life\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"d23a976e-aa49-4b86-b33b-d3e1e82b7914\",\n                  \"name\" : \"Jean
+      DuShon\",\n                  \"sortName\" : \"DuShon, Jean\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/jean-dushon-6bd152ca.html\"\n
+      \              },\n               \"info\" : \"Sung by Justin Guarini\"\n            },
+      {\n               \"name\" : \"(You Make Me Feel Like) A Natural Woman\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"bf6c29f5-b69f-4842-9031-37f9645d365d\",\n
+      \                 \"name\" : \"Carole King\",\n                  \"sortName\"
+      : \"King, Carole\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/carole-king-5bd6ab88.html\"\n               },\n
+      \              \"info\" : \"Sung by Kelly Clarkson\"\n            }, {\n               \"name\"
+      : \"Soul Medley\",\n               \"info\" : \"Dancing in the Street (Group),Get
+      Ready (Guys), I Can't Help Myself (Sugar Pie Honey Bunch) (Helton)\"\n            },
+      {\n               \"name\" : \"Rhiannon\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"bd13909f-1c29-4c27-a874-d4aaf27c5b1a\",\n                  \"name\" : \"Fleetwood
+      Mac\",\n                  \"sortName\" : \"Fleetwood Mac\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/fleetwood-mac-7bd6bef0.html\"\n
+      \              },\n               \"info\" : \"Sung by Nikki McKibbon\"\n            },
+      {\n               \"name\" : \"A House Is Not a Home\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"2882ffa3-dec9-4055-a842-a950728bcb02\",\n
+      \                 \"name\" : \"Burt Bacharach\",\n                  \"sortName\"
+      : \"Bacharach, Burt\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/burt-bacharach-53d6b3c1.html\"\n               },\n
+      \              \"info\" : \"Sung by Tamara Gray\"\n            }, {\n               \"name\"
+      : \"Disco Medley\",\n               \"info\" : \"Celebration (Group), Ain't
+      No Stoppin' Us Now (Group), We Are Family (Girls), Love Machine (Guys), F\"\n
+      \           }, {\n               \"name\" : \"Let's Stay Together\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"fb7272ba-f130-4f0a-934d-6eeea4c18c9a\",\n
+      \                 \"name\" : \"Al Green\",\n                  \"sortName\" :
+      \"Green, Al\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/al-green-bd6b9a6.html\"\n               },\n
+      \              \"info\" : \"Sung by Justin Guarini\"\n            }, {\n               \"name\"
+      : \"A Moment Like This\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"d339efbb-77b9-4147-ba9e-59f2f24550b2\",\n                  \"name\" : \"Kelly
+      Clarkson\",\n                  \"sortName\" : \"Clarkson, Kelly\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/kelly-clarkson-5bd6bfd0.html\"\n
+      \              },\n               \"info\" : \"Sung by Kelly Clarkson\"\n            },
+      {\n               \"name\" : \"That's What Friends Are For\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"2882ffa3-dec9-4055-a842-a950728bcb02\",\n
+      \                 \"name\" : \"Burt Bacharach\",\n                  \"sortName\"
+      : \"Bacharach, Burt\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/burt-bacharach-53d6b3c1.html\"\n               },\n
+      \              \"info\" : \"Sung by Top 10\"\n            }, {\n               \"name\"
+      : \"I'll Be There\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"e5257dc5-1edd-4fca-b7e6-1158e00522c8\",\n                  \"name\" : \"The
+      Jacksons\",\n                  \"sortName\" : \"Jacksons, The\",\n                  \"disambiguation\"
+      : \"formerly \u201CThe Jackson 5\u201D\",\n                  \"url\" : \"https://www.setlist.fm/setlists/the-jacksons-13d6b99d.html\"\n
+      \              },\n               \"info\" : \"Sung by Top 10\"\n            }
+      ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/american-idol-ensemble/2002/compaq-center-san-jose-ca-bca691e.html\"\n
+      \  }, {\n      \"id\" : \"5bd67f38\",\n      \"versionId\" : \"g7bd0ba48\",\n
+      \     \"eventDate\" : \"14-11-2002\",\n      \"lastUpdated\" : \"2021-04-17T03:11:36.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"fbd2a255-1d57-4d31-ac11-65b671c19958\",\n
+      \        \"name\" : \"No Doubt\",\n         \"sortName\" : \"No Doubt\",\n         \"disambiguation\"
+      : \"American rock band\",\n         \"url\" : \"https://www.setlist.fm/setlists/no-doubt-3bd6b81c.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Rock Steady\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Hella Good\"\n            }, {\n               \"name\" : \"Sunday Morning\"\n
+      \           }, {\n               \"name\" : \"Ex-Girlfriend\"\n            },
+      {\n               \"name\" : \"Underneath It All\"\n            }, {\n               \"name\"
+      : \"Don't Let Me Down\"\n            }, {\n               \"name\" : \"Bathwater\"\n
+      \           }, {\n               \"name\" : \"Magic's in the Makeup\"\n            },
+      {\n               \"name\" : \"Running\"\n            }, {\n               \"name\"
+      : \"In My Head\"\n            }, {\n               \"name\" : \"Excuse Me Mr.\"\n
+      \           }, {\n               \"name\" : \"Different People\"\n            },
+      {\n               \"name\" : \"New\"\n            }, {\n               \"name\"
+      : \"Simple Kind of Life\"\n            }, {\n               \"name\" : \"Just
+      a Girl\"\n            }, {\n               \"name\" : \"Hey Baby\"\n            },
+      {\n               \"name\" : \"Don't Speak\"\n            } ]\n         }, {\n
+      \           \"encore\" : 1,\n            \"song\" : [ {\n               \"name\"
+      : \"Rock Steady\"\n            }, {\n               \"name\" : \"Spiderwebs\"\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/no-doubt/2002/compaq-center-san-jose-ca-5bd67f38.html\"\n
+      \  }, {\n      \"id\" : \"6b9042ae\",\n      \"versionId\" : \"631d2eeb\",\n
+      \     \"eventDate\" : \"14-11-2002\",\n      \"lastUpdated\" : \"2019-05-30T12:41:38.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"d25fa5a6-92bf-46a3-8bf7-31149b62eb84\",\n
+      \        \"name\" : \"The Distillers\",\n         \"sortName\" : \"Distillers,
+      The\",\n         \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/the-distillers-bd6c55a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Rock Steady Tour\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/the-distillers/2002/compaq-center-san-jose-ca-6b9042ae.html\"\n
+      \  }, {\n      \"id\" : \"6bd7ea66\",\n      \"versionId\" : \"2bcae01e\",\n
+      \     \"eventDate\" : \"14-11-2002\",\n      \"lastUpdated\" : \"2012-05-31T08:42:18.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"f9ef7a22-4262-4596-a2a8-1d19345b8e50\",\n
+      \        \"name\" : \"Garbage\",\n         \"sortName\" : \"Garbage\",\n         \"disambiguation\"
+      : \"US rock band\",\n         \"url\" : \"https://www.setlist.fm/setlists/garbage-4bd6bfe6.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Supervixen\"\n            }, {\n               \"name\"
+      : \"Not My Idea\"\n            }, {\n               \"name\" : \"Shut Your Mouth\"\n
+      \           }, {\n               \"name\" : \"Stupid Girl\"\n            },
+      {\n               \"name\" : \"Cup of Coffee\"\n            }, {\n               \"name\"
+      : \"Push It\"\n            }, {\n               \"name\" : \"Cherry Lips (Go
+      Baby Go!)\"\n            }, {\n               \"name\" : \"Hammering in My Head\"\n
+      \           }, {\n               \"name\" : \"Only Happy When It Rains\"\n            },
+      {\n               \"name\" : \"Vow\"\n            } ]\n         } ]\n      },\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/garbage/2002/compaq-center-san-jose-ca-6bd7ea66.html\"\n
+      \  }, {\n      \"id\" : \"2bc93cfe\",\n      \"versionId\" : \"g5bc18ffc\",\n
+      \     \"eventDate\" : \"10-11-2002\",\n      \"lastUpdated\" : \"2022-02-12T02:22:06.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"bf24ca37-25f4-4e34-9aec-460b94364cfc\",\n
+      \        \"name\" : \"Shakira\",\n         \"sortName\" : \"Shakira\",\n         \"disambiguation\"
+      : \"Colombian pop vocalist\",\n         \"url\" : \"https://www.setlist.fm/setlists/shakira-7bd6da94.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Tour of the Mongoose\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"name\" :
+      \"The Cobra\",\n            \"song\" : [ {\n               \"name\" : \"Welcome
+      to the Jungle\",\n               \"tape\" : true,\n               \"cover\"
+      : {\n                  \"mbid\" : \"eeb1195b-f213-4ce1-b28c-8565211f8e43\",\n
+      \                 \"name\" : \"Guns N\u2019 Roses\",\n                  \"sortName\"
+      : \"Guns N\u2019 Roses\",\n                  \"disambiguation\" : \"American
+      hard rock band from Los Angeles\",\n                  \"url\" : \"https://www.setlist.fm/setlists/guns-n-roses-7bd69e24.html\"\n
+      \              },\n               \"info\" : \"intro\"\n            }, {\n               \"name\"
+      : \"Ojos as\xED\"\n            }, {\n               \"name\" : \"Si te vas\"\n
+      \           }, {\n               \"name\" : \"Fool\"\n            }, {\n               \"name\"
+      : \"Ciega, sordomuda\"\n            }, {\n               \"name\" : \"The One\"\n
+      \           } ]\n         }, {\n            \"name\" : \"Conflict\",\n            \"song\"
+      : [ {\n               \"name\" : \"Mongoose & the Snake\",\n               \"tape\"
+      : true,\n               \"info\" : \"Video Interlude\"\n            }, {\n               \"name\"
+      : \"Dude (Looks Like a Lady)\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"3d2b98e5-556f-4451-a3ff-c50ea18d57cb\",\n                  \"name\" : \"Aerosmith\",\n
+      \                 \"sortName\" : \"Aerosmith\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/aerosmith-3bd6b8fc.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Back in Black\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"66c662b6-6e2f-4930-8610-912e24c63ed1\",\n
+      \                 \"name\" : \"AC/DC\",\n                  \"sortName\" : \"AC/DC\",\n
+      \                 \"disambiguation\" : \"Australian hard rock band\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/acdc-23d6807b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Rules\"\n            }, {\n               \"name\"
+      : \"Inevitable\"\n            }, {\n               \"name\" : \"Underneath Your
+      Clothes\"\n            }, {\n               \"name\" : \"Estoy aqu\xED\",\n
+      \              \"info\" : \"with elements of 'Estoy aqu\xED' MTV Unplugged version\"\n
+      \           }, {\n               \"name\" : \"Octavo d\xEDa\"\n            }
+      ]\n         }, {\n            \"name\" : \"The Mongoose\",\n            \"song\"
+      : [ {\n               \"name\" : \"Ready for the Good Times\"\n            },
+      {\n               \"name\" : \"Un poco de amor\"\n            }, {\n               \"name\"
+      : \"T\xFA\"\n            }, {\n               \"name\" : \"Poem to a Horse\"\n
+      \           } ]\n         }, {\n            \"name\" : \"Encore: Mongoose vs
+      Cobra\",\n            \"song\" : [ {\n               \"name\" : \"Objection
+      (Tango)\",\n               \"info\" : \"English version\"\n            }, {\n
+      \              \"name\" : \"Whenever, Wherever\"\n            }, {\n               \"name\"
+      : \"\",\n               \"tape\" : true,\n               \"info\" : \"Mongoose
+      kill the Cobra\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/shakira/2002/compaq-center-san-jose-ca-2bc93cfe.html\"\n
+      \  }, {\n      \"id\" : \"53ddb711\",\n      \"versionId\" : \"633a5663\",\n
+      \     \"eventDate\" : \"22-10-2002\",\n      \"lastUpdated\" : \"2020-06-02T08:04:42.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"ba550d0e-adac-4864-b88b-407cab5e76af\",\n
+      \        \"name\" : \"Paul McCartney\",\n         \"sortName\" : \"McCartney,
+      Paul\",\n         \"disambiguation\" : \"The Beatles\",\n         \"url\" :
+      \"https://www.setlist.fm/setlists/paul-mccartney-13d6bd15.html\"\n      },\n
+      \     \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\" : \"Compaq
+      Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n            \"name\"
+      : \"San Jose\",\n            \"state\" : \"California\",\n            \"stateCode\"
+      : \"CA\",\n            \"coords\" : {\n               \"lat\" : 37.3393857,\n
+      \              \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Back in the U.S.\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Hello, Goodbye\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n                  \"name\" : \"The
+      Beatles\",\n                  \"sortName\" : \"Beatles, The\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Jet\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"d922d727-240a-4432-9a88-05a7cf9bc403\",\n
+      \                 \"name\" : \"Wings\",\n                  \"sortName\" : \"Wings\",\n
+      \                 \"disambiguation\" : \"Paul McCartney\u2019s band\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/wings-23d68837.html\"\n               }\n
+      \           }, {\n               \"name\" : \"All My Loving\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Getting Better\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Coming Up\"\n            }, {\n
+      \              \"name\" : \"Let Me Roll It\",\n               \"cover\" : {\n
+      \                 \"mbid\" : \"d922d727-240a-4432-9a88-05a7cf9bc403\",\n                  \"name\"
+      : \"Wings\",\n                  \"sortName\" : \"Wings\",\n                  \"disambiguation\"
+      : \"Paul McCartney\u2019s band\",\n                  \"url\" : \"https://www.setlist.fm/setlists/wings-23d68837.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Lonely Road\"\n
+      \           }, {\n               \"name\" : \"Driving Rain\"\n            },
+      {\n               \"name\" : \"Your Loving Flame\"\n            }, {\n               \"name\"
+      : \"Blackbird\",\n               \"cover\" : {\n                  \"mbid\" :
+      \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n                  \"name\" : \"The
+      Beatles\",\n                  \"sortName\" : \"Beatles, The\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Every Night\"\n
+      \           }, {\n               \"name\" : \"We Can Work It Out\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"You Never Give Me Your Money\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               },\n
+      \              \"info\" : \"with Carry That Weight snippet\"\n            },
+      {\n               \"name\" : \"The Fool on the Hill\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Here Today\"\n            }, {\n
+      \              \"name\" : \"Something\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n                  \"name\" : \"The
+      Beatles\",\n                  \"sortName\" : \"Beatles, The\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Eleanor Rigby\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Here, There and Everywhere\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Michelle\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Band on the Run\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"d922d727-240a-4432-9a88-05a7cf9bc403\",\n
+      \                 \"name\" : \"Wings\",\n                  \"sortName\" : \"Wings\",\n
+      \                 \"disambiguation\" : \"Paul McCartney\u2019s band\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/wings-23d68837.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Back in the U.S.S.R.\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Maybe I'm Amazed\"\n            },
+      {\n               \"name\" : \"Let 'Em In\",\n               \"cover\" : {\n
+      \                 \"mbid\" : \"d922d727-240a-4432-9a88-05a7cf9bc403\",\n                  \"name\"
+      : \"Wings\",\n                  \"sortName\" : \"Wings\",\n                  \"disambiguation\"
+      : \"Paul McCartney\u2019s band\",\n                  \"url\" : \"https://www.setlist.fm/setlists/wings-23d68837.html\"\n
+      \              }\n            }, {\n               \"name\" : \"My Love\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"d922d727-240a-4432-9a88-05a7cf9bc403\",\n
+      \                 \"name\" : \"Wings\",\n                  \"sortName\" : \"Wings\",\n
+      \                 \"disambiguation\" : \"Paul McCartney\u2019s band\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/wings-23d68837.html\"\n               }\n
+      \           }, {\n               \"name\" : \"She's Leaving Home\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Can't Buy Me Love\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Freedom\"\n            }, {\n
+      \              \"name\" : \"Live and Let Die\",\n               \"cover\" :
+      {\n                  \"mbid\" : \"d922d727-240a-4432-9a88-05a7cf9bc403\",\n
+      \                 \"name\" : \"Wings\",\n                  \"sortName\" : \"Wings\",\n
+      \                 \"disambiguation\" : \"Paul McCartney\u2019s band\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/wings-23d68837.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Let It Be\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Hey Jude\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           } ]\n         }, {\n            \"encore\" : 1,\n            \"song\"
+      : [ {\n               \"name\" : \"The Long and Winding Road\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Lady Madonna\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"I Saw Her Standing There\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           } ]\n         }, {\n            \"encore\" : 2,\n            \"song\"
+      : [ {\n               \"name\" : \"Yesterday\",\n               \"cover\" :
+      {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Sgt. Pepper's Lonely Hearts Club
+      Band (Reprise)\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n                  \"name\" : \"The
+      Beatles\",\n                  \"sortName\" : \"Beatles, The\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n
+      \              }\n            }, {\n               \"name\" : \"The End\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/paul-mccartney/2002/compaq-center-san-jose-ca-53ddb711.html\"\n
+      \  }, {\n      \"id\" : \"3bc974b0\",\n      \"versionId\" : \"g1bc0e91c\",\n
+      \     \"eventDate\" : \"06-10-2002\",\n      \"lastUpdated\" : \"2022-01-27T15:22:55.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"55441123-89a2-49ab-ae3f-df7a3e86835a\",\n
+      \        \"name\" : \"Man\xE1\",\n         \"sortName\" : \"Man\xE1\",\n         \"disambiguation\"
+      : \"Mexican rock group\",\n         \"url\" : \"https://www.setlist.fm/setlists/mana-4bd7afb6.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Revoluci\xF3n de Amor\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/mana/2002/compaq-center-san-jose-ca-3bc974b0.html\"\n
+      \  }, {\n      \"id\" : \"3bc8283c\",\n      \"versionId\" : \"2b8bac86\",\n
+      \     \"eventDate\" : \"19-09-2002\",\n      \"lastUpdated\" : \"2015-05-03T12:51:44.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"5ab2cf34-517e-48eb-b3a5-34e1cbcd600a\",\n
+      \        \"name\" : \"George Strait\",\n         \"sortName\" : \"Strait, George\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/george-strait-13d6b14d.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/george-strait/2002/compaq-center-san-jose-ca-3bc8283c.html\"\n
+      \  }, {\n      \"id\" : \"5bd41fcc\",\n      \"versionId\" : \"6bfc56fa\",\n
+      \     \"eventDate\" : \"27-08-2002\",\n      \"lastUpdated\" : \"2013-03-23T16:43:19.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"70248960-cb53-4ea4-943a-edb18f7d336f\",\n
+      \        \"name\" : \"Bruce Springsteen\",\n         \"sortName\" : \"Springsteen,
+      Bruce\",\n         \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"The Rising\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"The Rising\"\n            }, {\n               \"name\" : \"Lonesome Day\"\n
+      \           }, {\n               \"name\" : \"Prove It All Night\"\n            },
+      {\n               \"name\" : \"The Fuse\"\n            }, {\n               \"name\"
+      : \"Darkness on the Edge of Town\"\n            }, {\n               \"name\"
+      : \"Empty Sky\"\n            }, {\n               \"name\" : \"You're Missing\"\n
+      \           }, {\n               \"name\" : \"Waitin' on a Sunny Day\"\n            },
+      {\n               \"name\" : \"The Promised Land\"\n            }, {\n               \"name\"
+      : \"Worlds Apart\"\n            }, {\n               \"name\" : \"Badlands\"\n
+      \           }, {\n               \"name\" : \"Bobby Jean\"\n            }, {\n
+      \              \"name\" : \"Mary's Place\"\n            }, {\n               \"name\"
+      : \"Countin' on a Miracle\"\n            }, {\n               \"name\" : \"American
+      Skin (41 Shots)\"\n            }, {\n               \"name\" : \"Into the Fire\"\n
+      \           } ]\n         }, {\n            \"encore\" : 1,\n            \"song\"
+      : [ {\n               \"name\" : \"Dancing in the Dark\"\n            }, {\n
+      \              \"name\" : \"Ramrod\"\n            }, {\n               \"name\"
+      : \"Born to Run\"\n            }, {\n               \"name\" : \"Thunder Road\"\n
+      \           } ]\n         }, {\n            \"encore\" : 2,\n            \"song\"
+      : [ {\n               \"name\" : \"My City of Ruins\"\n            }, {\n               \"name\"
+      : \"Born in the U.S.A.\"\n            }, {\n               \"name\" : \"Land
+      of Hope and Dreams\"\n            } ]\n         } ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/bruce-springsteen/2002/compaq-center-san-jose-ca-5bd41fcc.html\"\n
+      \  }, {\n      \"id\" : \"53d86fdd\",\n      \"versionId\" : \"g3bc6fc80\",\n
+      \     \"eventDate\" : \"04-08-2002\",\n      \"lastUpdated\" : \"2021-10-21T08:14:41.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"bfcc6d75-a6a5-4bc6-8282-47aec8531818\",\n
+      \        \"name\" : \"Cher\",\n         \"sortName\" : \"Cher\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/cher-73d6bef1.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Living Proof: The Farewell
+      Tour\"\n      },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\"
+      : [ {\n               \"name\" : \"Cher... Through Time\",\n               \"tape\"
+      : true,\n               \"info\" : \"Video introduction\"\n            }, {\n
+      \              \"name\" : \"I Still Haven't Found What I'm Looking For\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432\",\n
+      \                 \"name\" : \"U2\",\n                  \"sortName\" : \"U2\",\n
+      \                 \"disambiguation\" : \"Irish rock band\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/u2-23d6b80f.html\"\n               }\n            },
+      {\n               \"name\" : \"(This Is) A Song for the Lonely\"\n            },
+      {\n               \"name\" : \"A Different Kind of Love Song\"\n            },
+      {\n               \"name\" : \"Gayatri Mantra\",\n               \"tape\" :
+      true,\n               \"info\" : \"Dance interlude\"\n            }, {\n               \"name\"
+      : \"All or Nothing\"\n            }, {\n               \"name\" : \"We All Sleep
+      Alone\"\n            }, {\n               \"name\" : \"Untitled I\",\n               \"tape\"
+      : true,\n               \"info\" : \"Dance interlude\"\n            }, {\n               \"name\"
+      : \"I Found Someone\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"e8bee5d1-a3a5-4c1a-ada4-f1ca22101e84\",\n                  \"name\" : \"Michael
+      Bolton\",\n                  \"sortName\" : \"Bolton, Michael\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/michael-bolton-2bd6f09e.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Bang Bang (My
+      Baby Shot Me Down)\"\n            }, {\n               \"name\" : \"Sonny &
+      Cher\",\n               \"tape\" : true,\n               \"info\" : \"Video
+      interlude\"\n            }, {\n               \"name\" : \"All I Really Want
+      to Do\",\n               \"cover\" : {\n                  \"mbid\" : \"72c536dc-7137-4477-a521-567eeb840fa8\",\n
+      \                 \"name\" : \"Bob Dylan\",\n                  \"sortName\"
+      : \"Dylan, Bob\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/bob-dylan-1bd6adb8.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Half-Breed\"\n            }, {\n
+      \              \"name\" : \"Gypsys, Tramps & Thieves\"\n            }, {\n               \"name\"
+      : \"Dark Lady\"\n            }, {\n               \"name\" : \"Scenes from The
+      Cher Show\",\n               \"tape\" : true,\n               \"info\" : \"Video
+      interlude\"\n            }, {\n               \"name\" : \"Untitled II\",\n
+      \              \"tape\" : true,\n               \"info\" : \"Dance interlude\"\n
+      \           }, {\n               \"name\" : \"Take Me Home\"\n            },
+      {\n               \"name\" : \"Untitled III\",\n               \"tape\" : true,\n
+      \              \"info\" : \"Dance interlude\"\n            }, {\n               \"name\"
+      : \"The Way of Love\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"758849ba-9a69-40b9-b621-6ae0906f0fde\",\n                  \"name\" : \"Kathy
+      Kirby\",\n                  \"sortName\" : \"Kirby, Kathy\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/kathy-kirby-53d77325.html\"\n
+      \              }\n            }, {\n               \"name\" : \"West Side Story\",\n
+      \              \"tape\" : true,\n               \"info\" : \"Video interlude\"\n
+      \           }, {\n               \"name\" : \"Cher...Movie Monologues\",\n               \"tape\"
+      : true,\n               \"info\" : \"Video interlude\"\n            }, {\n               \"name\"
+      : \"After All\"\n            }, {\n               \"name\" : \"Just Like Jesse
+      James\"\n            }, {\n               \"name\" : \"Heart of Stone\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"81b9c72d-8d46-446b-a420-ba618d89636e\",\n
+      \                 \"name\" : \"Bucks Fizz\",\n                  \"sortName\"
+      : \"Bucks Fizz\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/bucks-fizz-1bd67180.html\"\n               }\n
+      \           }, {\n               \"name\" : \"It's in His Kiss\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"f086b523-e6eb-4159-8705-e408cae53170\",\n
+      \                 \"name\" : \"Merry Clayton\",\n                  \"sortName\"
+      : \"Clayton, Merry\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/merry-clayton-1bd69d40.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Cher...Quotes\",\n               \"tape\"
+      : true,\n               \"info\" : \"Video interlude\"\n            }, {\n               \"name\"
+      : \"Strong Enough\"\n            }, {\n               \"name\" : \"Save Up All
+      Your Tears\",\n               \"cover\" : {\n                  \"mbid\" : \"0aa8294b-6332-4b65-b677-e3a1f8591d3b\",\n
+      \                 \"name\" : \"Bonnie Tyler\",\n                  \"sortName\"
+      : \"Tyler, Bonnie\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/bonnie-tyler-3d60913.html\"\n               }\n
+      \           }, {\n               \"name\" : \"If I Could Turn Back Time\"\n
+      \           } ]\n         }, {\n            \"encore\" : 1,\n            \"song\"
+      : [ {\n               \"name\" : \"Believe\"\n            } ]\n         } ]\n
+      \     },\n      \"url\" : \"https://www.setlist.fm/setlist/cher/2002/compaq-center-san-jose-ca-53d86fdd.html\"\n
+      \  }, {\n      \"id\" : \"3be8a0b0\",\n      \"versionId\" : \"g5bd1ab54\",\n
+      \     \"eventDate\" : \"04-08-2002\",\n      \"lastUpdated\" : \"2021-05-12T22:14:24.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"7bd9e20e-74b9-446a-a2ed-a223f82a36e7\",\n
+      \        \"name\" : \"Cyndi Lauper\",\n         \"sortName\" : \"Lauper, Cyndi\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/cyndi-lauper-1bd6b9e8.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Shine Tour\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Shine\"\n            }, {\n               \"name\" : \"Change of Heart\"\n
+      \           }, {\n               \"name\" : \"What's Going On\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"afdb7919-059d-43c1-b668-ba1d265e7e42\",\n
+      \                 \"name\" : \"Marvin Gaye\",\n                  \"sortName\"
+      : \"Gaye, Marvin\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/marvin-gaye-bd6b99e.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Madonna Whore\"\n            },
+      {\n               \"name\" : \"Still with Me\"\n            }, {\n               \"name\"
+      : \"True Colors\"\n            }, {\n               \"name\" : \"All Through
+      the Night\",\n               \"cover\" : {\n                  \"mbid\" : \"3b88a652-36b2-4158-bec5-9d6fee5ef655\",\n
+      \                 \"name\" : \"Jules Shear\",\n                  \"sortName\"
+      : \"Shear, Jules\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/jules-shear-3bd6a450.html\"\n               }\n
+      \           }, {\n               \"name\" : \"It's Hard to Be Me\"\n            },
+      {\n               \"name\" : \"Money Changes Everything\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"2f179135-b60c-4f8c-bfaf-8cf170bede4b\",\n
+      \                 \"name\" : \"The Brains\",\n                  \"sortName\"
+      : \"Brains, The\",\n                  \"disambiguation\" : \"American New Wave
+      Band, 1980's\",\n                  \"url\" : \"https://www.setlist.fm/setlists/the-brains-7bd46ed8.html\"\n
+      \              }\n            } ]\n         }, {\n            \"encore\" : 1,\n
+      \           \"song\" : [ {\n               \"name\" : \"Time After Time\"\n
+      \           }, {\n               \"name\" : \"Girls Just Want to Have Fun\"\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/cyndi-lauper/2002/compaq-center-san-jose-ca-3be8a0b0.html\"\n
+      \  }, {\n      \"id\" : \"4bcb174e\",\n      \"versionId\" : \"6b8f5a82\",\n
+      \     \"eventDate\" : \"30-07-2002\",\n      \"lastUpdated\" : \"2015-03-23T00:38:38.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"6b064ead-91a4-4ac8-8076-b1febe4f4aac\",\n
+      \        \"name\" : \"Alison Krauss\",\n         \"sortName\" : \"Krauss, Alison\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/alison-krauss-3d6b167.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/alison-krauss/2002/compaq-center-san-jose-ca-4bcb174e.html\"\n
+      \  }, {\n      \"id\" : \"1bd8adb8\",\n      \"versionId\" : \"5357c77d\",\n
+      \     \"eventDate\" : \"02-06-2002\",\n      \"lastUpdated\" : \"2016-11-08T13:35:30.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"45a663b5-b1cb-4a91-bff6-2bef7bbfdd76\",\n
+      \        \"name\" : \"Britney Spears\",\n         \"sortName\" : \"Spears, Britney\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/britney-spears-23d6bc5f.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Dream Within A Dream\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Dream Within a Dream\",\n               \"tape\"
+      : true,\n               \"info\" : \"Video introduction\"\n            }, {\n
+      \              \"name\" : \"Oops!... I Did It Again\"\n            }, {\n               \"name\"
+      : \"(You Drive Me) Crazy\"\n            }, {\n               \"name\" : \"It
+      Was All in Your Mind\",\n               \"tape\" : true,\n               \"info\"
+      : \"Dance interlude\"\n            }, {\n               \"name\" : \"Overprotected\",\n
+      \              \"info\" : \"Darkchild Remix\"\n            }, {\n               \"name\"
+      : \"Storytime\",\n               \"tape\" : true,\n               \"info\" :
+      \"Video interlude, contains elements from \\\"From the Bottom of My Broken Heart\\\"
+      and \\\"Born to Make You H\"\n            }, {\n               \"name\" : \"Born
+      to Make You Happy / Lucky / Sometimes\"\n            }, {\n               \"name\"
+      : \"Storytime (Reprise)\",\n               \"tape\" : true,\n               \"info\"
+      : \"Video interlude\"\n            }, {\n               \"name\" : \"Boys\",\n
+      \              \"info\" : \"The Co-Ed Remix\"\n            }, {\n               \"name\"
+      : \"Stronger\"\n            }, {\n               \"name\" : \"Mystic Man\",\n
+      \              \"info\" : \"contains excerpts from \\\"Gone\\\"\"\n            },
+      {\n               \"name\" : \"I'm Not a Girl, Not Yet a Woman\"\n            },
+      {\n               \"name\" : \"Making the Band\",\n               \"tape\" :
+      true,\n               \"info\" : \"Video Interlude, contains excerpts from \\\"Who
+      Let the Dogs Out?\\\", \\\"Music\\\" and \\\"I Love Rock and Roll\\\"\"\n            },
+      {\n               \"name\" : \"I Love Rock 'n' Roll\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b09fa90e-8258-4a50-a134-095be5a1903f\",\n
+      \                 \"name\" : \"The Arrows\",\n                  \"sortName\"
+      : \"Arrows, The\",\n                  \"disambiguation\" : \"70s UK glam rock
+      band\",\n                  \"url\" : \"https://www.setlist.fm/setlists/the-arrows-33d68441.html\"\n
+      \              }\n            }, {\n               \"name\" : \"What It's Like
+      to Be Me\"\n            }, {\n               \"name\" : \"Lonely\"\n            },
+      {\n               \"name\" : \"Breakdown\",\n               \"tape\" : true,\n
+      \              \"info\" : \"Performance interlude\"\n            }, {\n               \"name\"
+      : \"Don't Let Me Be the Last to Know\"\n            }, {\n               \"name\"
+      : \"Crayola World\",\n               \"tape\" : true,\n               \"info\"
+      : \"Video interlude\"\n            }, {\n               \"name\" : \"Anticipating\"\n
+      \           }, {\n               \"name\" : \"I'm a Slave 4 U\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"...Baby One More Time\"\n            }, {\n               \"name\"
+      : \"It Was Just a Dream\",\n               \"tape\" : true,\n               \"info\"
+      : \"Video outro\"\n            } ]\n         } ]\n      },\n      \"url\" :
+      \"https://www.setlist.fm/setlist/britney-spears/2002/compaq-center-san-jose-ca-1bd8adb8.html\"\n
+      \  }, {\n      \"id\" : \"2bc068ba\",\n      \"versionId\" : \"4ba8d72e\",\n
+      \     \"eventDate\" : \"05-05-2002\",\n      \"lastUpdated\" : \"2016-09-24T15:48:43.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"4bdcee62-4902-4773-8cd1-e252e2e31225\",\n
+      \        \"name\" : \"Alanis Morissette\",\n         \"sortName\" : \"Morissette,
+      Alanis\",\n         \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/alanis-morissette-13d6b961.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Toward Our Union Mended\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Baba\"\n            }, {\n               \"name\"
+      : \"Right Through You\"\n            }, {\n               \"name\" : \"21 Things
+      I Want in a Lover\"\n            }, {\n               \"name\" : \"Hand in My
+      Pocket\"\n            }, {\n               \"name\" : \"Purgatorying 1\"\n            },
+      {\n               \"name\" : \"A Man\"\n            }, {\n               \"name\"
+      : \"So Pure\"\n            }, {\n               \"name\" : \"Precious Illusions\"\n
+      \           }, {\n               \"name\" : \"Sympathetic Character\"\n            },
+      {\n               \"name\" : \"So Unsexy\"\n            }, {\n               \"name\"
+      : \"Purgatorying 2\"\n            }, {\n               \"name\" : \"You Oughta
+      Know\"\n            }, {\n               \"name\" : \"Purgatorying 3\"\n            },
+      {\n               \"name\" : \"Head Over Feet\"\n            }, {\n               \"name\"
+      : \"Hands Clean\"\n            }, {\n               \"name\" : \"Uninvited\"\n
+      \           } ]\n         }, {\n            \"encore\" : 1,\n            \"song\"
+      : [ {\n               \"name\" : \"That Particular Time\"\n            }, {\n
+      \              \"name\" : \"You Learn\"\n            } ]\n         }, {\n            \"encore\"
+      : 2,\n            \"song\" : [ {\n               \"name\" : \"Perfect\"\n            },
+      {\n               \"name\" : \"Thank U\"\n            } ]\n         } ]\n      },\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/alanis-morissette/2002/compaq-center-san-jose-ca-2bc068ba.html\"\n
+      \  }, {\n      \"id\" : \"33ce14fd\",\n      \"versionId\" : \"4b9d3f2a\",\n
+      \     \"eventDate\" : \"05-05-2002\",\n      \"lastUpdated\" : \"2014-08-21T04:10:28.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"c80f38a6-9980-485d-997c-5c1a9cbd0d64\",\n
+      \        \"name\" : \"Ryan Adams\",\n         \"sortName\" : \"Adams, Ryan\",\n
+      \        \"disambiguation\" : \"US singer-songwriter, multi-instrumentalist,
+      producer & poet\",\n         \"url\" : \"https://www.setlist.fm/setlists/ryan-adams-6bd6fac2.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/ryan-adams/2002/compaq-center-san-jose-ca-33ce14fd.html\"\n
+      \  }, {\n      \"id\" : \"438ff7bb\",\n      \"versionId\" : \"g13df1991\",\n
+      \     \"eventDate\" : \"07-04-2002\",\n      \"lastUpdated\" : \"2021-07-12T19:12:58.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"1a02e1e4-000e-46fa-83de-f3a36674e4fc\",\n
+      \        \"name\" : \"Uncle Kracker\",\n         \"sortName\" : \"Uncle Kracker\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/uncle-kracker-6bd65642.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/uncle-kracker/2002/compaq-center-san-jose-ca-438ff7bb.html\"\n
+      \  }, {\n      \"id\" : \"33f444f1\",\n      \"versionId\" : \"7bbf7648\",\n
+      \     \"eventDate\" : \"07-04-2002\",\n      \"lastUpdated\" : \"2015-10-16T13:39:59.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"2a63d0e8-dbce-4ae9-898a-3e6da6c5d2fc\",\n
+      \        \"name\" : \"Earshot\",\n         \"sortName\" : \"Earshot\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/earshot-43d69faf.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/earshot/2002/compaq-center-san-jose-ca-33f444f1.html\"\n
+      \  }, {\n      \"id\" : \"3f4e1cb\",\n      \"versionId\" : \"23bea0bb\",\n
+      \     \"eventDate\" : \"07-04-2002\",\n      \"lastUpdated\" : \"2015-09-25T07:33:56.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"ad0ecd8b-805e-406e-82cb-5b00c3a3a29e\",\n
+      \        \"name\" : \"Kid Rock\",\n         \"sortName\" : \"Kid Rock\",\n         \"disambiguation\"
+      : \"American singer/rapper\",\n         \"url\" : \"https://www.setlist.fm/setlists/kid-rock-7bd6d6a8.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"The Cocky Tour\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/kid-rock/2002/compaq-center-san-jose-ca-3f4e1cb.html\"\n
+      \  }, {\n      \"id\" : \"3d96103\",\n      \"versionId\" : \"1333a1a9\",\n
+      \     \"eventDate\" : \"05-04-2002\",\n      \"lastUpdated\" : \"2020-03-05T22:18:44.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"46a782ea-4308-476b-abd1-a91b197f3037\",\n
+      \        \"name\" : \"Crosby, Stills, Nash & Young\",\n         \"sortName\"
+      : \"Crosby, Stills, Nash & Young\",\n         \"disambiguation\" : \"\",\n         \"url\"
+      : \"https://www.setlist.fm/setlists/crosby-stills-nash-and-young-63d6b61b.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca6e\",\n         \"name\"
+      : \"Compaq Center\",\n         \"city\" : {\n            \"id\" : \"5392171\",\n
+      \           \"name\" : \"San Jose\",\n            \"state\" : \"California\",\n
+      \           \"stateCode\" : \"CA\",\n            \"coords\" : {\n               \"lat\"
+      : 37.3393857,\n               \"long\" : -121.8949555\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/compaq-center-san-jose-ca-usa-6bd6ca6e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Tour Of America\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Carry On\"\n            }, {\n               \"name\" : \"Questions\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"22dc19af-d085-4c9b-adfb-22ec256251f1\",\n
+      \                 \"name\" : \"Buffalo Springfield\",\n                  \"sortName\"
+      : \"Buffalo Springfield\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/buffalo-springfield-73d6b619.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Military Madness\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"2ed8ecda-5bb9-4d9f-8c99-0bf9b85b3624\",\n
+      \                 \"name\" : \"Graham Nash\",\n                  \"sortName\"
+      : \"Nash, Graham\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/graham-nash-4bd6bba2.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Goin' Home\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"75167b8b-44e4-407b-9d35-effe87b223cf\",\n
+      \                 \"name\" : \"Neil Young\",\n                  \"sortName\"
+      : \"Young, Neil\",\n                  \"disambiguation\" : \"Canadian singer,
+      songwriter & musician\",\n                  \"url\" : \"https://www.setlist.fm/setlists/neil-young-6bd6b662.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Wooden Ships\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"cfafad90-b736-4c74-8ded-f3f4d7b2c792\",\n
+      \                 \"name\" : \"Crosby, Stills & Nash\",\n                  \"sortName\"
+      : \"Crosby, Stills & Nash\",\n                  \"disambiguation\" : \"\",\n
+      \                 \"url\" : \"https://www.setlist.fm/setlists/crosby-stills-and-nash-33d6f8a1.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Feed the People\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"5642774a-72c0-4099-8da4-7c1ab36378a8\",\n
+      \                 \"name\" : \"Stephen Stills\",\n                  \"sortName\"
+      : \"Stills, Stephen\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/stephen-stills-2bd6f8ae.html\"\n               }\n
+      \           }, {\n               \"name\" : \"You're My Girl\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"75167b8b-44e4-407b-9d35-effe87b223cf\",\n
+      \                 \"name\" : \"Neil Young\",\n                  \"sortName\"
+      : \"Young, Neil\",\n                  \"disambiguation\" : \"Canadian singer,
+      songwriter & musician\",\n                  \"url\" : \"https://www.setlist.fm/setlists/neil-young-6bd6b662.html\"\n
+      \              }\n            }, {\n               \"name\" : \"I Used to Be
+      a King\",\n               \"cover\" : {\n                  \"mbid\" : \"2ed8ecda-5bb9-4d9f-8c99-0bf9b85b3624\",\n
+      \                 \"name\" : \"Graham Nash\",\n                  \"sortName\"
+      : \"Nash, Graham\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/graham-nash-4bd6bba2.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Down by the River\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"0f3515b0-75c9-46c9-b26c-4cd05d26eae7\",\n
+      \                 \"name\" : \"Neil Young & Crazy Horse\",\n                  \"sortName\"
+      : \"Young, Neil & Crazy Horse\",\n                  \"disambiguation\" : \"\",\n
+      \                 \"url\" : \"https://www.setlist.fm/setlists/neil-young-and-crazy-horse-73d6b661.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Southern Cross\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"cfafad90-b736-4c74-8ded-f3f4d7b2c792\",\n
+      \                 \"name\" : \"Crosby, Stills & Nash\",\n                  \"sortName\"
+      : \"Crosby, Stills & Nash\",\n                  \"disambiguation\" : \"\",\n
+      \                 \"url\" : \"https://www.setlist.fm/setlists/crosby-stills-and-nash-33d6f8a1.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Almost Cut My
+      Hair\"\n            }, {\n               \"name\" : \"Cinnamon Girl\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"0f3515b0-75c9-46c9-b26c-4cd05d26eae7\",\n
+      \                 \"name\" : \"Neil Young & Crazy Horse\",\n                  \"sortName\"
+      : \"Young, Neil & Crazy Horse\",\n                  \"disambiguation\" : \"\",\n
+      \                 \"url\" : \"https://www.setlist.fm/setlists/neil-young-and-crazy-horse-73d6b661.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Helplessly Hoping\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"cfafad90-b736-4c74-8ded-f3f4d7b2c792\",\n
+      \                 \"name\" : \"Crosby, Stills & Nash\",\n                  \"sortName\"
+      : \"Crosby, Stills & Nash\",\n                  \"disambiguation\" : \"\",\n
+      \                 \"url\" : \"https://www.setlist.fm/setlists/crosby-stills-and-nash-33d6f8a1.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Our House\"\n
+      \           }, {\n               \"name\" : \"Old Man\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"75167b8b-44e4-407b-9d35-effe87b223cf\",\n
+      \                 \"name\" : \"Neil Young\",\n                  \"sortName\"
+      : \"Young, Neil\",\n                  \"disambiguation\" : \"Canadian singer,
+      songwriter & musician\",\n                  \"url\" : \"https://www.setlist.fm/setlists/neil-young-6bd6b662.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Guinnevere\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"cfafad90-b736-4c74-8ded-f3f4d7b2c792\",\n
+      \                 \"name\" : \"Crosby, Stills & Nash\",\n                  \"sortName\"
+      : \"Crosby, Stills & Nash\",\n                  \"disambiguation\" : \"\",\n
+      \                 \"url\" : \"https://www.setlist.fm/setlists/crosby-stills-and-nash-33d6f8a1.html\"\n
+      \              }\n            }, {\n               \"name\" : \"The Lee Shore\"\n
+      \           }, {\n               \"name\" : \"Harvest Moon\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"75167b8b-44e4-407b-9d35-effe87b223cf\",\n
+      \                 \"name\" : \"Neil Young\",\n                  \"sortName\"
+      : \"Young, Neil\",\n                  \"disambiguation\" : \"Canadian singer,
+      songwriter & musician\",\n                  \"url\" : \"https://www.setlist.fm/setlists/neil-young-6bd6b662.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Ole Man Trouble\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"82b1f5fd-cd31-41a9-b5d4-7e33f0eb9751\",\n
+      \                 \"name\" : \"Otis Redding\",\n                  \"sortName\"
+      : \"Redding, Otis\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/otis-redding-2bd6b83a.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Half Your Angels\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"ed944321-63d7-4275-a272-3e856d42a7bf\",\n
+      \                 \"name\" : \"Crosby & Nash\",\n                  \"sortName\"
+      : \"Crosby & Nash\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/crosby-and-nash-13d6dde9.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Suite: Judy Blue Eyes\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"cfafad90-b736-4c74-8ded-f3f4d7b2c792\",\n
+      \                 \"name\" : \"Crosby, Stills & Nash\",\n                  \"sortName\"
+      : \"Crosby, Stills & Nash\",\n                  \"disambiguation\" : \"\",\n
+      \                 \"url\" : \"https://www.setlist.fm/setlists/crosby-stills-and-nash-33d6f8a1.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Let's Roll\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"75167b8b-44e4-407b-9d35-effe87b223cf\",\n
+      \                 \"name\" : \"Neil Young\",\n                  \"sortName\"
+      : \"Young, Neil\",\n                  \"disambiguation\" : \"Canadian singer,
+      songwriter & musician\",\n                  \"url\" : \"https://www.setlist.fm/setlists/neil-young-6bd6b662.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Long Time Gone\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"cfafad90-b736-4c74-8ded-f3f4d7b2c792\",\n
+      \                 \"name\" : \"Crosby, Stills & Nash\",\n                  \"sortName\"
+      : \"Crosby, Stills & Nash\",\n                  \"disambiguation\" : \"\",\n
+      \                 \"url\" : \"https://www.setlist.fm/setlists/crosby-stills-and-nash-33d6f8a1.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Two Old Friends\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"75167b8b-44e4-407b-9d35-effe87b223cf\",\n
+      \                 \"name\" : \"Neil Young\",\n                  \"sortName\"
+      : \"Young, Neil\",\n                  \"disambiguation\" : \"Canadian singer,
+      songwriter & musician\",\n                  \"url\" : \"https://www.setlist.fm/setlists/neil-young-6bd6b662.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Woodstock\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"a6de8ef9-b1a1-4756-97aa-481bbb8a4069\",\n
+      \                 \"name\" : \"Joni Mitchell\",\n                  \"sortName\"
+      : \"Mitchell, Joni\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/joni-mitchell-33d6a4b1.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Rockin' in the Free World\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"75167b8b-44e4-407b-9d35-effe87b223cf\",\n
+      \                 \"name\" : \"Neil Young\",\n                  \"sortName\"
+      : \"Young, Neil\",\n                  \"disambiguation\" : \"Canadian singer,
+      songwriter & musician\",\n                  \"url\" : \"https://www.setlist.fm/setlists/neil-young-6bd6b662.html\"\n
+      \              }\n            } ]\n         }, {\n            \"encore\" : 1,\n
+      \           \"song\" : [ {\n               \"name\" : \"Ohio\"\n            }
+      ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/crosby-stills-nash-and-young/2002/compaq-center-san-jose-ca-3d96103.html\"\n
+      \  } ]\n}"
+    headers:
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:07:48 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding,Accept,Accept-Language
+      Via:
+      - 1.1 edf41293681a3c1555cb4f36266904cc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - RyilU6njR9L8s7nL6o1Zx6_AqC4BdSXVqj7sSojfO1QHJKRVYJIqvA==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Miss from cloudfront
+      x-amz-apigw-id:
+      - U0oyMEMEIAMFkxg=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '71173'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:07:48 GMT
+      x-amzn-RequestId:
+      - b86d422e-f416-4296-a061-1d49d98796a8
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

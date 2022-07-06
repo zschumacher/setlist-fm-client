@@ -1,0 +1,57 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/city/4930956
+  response:
+    content: "{\n   \"id\" : \"4930956\",\n   \"name\" : \"Boston\",\n   \"state\"
+      : \"Massachusetts\",\n   \"stateCode\" : \"MA\",\n   \"coords\" : {\n      \"lat\"
+      : 42.3584308,\n      \"long\" : -71.0597732\n   },\n   \"country\" : {\n      \"code\"
+      : \"US\",\n      \"name\" : \"United States\"\n   }\n}"
+    headers:
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '248'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:07:45 GMT
+      Vary:
+      - Accept,Accept-Language
+      Via:
+      - 1.1 d873eb6ebbb9da58c373c3c3b1843e76.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - dON8pt3Rv2Shk3gUVZ2M3GPqrJX8ZI55J7zrSxnm3gH5RohlaAozzg==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Hit from cloudfront
+      x-amz-apigw-id:
+      - U0oxuEZcoAMFrCw=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '248'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:07:45 GMT
+      x-amzn-RequestId:
+      - e679d599-61ba-47e0-920f-acd520eac466
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

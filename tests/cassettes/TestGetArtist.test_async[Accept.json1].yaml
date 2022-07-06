@@ -1,0 +1,58 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/artist/0bfba3d3-6a04-4779-bb0a-df07df5b0558
+  response:
+    content: "{\n   \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n   \"name\"
+      : \"Stereophonics\",\n   \"sortName\" : \"Stereophonics\",\n   \"disambiguation\"
+      : \"\",\n   \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n}"
+    headers:
+      Age:
+      - '1'
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '215'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:07:42 GMT
+      Vary:
+      - Accept,Accept-Language
+      Via:
+      - 1.1 71994794c0ae42f7776bc799e33a979a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - LU1kr3LG6LZTuHUlkU4Li8-BrXMlNXpKAv0wPErwi_GvqzB_NRGADw==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Hit from cloudfront
+      x-amz-apigw-id:
+      - U0oxUG4uoAMF6tQ=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '215'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:07:42 GMT
+      x-amzn-RequestId:
+      - c30f8401-c272-4286-b744-d6b4c0941ff6
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

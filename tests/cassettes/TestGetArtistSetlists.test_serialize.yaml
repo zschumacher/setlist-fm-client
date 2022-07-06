@@ -1,0 +1,880 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/artist/0bfba3d3-6a04-4779-bb0a-df07df5b0558/setlists?p=1
+  response:
+    content: "{\n   \"type\" : \"setlists\",\n   \"itemsPerPage\" : 20,\n   \"page\"
+      : 1,\n   \"total\" : 991,\n   \"setlist\" : [ {\n      \"id\" : \"53b51b01\",\n
+      \     \"versionId\" : \"g13f2ad71\",\n      \"eventDate\" : \"05-07-2022\",\n
+      \     \"lastUpdated\" : \"2022-07-05T23:38:41.000+0000\",\n      \"artist\"
+      : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n         \"name\"
+      : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"63d6ced3\",\n         \"name\"
+      : \"The Eden Project\",\n         \"city\" : {\n            \"id\" : \"2638853\",\n
+      \           \"name\" : \"St Austell\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 50.3383333,\n               \"long\" : -4.7658333\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/the-eden-project-st-austell-england-63d6ced3.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"A Thousand Trees\"\n
+      \           }, {\n               \"name\" : \"Hanging On Your Hinges\"\n            },
+      {\n               \"name\" : \"Do Ya Feel My Love\"\n            }, {\n               \"name\"
+      : \"I Wouldn't Believe Your Radio\"\n            }, {\n               \"name\"
+      : \"Step on My Old Size Nines\"\n            }, {\n               \"name\" :
+      \"Superman\"\n            }, {\n               \"name\" : \"Vegas Two Times\"\n
+      \           }, {\n               \"name\" : \"Maybe Tomorrow\"\n            },
+      {\n               \"name\" : \"Geronimo\"\n            }, {\n               \"name\"
+      : \"Hurry Up and Wait\"\n            }, {\n               \"name\" : \"Have
+      a Nice Day\"\n            }, {\n               \"name\" : \"Catacomb\"\n            },
+      {\n               \"name\" : \"Pick a Part That's New\",\n               \"info\"
+      : \"Ukulele\"\n            }, {\n               \"name\" : \"Mr and Mrs Smith\"\n
+      \           }, {\n               \"name\" : \"Sunny\"\n            }, {\n               \"name\"
+      : \"Just Looking\"\n            }, {\n               \"name\" : \"The Bartender
+      and the Thief\"\n            } ]\n         }, {\n            \"encore\" : 1,\n
+      \           \"song\" : [ {\n               \"name\" : \"Fly Like an Eagle\"\n
+      \           }, {\n               \"name\" : \"Mr Writer\"\n            }, {\n
+      \              \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Dakota\"\n            } ]\n         }
+      ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/the-eden-project-st-austell-england-53b51b01.html\"\n
+      \  }, {\n      \"id\" : \"1bb5e168\",\n      \"versionId\" : \"g3f5192f\",\n
+      \     \"eventDate\" : \"01-07-2022\",\n      \"lastUpdated\" : \"2022-07-02T00:40:38.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"43d01727\",\n         \"name\"
+      : \"Fairview Park\",\n         \"city\" : {\n            \"id\" : \"2964574\",\n
+      \           \"name\" : \"Dublin\",\n            \"state\" : \"Dublin\",\n            \"stateCode\"
+      : \"07\",\n            \"coords\" : {\n               \"lat\" : 53.3330556,\n
+      \              \"long\" : -6.2488889\n            },\n            \"country\"
+      : {\n               \"code\" : \"IE\",\n               \"name\" : \"Ireland\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/fairview-park-dublin-ireland-43d01727.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"Vegas Two Times\"\n
+      \           }, {\n               \"name\" : \"Hanging On Your Hinges\"\n            },
+      {\n               \"name\" : \"Do Ya Feel My Love\"\n            }, {\n               \"name\"
+      : \"I Wouldn't Believe Your Radio\"\n            }, {\n               \"name\"
+      : \"Step on My Old Size Nines\"\n            }, {\n               \"name\" :
+      \"A Thousand Trees\"\n            }, {\n               \"name\" : \"Superman\"\n
+      \           }, {\n               \"name\" : \"Maybe Tomorrow\"\n            },
+      {\n               \"name\" : \"Geronimo\"\n            }, {\n               \"name\"
+      : \"Hurry Up and Wait\"\n            }, {\n               \"name\" : \"Have
+      a Nice Day\"\n            }, {\n               \"name\" : \"Catacomb\"\n            },
+      {\n               \"name\" : \"Pick a Part That's New\",\n               \"info\"
+      : \"Kelly Jones Ukulele version\"\n            }, {\n               \"name\"
+      : \"Mr and Mrs Smith\"\n            }, {\n               \"name\" : \"Sunny\"\n
+      \           }, {\n               \"name\" : \"Just Looking\"\n            },
+      {\n               \"name\" : \"The Bartender and the Thief\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"More Life in a Tramp's Vest\"\n            }, {\n
+      \              \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Dakota\"\n            } ]\n         }
+      ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/fairview-park-dublin-ireland-1bb5e168.html\"\n
+      \  }, {\n      \"id\" : \"73b45e69\",\n      \"versionId\" : \"g1bf2b508\",\n
+      \     \"eventDate\" : \"18-06-2022\",\n      \"lastUpdated\" : \"2022-07-05T18:49:43.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"4bd54b5e\",\n         \"name\"
+      : \"Principality Stadium\",\n         \"city\" : {\n            \"id\" : \"2653822\",\n
+      \           \"name\" : \"Cardiff\",\n            \"state\" : \"Wales\",\n            \"stateCode\"
+      : \"WLS\",\n            \"coords\" : {\n               \"lat\" : 51.48,\n               \"long\"
+      : -3.18\n            },\n            \"country\" : {\n               \"code\"
+      : \"GB\",\n               \"name\" : \"United Kingdom\"\n            }\n         },\n
+      \        \"url\" : \"https://www.setlist.fm/venue/principality-stadium-cardiff-wales-4bd54b5e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Hen Wlad Fy Nhadau\",\n               \"info\" : \"the Welsh national anthem;
+      performed by a Welsh Mens choir\"\n            }, {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"More Life in
+      a Tramp's Vest\"\n            }, {\n               \"name\" : \"Hanging On Your
+      Hinges\"\n            }, {\n               \"name\" : \"Do Ya Feel My Love\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"I Wouldn't Believe Your Radio\"\n            },
+      {\n               \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Mama Told Me Not to Come\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"da7bb7d8-557d-4635-9ca1-e6e985525bd5\",\n                  \"name\" : \"Randy
+      Newman\",\n                  \"sortName\" : \"Newman, Randy\",\n                  \"disambiguation\"
+      : \"American singer-songwriter\",\n                  \"url\" : \"https://www.setlist.fm/setlists/randy-newman-63d68ac3.html\"\n
+      \              },\n               \"info\" : \"Stereophonics & Tom Jones version\",\n
+      \              \"with\" : {\n                  \"mbid\" : \"57c6f649-6cde-48a7-8114-2a200247601a\",\n
+      \                 \"name\" : \"Tom Jones\",\n                  \"sortName\"
+      : \"Jones, Tom\",\n                  \"disambiguation\" : \"Welsh pop singer\",\n
+      \                 \"url\" : \"https://www.setlist.fm/setlists/tom-jones-3d6bd73.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Fly Like an
+      Eagle\"\n            }, {\n               \"name\" : \"White Lies\"\n            },
+      {\n               \"name\" : \"All I Have Is You\"\n            }, {\n               \"name\"
+      : \"Leave the Light On\",\n               \"info\" : \"Snippet of Show Me How\"\n
+      \           }, {\n               \"name\" : \"Mr and Mrs Smith\"\n            },
+      {\n               \"name\" : \"Traffic\"\n            }, {\n               \"name\"
+      : \"A Thousand Trees\"\n            }, {\n               \"name\" : \"Local
+      Boy in the Photograph\"\n            }, {\n               \"name\" : \"Pick
+      a Part That's New\",\n               \"info\" : \"Kelly Jones on Ukulele\"\n
+      \           }, {\n               \"name\" : \"Mr Writer\"\n            }, {\n
+      \              \"name\" : \"Graffiti on the Train\"\n            }, {\n               \"name\"
+      : \"Handbags and Gladrags\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Indian Summer\"\n
+      \           }, {\n               \"name\" : \"Have a Nice Day\"\n            },
+      {\n               \"name\" : \"The Bartender and the Thief\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"Sunny\"\n            }, {\n               \"name\"
+      : \"Just Looking\"\n            }, {\n               \"name\" : \"Dakota\"\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/principality-stadium-cardiff-wales-73b45e69.html\"\n
+      \  }, {\n      \"id\" : \"bb449e2\",\n      \"versionId\" : \"g1bf2b530\",\n
+      \     \"eventDate\" : \"17-06-2022\",\n      \"lastUpdated\" : \"2022-07-05T18:45:02.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"4bd54b5e\",\n         \"name\"
+      : \"Principality Stadium\",\n         \"city\" : {\n            \"id\" : \"2653822\",\n
+      \           \"name\" : \"Cardiff\",\n            \"state\" : \"Wales\",\n            \"stateCode\"
+      : \"WLS\",\n            \"coords\" : {\n               \"lat\" : 51.48,\n               \"long\"
+      : -3.18\n            },\n            \"country\" : {\n               \"code\"
+      : \"GB\",\n               \"name\" : \"United Kingdom\"\n            }\n         },\n
+      \        \"url\" : \"https://www.setlist.fm/venue/principality-stadium-cardiff-wales-4bd54b5e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"Do Ya Feel My
+      Love\"\n            }, {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"I Wouldn't Believe Your Radio\"\n            },
+      {\n               \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Right Place Right Time\"\n            }, {\n               \"name\" : \"Fly
+      Like an Eagle\"\n            }, {\n               \"name\" : \"White Lies\"\n
+      \           }, {\n               \"name\" : \"All I Have Is You\"\n            },
+      {\n               \"name\" : \"Leave the Light On\",\n               \"info\"
+      : \"with a snippet of Show Me How\"\n            }, {\n               \"name\"
+      : \"Mama Told Me Not to Come\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"da7bb7d8-557d-4635-9ca1-e6e985525bd5\",\n                  \"name\" : \"Randy
+      Newman\",\n                  \"sortName\" : \"Newman, Randy\",\n                  \"disambiguation\"
+      : \"American singer-songwriter\",\n                  \"url\" : \"https://www.setlist.fm/setlists/randy-newman-63d68ac3.html\"\n
+      \              },\n               \"info\" : \"Stereophonics & Tom Jones version\",\n
+      \              \"with\" : {\n                  \"mbid\" : \"57c6f649-6cde-48a7-8114-2a200247601a\",\n
+      \                 \"name\" : \"Tom Jones\",\n                  \"sortName\"
+      : \"Jones, Tom\",\n                  \"disambiguation\" : \"Welsh pop singer\",\n
+      \                 \"url\" : \"https://www.setlist.fm/setlists/tom-jones-3d6bd73.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Mr and Mrs Smith\",\n
+      \              \"info\" : \"Extended drum solo\"\n            }, {\n               \"name\"
+      : \"Traffic\"\n            }, {\n               \"name\" : \"A Thousand Trees\"\n
+      \           }, {\n               \"name\" : \"Step on My Old Size Nines\",\n
+      \              \"info\" : \"Kelly Jones on Ukulele\"\n            }, {\n               \"name\"
+      : \"Pick a Part That's New\",\n               \"info\" : \"Kelly Jones on Ukulele\"\n
+      \           }, {\n               \"name\" : \"Mr Writer\"\n            }, {\n
+      \              \"name\" : \"Graffiti on the Train\"\n            }, {\n               \"name\"
+      : \"Handbags and Gladrags\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Indian Summer\"\n
+      \           }, {\n               \"name\" : \"Have a Nice Day\"\n            },
+      {\n               \"name\" : \"The Bartender and the Thief\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"Sunny\"\n            }, {\n               \"name\"
+      : \"Just Looking\"\n            }, {\n               \"name\" : \"Dakota\"\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/principality-stadium-cardiff-wales-bb449e2.html\"\n
+      \  }, {\n      \"id\" : \"7bb40ee4\",\n      \"versionId\" : \"g53f42b41\",\n
+      \     \"eventDate\" : \"12-06-2022\",\n      \"lastUpdated\" : \"2022-06-21T17:38:56.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"43d54f67\",\n         \"name\"
+      : \"Slessor Gardens\",\n         \"city\" : {\n            \"id\" : \"2650752\",\n
+      \           \"name\" : \"Dundee\",\n            \"state\" : \"Scotland\",\n
+      \           \"stateCode\" : \"SCT\",\n            \"coords\" : {\n               \"lat\"
+      : 56.5,\n               \"long\" : -2.9666667\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/slessor-gardens-dundee-scotland-43d54f67.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\",\n               \"info\" : \"Band left stage after first
+      chorus due to technical issues, restarted\"\n            }, {\n               \"name\"
+      : \"I Wanna Get Lost With You\"\n            }, {\n               \"name\" :
+      \"Do Ya Feel My Love\"\n            }, {\n               \"name\" : \"Hanging
+      On Your Hinges\"\n            }, {\n               \"name\" : \"Geronimo\"\n
+      \           }, {\n               \"name\" : \"I Wouldn't Believe Your Radio\",\n
+      \              \"info\" : \"Stopped after first chorus, due to an issue medically
+      within the crowd, paramedics sent in.\"\n            }, {\n               \"name\"
+      : \"Maybe Tomorrow\"\n            }, {\n               \"name\" : \"Right Place
+      Right Time\"\n            }, {\n               \"name\" : \"Fly Like an Eagle\"\n
+      \           }, {\n               \"name\" : \"White Lies\"\n            }, {\n
+      \              \"name\" : \"All I Have Is You\"\n            }, {\n               \"name\"
+      : \"Mr and Mrs Smith\"\n            }, {\n               \"name\" : \"Traffic\"\n
+      \           }, {\n               \"name\" : \"A Thousand Trees\"\n            },
+      {\n               \"name\" : \"Mr Writer\"\n            }, {\n               \"name\"
+      : \"Graffiti on the Train\"\n            }, {\n               \"name\" : \"Handbags
+      and Gladrags\",\n               \"cover\" : {\n                  \"mbid\" :
+      \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Indian Summer\"\n
+      \           }, {\n               \"name\" : \"Have a Nice Day\"\n            },
+      {\n               \"name\" : \"The Bartender and the Thief\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"Sunny\"\n            }, {\n               \"name\"
+      : \"Just Looking\"\n            }, {\n               \"name\" : \"Dakota\"\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/slessor-gardens-dundee-scotland-7bb40ee4.html\"\n
+      \  }, {\n      \"id\" : \"73b6ae39\",\n      \"versionId\" : \"g4bcc0b6e\",\n
+      \     \"eventDate\" : \"02-04-2022\",\n      \"lastUpdated\" : \"2022-04-02T23:50:57.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d247fd\",\n         \"name\"
+      : \"Resorts World Arena\",\n         \"city\" : {\n            \"id\" : \"2655603\",\n
+      \           \"name\" : \"Birmingham\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 52.4666667,\n               \"long\" : -1.9166667\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/resorts-world-arena-birmingham-england-53d247fd.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Do Ya Feel My Love\"\n            }, {\n               \"name\" : \"C'est
+      la vie\"\n            }, {\n               \"name\" : \"I Wanna Get Lost With
+      You\"\n            }, {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Right Place Right Time\"\n            }, {\n               \"name\" : \"Fly
+      Like an Eagle\"\n            }, {\n               \"name\" : \"Vegas Two Times\"\n
+      \           }, {\n               \"name\" : \"All I Have Is You\"\n            },
+      {\n               \"name\" : \"Leave the Light On / Show Me How\"\n            },
+      {\n               \"name\" : \"Mr and Mrs Smith\"\n            }, {\n               \"name\"
+      : \"Traffic\"\n            }, {\n               \"name\" : \"A Thousand Trees\"\n
+      \           }, {\n               \"name\" : \"Billy Davey's Daughter\"\n            },
+      {\n               \"name\" : \"Mr Writer\"\n            }, {\n               \"name\"
+      : \"Graffiti on the Train\"\n            }, {\n               \"name\" : \"Have
+      a Nice Day\"\n            }, {\n               \"name\" : \"Indian Summer\"\n
+      \           }, {\n               \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Running Round My Brain\"\n            },
+      {\n               \"name\" : \"The Bartender and the Thief\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"Just Looking\"\n            }, {\n               \"name\"
+      : \"Make Friends With the Morning\"\n            }, {\n               \"name\"
+      : \"Dakota\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/resorts-world-arena-birmingham-england-73b6ae39.html\"\n
+      \  }, {\n      \"id\" : \"53894351\",\n      \"versionId\" : \"g23cc1847\",\n
+      \     \"eventDate\" : \"01-04-2022\",\n      \"lastUpdated\" : \"2022-04-01T23:44:03.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"73d466b5\",\n         \"name\"
+      : \"The O2 Arena\",\n         \"city\" : {\n            \"id\" : \"2643743\",\n
+      \           \"name\" : \"London\",\n            \"state\" : \"England\",\n            \"stateCode\"
+      : \"ENG\",\n            \"coords\" : {\n               \"lat\" : 51.5084152563931,\n
+      \              \"long\" : -0.125532746315002\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/the-o2-arena-london-england-73d466b5.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Do Ya Feel My Love\"\n            }, {\n               \"name\" : \"C'est
+      la vie\"\n            }, {\n               \"name\" : \"I Wanna Get Lost With
+      You\"\n            }, {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Right Place Right Time\"\n            }, {\n               \"name\" : \"Fly
+      Like an Eagle\"\n            }, {\n               \"name\" : \"Vegas Two Times\"\n
+      \           }, {\n               \"name\" : \"All I Have Is You\"\n            },
+      {\n               \"name\" : \"Leave the Light On / Show Me How\"\n            },
+      {\n               \"name\" : \"Mr and Mrs Smith\",\n               \"info\"
+      : \"Drum solo on B Stage\"\n            } ]\n         }, {\n            \"name\"
+      : \"B Stage\",\n            \"song\" : [ {\n               \"name\" : \"Traffic\"\n
+      \           }, {\n               \"name\" : \"A Thousand Trees\"\n            },
+      {\n               \"name\" : \"Billy Davey's Daughter\"\n            } ]\n         },
+      {\n            \"name\" : \"Main Stage\",\n            \"song\" : [ {\n               \"name\"
+      : \"Mr Writer\"\n            }, {\n               \"name\" : \"Graffiti on the
+      Train\"\n            }, {\n               \"name\" : \"Have a Nice Day\"\n            },
+      {\n               \"name\" : \"Indian Summer\"\n            }, {\n               \"name\"
+      : \"Handbags and Gladrags\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Running Round
+      My Brain\"\n            }, {\n               \"name\" : \"The Bartender and
+      the Thief\"\n            } ]\n         }, {\n            \"encore\" : 1,\n            \"song\"
+      : [ {\n               \"name\" : \"Just Looking\"\n            }, {\n               \"name\"
+      : \"I Wouldn't Believe Your Radio\"\n            }, {\n               \"name\"
+      : \"Make Friends With the Morning\"\n            }, {\n               \"name\"
+      : \"Dakota\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/the-o2-arena-london-england-53894351.html\"\n
+      \  }, {\n      \"id\" : \"7b894e60\",\n      \"versionId\" : \"g23cc3493\",\n
+      \     \"eventDate\" : \"30-03-2022\",\n      \"lastUpdated\" : \"2022-03-31T14:33:27.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"1bd5e1d0\",\n         \"name\"
+      : \"Motorpoint Arena\",\n         \"city\" : {\n            \"id\" : \"2641170\",\n
+      \           \"name\" : \"Nottingham\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 52.9536023000285,\n               \"long\" : -1.15047454833984\n            },\n
+      \           \"country\" : {\n               \"code\" : \"GB\",\n               \"name\"
+      : \"United Kingdom\"\n            }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/motorpoint-arena-nottingham-england-1bd5e1d0.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"\",\n               \"tape\" : true\n            }, {\n               \"name\"
+      : \"Do Ya Feel My Love\"\n            }, {\n               \"name\" : \"C'est
+      la vie\"\n            }, {\n               \"name\" : \"I Wanna Get Lost With
+      You\"\n            }, {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Have a Nice Day\"\n            },
+      {\n               \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Right Place Right Time\"\n            }, {\n               \"name\" : \"Fly
+      Like an Eagle\"\n            }, {\n               \"name\" : \"Geronimo\"\n
+      \           }, {\n               \"name\" : \"All I Have Is You\"\n            },
+      {\n               \"name\" : \"Leave the Light On / Show Me How\"\n            },
+      {\n               \"name\" : \"Mr and Mrs Smith / Drum Solo\"\n            },
+      {\n               \"name\" : \"Traffic\"\n            }, {\n               \"name\"
+      : \"A Thousand Trees\"\n            }, {\n               \"name\" : \"Billy
+      Davey's Daughter\"\n            }, {\n               \"name\" : \"Mr Writer\"\n
+      \           }, {\n               \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Running Round My Brain\"\n            },
+      {\n               \"name\" : \"Indian Summer\"\n            }, {\n               \"name\"
+      : \"Just Looking\"\n            }, {\n               \"name\" : \"I Wouldn't
+      Believe Your Radio\"\n            }, {\n               \"name\" : \"The Bartender
+      and the Thief\"\n            } ]\n         }, {\n            \"encore\" : 1,\n
+      \           \"song\" : [ {\n               \"name\" : \"Graffiti on the Train\"\n
+      \           }, {\n               \"name\" : \"Make Friends With the Morning\"\n
+      \           }, {\n               \"name\" : \"Dakota\"\n            } ]\n         }
+      ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/motorpoint-arena-nottingham-england-7b894e60.html\"\n
+      \  }, {\n      \"id\" : \"13894da9\",\n      \"versionId\" : \"g6bccc63e\",\n
+      \     \"eventDate\" : \"29-03-2022\",\n      \"lastUpdated\" : \"2022-03-31T00:00:18.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"13d2415d\",\n         \"name\"
+      : \"M&S Bank Arena\",\n         \"city\" : {\n            \"id\" : \"2644210\",\n
+      \           \"name\" : \"Liverpool\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 53.4166667,\n               \"long\" : -3.0\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/mands-bank-arena-liverpool-england-13d2415d.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Do Ya Feel My Love\"\n            }, {\n               \"name\" : \"C'est
+      la vie\"\n            }, {\n               \"name\" : \"I Wanna Get Lost With
+      You\"\n            }, {\n               \"name\" : \"Maybe Tomorrow\"\n            },
+      {\n               \"name\" : \"Geronimo\"\n            }, {\n               \"name\"
+      : \"Hanging On Your Hinges\"\n            }, {\n               \"name\" : \"Right
+      Place Right Time\"\n            }, {\n               \"name\" : \"Fly Like an
+      Eagle\"\n            }, {\n               \"name\" : \"All I Have Is You\"\n
+      \           }, {\n               \"name\" : \"Leave the Light On / Show Me How\"\n
+      \           }, {\n               \"name\" : \"Graffiti on the Train\"\n            },
+      {\n               \"name\" : \"Mr and Mrs Smith\"\n            }, {\n               \"name\"
+      : \"Traffic\"\n            }, {\n               \"name\" : \"A Thousand Trees\"\n
+      \           }, {\n               \"name\" : \"Local Boy in the Photograph\"\n
+      \           }, {\n               \"name\" : \"Billy Davey's Daughter\"\n            },
+      {\n               \"name\" : \"Mr Writer\"\n            }, {\n               \"name\"
+      : \"Running Round My Brain\"\n            }, {\n               \"name\" : \"Indian
+      Summer\"\n            }, {\n               \"name\" : \"Have a Nice Day\"\n
+      \           }, {\n               \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"The Bartender and the Thief\"\n
+      \           } ]\n         }, {\n            \"encore\" : 1,\n            \"song\"
+      : [ {\n               \"name\" : \"Just Looking\"\n            }, {\n               \"name\"
+      : \"Make Friends With the Morning\"\n            }, {\n               \"name\"
+      : \"Dakota\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/mands-bank-arena-liverpool-england-13894da9.html\"\n
+      \  }, {\n      \"id\" : \"3895d97\",\n      \"versionId\" : \"g73ccc63d\",\n
+      \     \"eventDate\" : \"27-03-2022\",\n      \"lastUpdated\" : \"2022-03-31T00:00:26.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"3bd22408\",\n         \"name\"
+      : \"Bournemouth International Centre\",\n         \"city\" : {\n            \"id\"
+      : \"2655095\",\n            \"name\" : \"Bournemouth\",\n            \"state\"
+      : \"England\",\n            \"stateCode\" : \"ENG\",\n            \"coords\"
+      : {\n               \"lat\" : 50.7166667,\n               \"long\" : -1.8833333\n
+      \           },\n            \"country\" : {\n               \"code\" : \"GB\",\n
+      \              \"name\" : \"United Kingdom\"\n            }\n         },\n         \"url\"
+      : \"https://www.setlist.fm/venue/bournemouth-international-centre-bournemouth-england-3bd22408.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Do Ya Feel My Love\"\n            }, {\n               \"name\" : \"C'est
+      la vie\"\n            }, {\n               \"name\" : \"I Wanna Get Lost With
+      You\"\n            }, {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Maybe Tomorrow\"\n            },
+      {\n               \"name\" : \"Right Place Right Time\"\n            }, {\n
+      \              \"name\" : \"Fly Like an Eagle\"\n            }, {\n               \"name\"
+      : \"Geronimo\"\n            }, {\n               \"name\" : \"All I Have Is
+      You\"\n            }, {\n               \"name\" : \"Leave the Light On / Show
+      Me How\"\n            }, {\n               \"name\" : \"Graffiti on the Train\"\n
+      \           }, {\n               \"name\" : \"Mr and Mrs Smith\"\n            },
+      {\n               \"name\" : \"Traffic\"\n            }, {\n               \"name\"
+      : \"Not Up to You\"\n            }, {\n               \"name\" : \"A Thousand
+      Trees\"\n            }, {\n               \"name\" : \"Billy Davey's Daughter\"\n
+      \           }, {\n               \"name\" : \"Mr Writer\"\n            }, {\n
+      \              \"name\" : \"Running Round My Brain\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Indian
+      Summer\"\n            }, {\n               \"name\" : \"Handbags and Gladrags\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"The Bartender and the Thief\"\n
+      \           } ]\n         }, {\n            \"encore\" : 1,\n            \"song\"
+      : [ {\n               \"name\" : \"Just Looking\"\n            }, {\n               \"name\"
+      : \"Make Friends With the Morning\"\n            }, {\n               \"name\"
+      : \"Dakota\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/bournemouth-international-centre-bournemouth-england-3895d97.html\"\n
+      \  }, {\n      \"id\" : \"b895d92\",\n      \"versionId\" : \"g7bccc63c\",\n
+      \     \"eventDate\" : \"26-03-2022\",\n      \"lastUpdated\" : \"2022-03-31T00:00:34.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"63d6ceb3\",\n         \"name\"
+      : \"Brighton Centre\",\n         \"city\" : {\n            \"id\" : \"2654710\",\n
+      \           \"name\" : \"Brighton\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 50.8283849472495,\n               \"long\" : -0.139474868774414\n            },\n
+      \           \"country\" : {\n               \"code\" : \"GB\",\n               \"name\"
+      : \"United Kingdom\"\n            }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/brighton-centre-brighton-england-63d6ceb3.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Do Ya Feel My Love\"\n            }, {\n               \"name\" : \"C'est
+      la vie\"\n            }, {\n               \"name\" : \"I Wanna Get Lost With
+      You\"\n            }, {\n               \"name\" : \"Best of You\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"67f66c07-6e61-4026-ade5-7e782fad3a5d\",\n
+      \                 \"name\" : \"Foo Fighters\",\n                  \"sortName\"
+      : \"Foo Fighters\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/foo-fighters-bd6893a.html\"\n               },\n
+      \              \"info\" : \"Dedicated to Taylor Hawkins\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Geronimo\"\n            }, {\n               \"name\" : \"Hanging On Your
+      Hinges\"\n            }, {\n               \"name\" : \"Right Place Right Time\"\n
+      \           }, {\n               \"name\" : \"Fly Like an Eagle\"\n            },
+      {\n               \"name\" : \"All I Have Is You\"\n            }, {\n               \"name\"
+      : \"Leave the Light On / Show Me How\"\n            }, {\n               \"name\"
+      : \"Graffiti on the Train\"\n            }, {\n               \"name\" : \"Mr
+      and Mrs Smith\"\n            }, {\n               \"name\" : \"Traffic\"\n            },
+      {\n               \"name\" : \"A Thousand Trees\"\n            }, {\n               \"name\"
+      : \"Billy Davey's Daughter\"\n            }, {\n               \"name\" : \"Mr
+      Writer\"\n            }, {\n               \"name\" : \"Running Round My Brain\"\n
+      \           }, {\n               \"name\" : \"Indian Summer\"\n            },
+      {\n               \"name\" : \"Have a Nice Day\"\n            }, {\n               \"name\"
+      : \"Handbags and Gladrags\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"The Bartender
+      and the Thief\"\n            } ]\n         }, {\n            \"encore\" : 1,\n
+      \           \"song\" : [ {\n               \"name\" : \"Just Looking\"\n            },
+      {\n               \"name\" : \"Make Friends With the Morning\"\n            },
+      {\n               \"name\" : \"Dakota\"\n            } ]\n         } ]\n      },\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/brighton-centre-brighton-england-b895d92.html\"\n
+      \  }, {\n      \"id\" : \"53896f0d\",\n      \"versionId\" : \"g73ccc631\",\n
+      \     \"eventDate\" : \"24-03-2022\",\n      \"lastUpdated\" : \"2022-03-31T00:00:42.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"63d3be33\",\n         \"name\"
+      : \"Utilita Arena\",\n         \"city\" : {\n            \"id\" : \"2641673\",\n
+      \           \"name\" : \"Newcastle\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 54.973,\n               \"long\" : -1.614\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/utilita-arena-newcastle-england-63d3be33.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Do Ya Feel My Love\"\n            }, {\n               \"name\" : \"C'est
+      la vie\"\n            }, {\n               \"name\" : \"I Wanna Get Lost With
+      You\"\n            }, {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Right Place Right Time\"\n            }, {\n               \"name\" : \"Fly
+      Like an Eagle\"\n            }, {\n               \"name\" : \"All I Have Is
+      You\"\n            }, {\n               \"name\" : \"Leave the Light On / Show
+      Me How\"\n            }, {\n               \"name\" : \"Graffiti on the Train\"\n
+      \           }, {\n               \"name\" : \"Mr and Mrs Smith\"\n            },
+      {\n               \"name\" : \"Traffic\"\n            }, {\n               \"name\"
+      : \"Local Boy in the Photograph\"\n            }, {\n               \"name\"
+      : \"A Thousand Trees\",\n               \"info\" : \"not on printed setlist\"\n
+      \           }, {\n               \"name\" : \"Billy Davey's Daughter\"\n            },
+      {\n               \"name\" : \"Mr Writer\"\n            }, {\n               \"name\"
+      : \"Running Round My Brain\"\n            }, {\n               \"name\" : \"Have
+      a Nice Day\"\n            }, {\n               \"name\" : \"Indian Summer\"\n
+      \           }, {\n               \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"The Bartender and the Thief\"\n
+      \           }, {\n               \"name\" : \"Just Looking\"\n            },
+      {\n               \"name\" : \"Make Friends With the Morning\"\n            },
+      {\n               \"name\" : \"Dakota\"\n            } ]\n         } ]\n      },\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/utilita-arena-newcastle-england-53896f0d.html\"\n
+      \  }, {\n      \"id\" : \"b89059a\",\n      \"versionId\" : \"g23cf4473\",\n
+      \     \"eventDate\" : \"23-03-2022\",\n      \"lastUpdated\" : \"2022-03-24T06:49:05.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"33d49495\",\n         \"name\"
+      : \"First Direct Arena\",\n         \"city\" : {\n            \"id\" : \"2644689\",\n
+      \           \"name\" : \"Leeds\",\n            \"state\" : \"England\",\n            \"stateCode\"
+      : \"ENG\",\n            \"coords\" : {\n               \"lat\" : 51.2333333,\n
+      \              \"long\" : 0.6166667\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/first-direct-arena-leeds-england-33d49495.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Do Ya Feel My Love\"\n            }, {\n               \"name\" : \"C'est
+      la vie\"\n            }, {\n               \"name\" : \"I Wanna Get Lost With
+      You\"\n            }, {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Right Place Right Time\"\n            }, {\n               \"name\" : \"Fly
+      Like an Eagle\"\n            }, {\n               \"name\" : \"All I Have Is
+      You\"\n            }, {\n               \"name\" : \"Leave the Light On\",\n
+      \              \"info\" : \"Show Me How Snippet\"\n            }, {\n               \"name\"
+      : \"Mr and Mrs Smith\"\n            } ]\n         }, {\n            \"name\"
+      : \"Front Of Runway\",\n            \"song\" : [ {\n               \"name\"
+      : \"Traffic\"\n            }, {\n               \"name\" : \"A Thousand Trees\"\n
+      \           }, {\n               \"name\" : \"Same Size Feet\"\n            },
+      {\n               \"name\" : \"Billy Davey's Daughter\"\n            } ]\n         },
+      {\n            \"song\" : [ {\n               \"name\" : \"Mr Writer\"\n            },
+      {\n               \"name\" : \"Running Round My Brain\"\n            }, {\n
+      \              \"name\" : \"Have a Nice Day\"\n            }, {\n               \"name\"
+      : \"Indian Summer\"\n            }, {\n               \"name\" : \"Handbags
+      and Gladrags\",\n               \"cover\" : {\n                  \"mbid\" :
+      \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"The Bartender
+      and the Thief\"\n            } ]\n         }, {\n            \"encore\" : 1,\n
+      \           \"song\" : [ {\n               \"name\" : \"Just Looking\",\n               \"info\"
+      : \"I Wouldn\u2019t Believe Your Radio Outro\"\n            }, {\n               \"name\"
+      : \"Make Friends With the Morning\"\n            }, {\n               \"name\"
+      : \"Dakota\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/first-direct-arena-leeds-england-b89059a.html\"\n
+      \  }, {\n      \"id\" : \"33891479\",\n      \"versionId\" : \"g6bccc642\",\n
+      \     \"eventDate\" : \"21-03-2022\",\n      \"lastUpdated\" : \"2022-03-30T23:59:57.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"63d0eacb\",\n         \"name\"
+      : \"The OVO Hydro\",\n         \"city\" : {\n            \"id\" : \"2648579\",\n
+      \           \"name\" : \"Glasgow\",\n            \"state\" : \"Scotland\",\n
+      \           \"stateCode\" : \"SCT\",\n            \"coords\" : {\n               \"lat\"
+      : 55.8333333,\n               \"long\" : -4.25\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/the-ovo-hydro-glasgow-scotland-63d0eacb.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Do Ya Feel My Love\"\n            }, {\n               \"name\" : \"C'est
+      la vie\"\n            }, {\n               \"name\" : \"I Wanna Get Lost With
+      You\"\n            }, {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Right Place Right Time\"\n            }, {\n               \"name\" : \"Fly
+      Like an Eagle\"\n            }, {\n               \"name\" : \"All I Have Is
+      You\"\n            }, {\n               \"name\" : \"Leave the Light On / Show
+      Me How\"\n            }, {\n               \"name\" : \"Superman\"\n            },
+      {\n               \"name\" : \"Traffic\"\n            }, {\n               \"name\"
+      : \"A Thousand Trees\"\n            }, {\n               \"name\" : \"More Life
+      in a Tramp's Vest\"\n            }, {\n               \"name\" : \"Billy Davey's
+      Daughter\"\n            }, {\n               \"name\" : \"Mr Writer\"\n            },
+      {\n               \"name\" : \"Running Round My Brain\"\n            }, {\n
+      \              \"name\" : \"Mr and Mrs Smith\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Forever\"\n
+      \           }, {\n               \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"The Bartender and the Thief\"\n
+      \           } ]\n         }, {\n            \"encore\" : 1,\n            \"song\"
+      : [ {\n               \"name\" : \"Just Looking\"\n            }, {\n               \"name\"
+      : \"Make Friends With the Morning\"\n            }, {\n               \"name\"
+      : \"Dakota\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/the-ovo-hydro-glasgow-scotland-33891479.html\"\n
+      \  }, {\n      \"id\" : \"13891d65\",\n      \"versionId\" : \"g5bcf739c\",\n
+      \     \"eventDate\" : \"20-03-2022\",\n      \"lastUpdated\" : \"2022-03-21T22:12:47.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"3d3e13b\",\n         \"name\"
+      : \"P&J Live\",\n         \"city\" : {\n            \"id\" : \"2657832\",\n
+      \           \"name\" : \"Aberdeen\",\n            \"state\" : \"Scotland\",\n
+      \           \"stateCode\" : \"SCT\",\n            \"coords\" : {\n               \"lat\"
+      : 57.1333333,\n               \"long\" : -2.1\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/pandj-live-aberdeen-scotland-3d3e13b.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Do Ya Feel My Love\"\n            }, {\n               \"name\" : \"C'est
+      la vie\"\n            }, {\n               \"name\" : \"I Wanna Get Lost With
+      You\"\n            }, {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Superman\"\n            }, {\n               \"name\"
+      : \"Right Place Right Time\"\n            }, {\n               \"name\" : \"Fly
+      Like an Eagle\"\n            }, {\n               \"name\" : \"All I Have Is
+      You\"\n            }, {\n               \"name\" : \"Leave the Light On\"\n
+      \           }, {\n               \"name\" : \"Show Me How\"\n            },
+      {\n               \"name\" : \"Mr Writer\"\n            }, {\n               \"name\"
+      : \"Traffic\"\n            }, {\n               \"name\" : \"A Thousand Trees\",\n
+      \              \"info\" : \"snippet of \u201CI Wouldn\u2019t Believe Your Radio\u201D
+      \"\n            }, {\n               \"name\" : \"Billy Davey's Daughter\"\n
+      \           }, {\n               \"name\" : \"Maybe Tomorrow\"\n            },
+      {\n               \"name\" : \"Running Round My Brain\"\n            }, {\n
+      \              \"name\" : \"Mr and Mrs Smith\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Just Looking\"\n
+      \           }, {\n               \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"The Bartender and the Thief\"\n
+      \           } ]\n         }, {\n            \"encore\" : 1,\n            \"song\"
+      : [ {\n               \"name\" : \"Forever\"\n            }, {\n               \"name\"
+      : \"Make Friends With the Morning\"\n            }, {\n               \"name\"
+      : \"Dakota\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/pandj-live-aberdeen-scotland-13891d65.html\"\n
+      \  }, {\n      \"id\" : \"3b89201c\",\n      \"versionId\" : \"g43f42b4b\",\n
+      \     \"eventDate\" : \"18-03-2022\",\n      \"lastUpdated\" : \"2022-06-21T17:37:41.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"4bd35b96\",\n         \"name\"
+      : \"AO Arena\",\n         \"city\" : {\n            \"id\" : \"2643123\",\n
+      \           \"name\" : \"Manchester\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 53.4809464283615,\n               \"long\" : -2.23743438720703\n            },\n
+      \           \"country\" : {\n               \"code\" : \"GB\",\n               \"name\"
+      : \"United Kingdom\"\n            }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/ao-arena-manchester-england-4bd35b96.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"OocHya Tour 2022\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Do Ya Feel My Love\"\n            }, {\n               \"name\" : \"C'est
+      la vie\"\n            }, {\n               \"name\" : \"I Wanna Get Lost With
+      You\"\n            }, {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Right Place Right Time\"\n            }, {\n               \"name\" : \"Fly
+      Like an Eagle\"\n            }, {\n               \"name\" : \"All I Have Is
+      You\",\n               \"info\" : \"Live debut\"\n            }, {\n               \"name\"
+      : \"Leave the Light On\",\n               \"info\" : \"Live debut\"\n            },
+      {\n               \"name\" : \"Show Me How\"\n            }, {\n               \"name\"
+      : \"Mr Writer\"\n            }, {\n               \"name\" : \"Traffic\"\n            },
+      {\n               \"name\" : \"A Thousand Trees\",\n               \"info\"
+      : \"snippet of \u201CI Wouldn\u2019t Belive Your Radio\u201D \"\n            },
+      {\n               \"name\" : \"Billy Davey's Daughter\"\n            }, {\n
+      \              \"name\" : \"Superman\"\n            }, {\n               \"name\"
+      : \"Running Round My Brain\",\n               \"info\" : \"Live debut\"\n            },
+      {\n               \"name\" : \"Mr and Mrs Smith\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Just Looking\"\n
+      \           }, {\n               \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"The Bartender and the Thief\"\n
+      \           } ]\n         }, {\n            \"encore\" : 1,\n            \"song\"
+      : [ {\n               \"name\" : \"Forever\"\n            }, {\n               \"name\"
+      : \"Make Friends With the Morning\"\n            }, {\n               \"name\"
+      : \"Dakota\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/ao-arena-manchester-england-3b89201c.html\"\n
+      \  }, {\n      \"id\" : \"6b89e2ee\",\n      \"versionId\" : \"g3cfbd47\",\n
+      \     \"eventDate\" : \"11-03-2022\",\n      \"lastUpdated\" : \"2022-03-11T17:11:33.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"7bd6d2dc\",\n         \"name\"
+      : \"Virgin Radio\",\n         \"city\" : {\n            \"id\" : \"2643743\",\n
+      \           \"name\" : \"London\",\n            \"state\" : \"England\",\n            \"stateCode\"
+      : \"ENG\",\n            \"coords\" : {\n               \"lat\" : 51.5084152563931,\n
+      \              \"long\" : -0.125532746315002\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/virgin-radio-london-england-7bd6d2dc.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Stuck in the Middle With You\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"63200203-e2c6-4081-8e0d-00c9732c6b6f\",\n
+      \                 \"name\" : \"Stealers Wheel\",\n                  \"sortName\"
+      : \"Stealers Wheel\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/stealers-wheel-2bd6b0ca.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Forever\",\n               \"info\"
+      : \"Live debut\"\n            }, {\n               \"name\" : \"Maybe Tomorrow\"\n
+      \           }, {\n               \"name\" : \"Right Place Right Time\",\n               \"info\"
+      : \"Live debut\"\n            }, {\n               \"name\" : \"Dakota\"\n            },
+      {\n               \"name\" : \"Stuck in the Middle With You\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"63200203-e2c6-4081-8e0d-00c9732c6b6f\",\n
+      \                 \"name\" : \"Stealers Wheel\",\n                  \"sortName\"
+      : \"Stealers Wheel\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/stealers-wheel-2bd6b0ca.html\"\n               }\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/virgin-radio-london-england-6b89e2ee.html\"\n
+      \  }, {\n      \"id\" : \"3883d57\",\n      \"versionId\" : \"g43c01f8f\",\n
+      \     \"eventDate\" : \"02-02-2022\",\n      \"lastUpdated\" : \"2022-02-02T11:50:17.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd6ca86\",\n         \"name\"
+      : \"Maida Vale Studios\",\n         \"city\" : {\n            \"id\" : \"2643743\",\n
+      \           \"name\" : \"London\",\n            \"state\" : \"England\",\n            \"stateCode\"
+      : \"ENG\",\n            \"coords\" : {\n               \"lat\" : 51.5084152563931,\n
+      \              \"long\" : -0.125532746315002\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/maida-vale-studios-london-england-6bd6ca86.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Do Ya Feel My Love\"\n            }, {\n               \"name\"
+      : \"Simple Man\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"2ed8ecda-5bb9-4d9f-8c99-0bf9b85b3624\",\n                  \"name\" : \"Graham
+      Nash\",\n                  \"sortName\" : \"Nash, Graham\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/graham-nash-4bd6bba2.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Graffiti on
+      the Train\"\n            } ]\n         } ]\n      },\n      \"info\" : \"Recorded
+      in Studio 3, as part of BBC Radio 2's Piano Room Month\",\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2022/maida-vale-studios-london-england-3883d57.html\"\n
+      \  }, {\n      \"id\" : \"138be90d\",\n      \"versionId\" : \"g13c575c5\",\n
+      \     \"eventDate\" : \"07-12-2021\",\n      \"lastUpdated\" : \"2021-12-08T13:49:00.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"63d6d673\",\n         \"name\"
+      : \"Clapham Grand\",\n         \"city\" : {\n            \"id\" : \"2643743\",\n
+      \           \"name\" : \"London\",\n            \"state\" : \"England\",\n            \"stateCode\"
+      : \"ENG\",\n            \"coords\" : {\n               \"lat\" : 51.5084152563931,\n
+      \              \"long\" : -0.125532746315002\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/clapham-grand-london-england-63d6d673.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Just Enough Education to
+      Perform 20th Anniversary Tour\"\n      },\n      \"sets\" : {\n         \"set\"
+      : [ {\n            \"name\" : \"Just Enough Education to Perform\",\n            \"song\"
+      : [ {\n               \"name\" : \"Vegas Two Times\"\n            }, {\n               \"name\"
+      : \"Surprise\"\n            }, {\n               \"name\" : \"Lying in the Sun\"\n
+      \           }, {\n               \"name\" : \"Mr Writer\"\n            }, {\n
+      \              \"name\" : \"Step on My Old Size Nines\"\n            }, {\n
+      \              \"name\" : \"Have a Nice Day\"\n            }, {\n               \"name\"
+      : \"Nice to Be Out\"\n            }, {\n               \"name\" : \"Handbags
+      and Gladrags\",\n               \"cover\" : {\n                  \"mbid\" :
+      \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Watch Them Fly
+      Sundays\"\n            }, {\n               \"name\" : \"Everyday I Think of
+      Money\"\n            }, {\n               \"name\" : \"Maybe\"\n            },
+      {\n               \"name\" : \"Caravan Holiday\"\n            }, {\n               \"name\"
+      : \"Rooftop\"\n            } ]\n         }, {\n            \"song\" : [ {\n
+      \              \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               },\n
+      \              \"info\" : \"Played again for recording\"\n            }, {\n
+      \              \"name\" : \"Everyday I Think of Money\",\n               \"info\"
+      : \"Played again for recording\"\n            }, {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"Highway to
+      Hell\",\n               \"cover\" : {\n                  \"mbid\" : \"66c662b6-6e2f-4930-8610-912e24c63ed1\",\n
+      \                 \"name\" : \"AC/DC\",\n                  \"sortName\" : \"AC/DC\",\n
+      \                 \"disambiguation\" : \"Australian hard rock band\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/acdc-23d6807b.html\"\n               },\n
+      \              \"info\" : \"First verse and chorus\"\n            }, {\n               \"name\"
+      : \"Do Ya Feel My Love\"\n            }, {\n               \"name\" : \"Dakota\"\n
+      \           } ]\n         } ]\n      },\n      \"info\" : \"Filmed for SkyArts;
+      attendees were ticket competition winners; final show of the J.E.E.P. 20th Anniversary
+      Tour\",\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2021/clapham-grand-london-england-138be90d.html\"\n
+      \  }, {\n      \"id\" : \"638b8e07\",\n      \"versionId\" : \"g23c5109b\",\n
+      \     \"eventDate\" : \"06-12-2021\",\n      \"lastUpdated\" : \"2021-12-07T00:55:20.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"13d739e5\",\n         \"name\"
+      : \"O2 Shepherd's Bush Empire\",\n         \"city\" : {\n            \"id\"
+      : \"2643743\",\n            \"name\" : \"London\",\n            \"state\" :
+      \"England\",\n            \"stateCode\" : \"ENG\",\n            \"coords\" :
+      {\n               \"lat\" : 51.5084152563931,\n               \"long\" : -0.125532746315002\n
+      \           },\n            \"country\" : {\n               \"code\" : \"GB\",\n
+      \              \"name\" : \"United Kingdom\"\n            }\n         },\n         \"url\"
+      : \"https://www.setlist.fm/venue/o2-shepherds-bush-empire-london-england-13d739e5.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Just Enough Education to
+      Perform 20th Anniversary Tour\"\n      },\n      \"sets\" : {\n         \"set\"
+      : [ {\n            \"name\" : \"Just Enough Education to Perform\",\n            \"song\"
+      : [ {\n               \"name\" : \"Vegas Two Times\"\n            }, {\n               \"name\"
+      : \"Surprise\"\n            }, {\n               \"name\" : \"Lying in the Sun\"\n
+      \           }, {\n               \"name\" : \"Mr Writer\"\n            }, {\n
+      \              \"name\" : \"Step on My Old Size Nines\"\n            }, {\n
+      \              \"name\" : \"Have a Nice Day\"\n            }, {\n               \"name\"
+      : \"Nice to Be Out\"\n            }, {\n               \"name\" : \"Handbags
+      and Gladrags\",\n               \"cover\" : {\n                  \"mbid\" :
+      \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Watch Them Fly
+      Sundays\"\n            }, {\n               \"name\" : \"Everyday I Think of
+      Money\"\n            }, {\n               \"name\" : \"Maybe\"\n            },
+      {\n               \"name\" : \"Caravan Holiday\"\n            }, {\n               \"name\"
+      : \"Rooftop\"\n            } ]\n         }, {\n            \"encore\" : 1,\n
+      \           \"song\" : [ {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Do Ya Feel My Love\"\n            }, {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"Just Looking\"\n
+      \           }, {\n               \"name\" : \"Stitches\"\n            }, {\n
+      \              \"name\" : \"Fly Like an Eagle\"\n            }, {\n               \"name\"
+      : \"Mr and Mrs Smith\"\n            } ]\n         }, {\n            \"encore\"
+      : 2,\n            \"song\" : [ {\n               \"name\" : \"A Thousand Trees\"\n
+      \           }, {\n               \"name\" : \"Traffic\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Dakota\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2021/o2-shepherds-bush-empire-london-england-638b8e07.html\"\n
+      \  } ]\n}"
+    headers:
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:08:43 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding,Accept,Accept-Language
+      Via:
+      - 1.1 f452d023faa737bf8fd4899df4e76a44.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - zHVkR2tfQv8WDyZ-VcpsLBMCmbXz52gpBZKnvO1FtUDTqFteNSsH0Q==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Miss from cloudfront
+      x-amz-apigw-id:
+      - U0o64F5_IAMF3RA=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '65280'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:08:43 GMT
+      x-amzn-RequestId:
+      - 96ac825b-17d4-4e8b-9a29-daf05a16a1be
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

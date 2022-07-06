@@ -1,0 +1,389 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/user/michi/attended?p=2
+  response:
+    content: "{\n   \"type\" : \"setlists\",\n   \"itemsPerPage\" : 20,\n   \"page\"
+      : 2,\n   \"total\" : 543,\n   \"setlist\" : [ {\n      \"id\" : \"7b8f1e64\",\n
+      \     \"versionId\" : \"g43dcc70b\",\n      \"eventDate\" : \"29-07-2021\",\n
+      \     \"lastUpdated\" : \"2021-07-29T06:33:27.000+0000\",\n      \"artist\"
+      : {\n         \"mbid\" : \"d3201290-2791-4b2c-9d79-62eb6240e742\",\n         \"name\"
+      : \"Saltatio Mortis\",\n         \"sortName\" : \"Saltatio Mortis\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/saltatio-mortis-23d6f8f3.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/saltatio-mortis/2021/am-alten-rhein-lustenau-austria-7b8f1e64.html\"\n
+      \  }, {\n      \"id\" : \"738f1e65\",\n      \"versionId\" : \"g5bdcc714\",\n
+      \     \"eventDate\" : \"29-07-2021\",\n      \"lastUpdated\" : \"2021-07-29T06:33:11.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"c36f882f-54e5-4f19-82da-10046fa4783e\",\n
+      \        \"name\" : \"Lisa Pac\",\n         \"sortName\" : \"Pac, Lisa\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/lisa-pac-43f4bf7b.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/lisa-pac/2021/am-alten-rhein-lustenau-austria-738f1e65.html\"\n
+      \  }, {\n      \"id\" : \"6b8f1e66\",\n      \"versionId\" : \"g4bdcc716\",\n
+      \     \"eventDate\" : \"29-07-2021\",\n      \"lastUpdated\" : \"2021-07-29T06:32:52.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"ffe6a97a-12e3-4d9d-a179-886eb0e5924c\",\n
+      \        \"name\" : \"Black Sea Dahu\",\n         \"sortName\" : \"Black Sea
+      Dahu\",\n         \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/black-sea-dahu-23c9a8e7.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"No Fire In The Sand\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/black-sea-dahu/2021/am-alten-rhein-lustenau-austria-6b8f1e66.html\"\n
+      \  }, {\n      \"id\" : \"7b8f1e60\",\n      \"versionId\" : \"g53dcc711\",\n
+      \     \"eventDate\" : \"29-07-2021\",\n      \"lastUpdated\" : \"2021-07-29T06:32:29.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"ada5f7ba-30da-4527-a4b0-e9b9989b6642\",\n
+      \        \"name\" : \"Russkaja\",\n         \"sortName\" : \"Russkaja\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/russkaja-23d7849f.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/russkaja/2021/am-alten-rhein-lustenau-austria-7b8f1e60.html\"\n
+      \  }, {\n      \"id\" : \"6b8fc612\",\n      \"versionId\" : \"g73c26a6d\",\n
+      \     \"eventDate\" : \"22-07-2021\",\n      \"lastUpdated\" : \"2021-12-27T18:40:53.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"e739971e-c967-468d-a5ef-5689dd641d24\",\n
+      \        \"name\" : \"Granada\",\n         \"sortName\" : \"Granada\",\n         \"disambiguation\"
+      : \"Austrian band\",\n         \"url\" : \"https://www.setlist.fm/setlists/granada-3c59117.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"1bd085ec\",\n         \"name\"
+      : \"Emma & Eugen Arena\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/emma-and-eugen-arena-dornbirn-austria-1bd085ec.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Lang is her\"\n            }, {\n               \"name\"
+      : \"Sauna\"\n            }, {\n               \"name\" : \"Lieber gern als hier\"\n
+      \           }, {\n               \"name\" : \"Sp\xFCr die Sun\"\n            },
+      {\n               \"name\" : \"Schembrun\"\n            }, {\n               \"name\"
+      : \"Pina Colada\"\n            }, {\n               \"name\" : \"Eh ok\"\n            },
+      {\n               \"name\" : \"Verwoitn\"\n            }, {\n               \"name\"
+      : \"Cordoba\"\n            }, {\n               \"name\" : \"Summerfieber\"\n
+      \           }, {\n               \"name\" : \"I sogs da glei\"\n            },
+      {\n               \"name\" : \"Berlin\"\n            }, {\n               \"name\"
+      : \"Mei Velo\"\n            }, {\n               \"name\" : \"Lomari\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"Wien wort auf di\",\n               \"cover\" :
+      {\n                  \"mbid\" : \"64b94289-9474-4d43-8c93-918ccc1920d1\",\n
+      \                 \"name\" : \"Billy Joel\",\n                  \"sortName\"
+      : \"Joel, Billy\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/billy-joel-7bd6be40.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Ottakring\"\n            }, {\n
+      \              \"name\" : \"Palmen am Balkon\"\n            } ]\n         }
+      ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/granada/2021/emma-and-eugen-arena-dornbirn-austria-6b8fc612.html\"\n
+      \  }, {\n      \"id\" : \"538f3f1d\",\n      \"versionId\" : \"g63dc9263\",\n
+      \     \"eventDate\" : \"22-07-2021\",\n      \"lastUpdated\" : \"2021-07-23T06:19:27.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"c4d7e44d-50e9-46f6-a9b3-2b66d7ec1144\",\n
+      \        \"name\" : \"Michael Russ\",\n         \"sortName\" : \"Russ, Michael\",\n
+      \        \"disambiguation\" : \"Austrian singer\",\n         \"url\" : \"https://www.setlist.fm/setlists/michael-russ-63f3829b.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"1bd085ec\",\n         \"name\"
+      : \"Emma & Eugen Arena\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/emma-and-eugen-arena-dornbirn-austria-1bd085ec.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Broken Glass\"\n            }, {\n               \"name\"
+      : \"Use Somebody\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"6ffb8ea9-2370-44d8-b678-e9237bbd347b\",\n                  \"name\" : \"Kings
+      of Leon\",\n                  \"sortName\" : \"Kings of Leon\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/kings-of-leon-23d6985b.html\"\n
+      \              }\n            }, {\n               \"name\" : \"The Best\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"0aa8294b-6332-4b65-b677-e3a1f8591d3b\",\n
+      \                 \"name\" : \"Bonnie Tyler\",\n                  \"sortName\"
+      : \"Tyler, Bonnie\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/bonnie-tyler-3d60913.html\"\n               }\n
+      \           } ]\n         } ]\n      },\n      \"info\" : \"Setlist incomplete\",\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/michael-russ/2021/emma-and-eugen-arena-dornbirn-austria-538f3f1d.html\"\n
+      \  }, {\n      \"id\" : \"33989845\",\n      \"versionId\" : \"53370799\",\n
+      \     \"eventDate\" : \"30-12-2019\",\n      \"lastUpdated\" : \"2020-01-27T08:22:32.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"997d3f6b-7a03-4963-abc2-c3ee6f9fa684\",\n
+      \        \"name\" : \"Ski-Schuh-Tennis Orchestra\",\n         \"sortName\" :
+      \"Ski-Schuh-Tennis Orchestra\",\n         \"disambiguation\" : \"\",\n         \"url\"
+      : \"https://www.setlist.fm/setlists/ski-schuh-tennis-orchestra-3c1f9b3.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd6c7a0\",\n         \"name\"
+      : \"Spielboden\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/spielboden-dornbirn-austria-5bd6c7a0.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/ski-schuh-tennis-orchestra/2019/spielboden-dornbirn-austria-33989845.html\"\n
+      \  }, {\n      \"id\" : \"1b888d04\",\n      \"versionId\" : \"g4bc36f8a\",\n
+      \     \"eventDate\" : \"21-12-2019\",\n      \"lastUpdated\" : \"2022-01-16T16:39:20.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"30531f92-659f-4d7d-82f8-6edfc1ee4329\",\n
+      \        \"name\" : \"Scheibsta & die Buben\",\n         \"sortName\" : \"Scheibsta
+      & die Buben\",\n         \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/scheibsta-and-die-buben-3bc53cb0.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd6c7a0\",\n         \"name\"
+      : \"Spielboden\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/spielboden-dornbirn-austria-5bd6c7a0.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/scheibsta-and-die-buben/2019/spielboden-dornbirn-austria-1b888d04.html\"\n
+      \  }, {\n      \"id\" : \"139a9d5d\",\n      \"versionId\" : \"5b0d2f64\",\n
+      \     \"eventDate\" : \"13-11-2019\",\n      \"lastUpdated\" : \"2019-11-13T10:52:09.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"945b8d4c-16f6-44d7-b0b6-20a1bee0cc22\",\n
+      \        \"name\" : \"Cari Cari\",\n         \"sortName\" : \"Cari Cari\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/cari-cari-13c4f1ed.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd6c7a0\",\n         \"name\"
+      : \"Spielboden\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/spielboden-dornbirn-austria-5bd6c7a0.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/cari-cari/2019/spielboden-dornbirn-austria-139a9d5d.html\"\n
+      \  }, {\n      \"id\" : \"5b9d9b94\",\n      \"versionId\" : \"5b0e17fc\",\n
+      \     \"eventDate\" : \"12-10-2019\",\n      \"lastUpdated\" : \"2019-10-13T11:21:00.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"80abef74-04bc-40d6-a0b3-518cd4d13b54\",\n
+      \        \"name\" : \"Hans S\xF6llner\",\n         \"sortName\" : \"S\xF6llner,
+      Hans\",\n         \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/hans-sollner-43d66f3f.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd6c7a0\",\n         \"name\"
+      : \"Spielboden\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/spielboden-dornbirn-austria-5bd6c7a0.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Lotta\"\n            }, {\n               \"name\"
+      : \"Rassist\"\n            }, {\n               \"name\" : \"SoSoSo\"\n            },
+      {\n               \"name\" : \"I schrei\"\n            }, {\n               \"name\"
+      : \"F\xFCr meine Buam\"\n            }, {\n               \"name\" : \"Lass
+      fliag'n deine Dreads\"\n            }, {\n               \"name\" : \"Nordwind\"\n
+      \           }, {\n               \"name\" : \"Viet Nam\"\n            }, {\n
+      \              \"name\" : \"F\xFCr ein afrikanisches M\xE4dchen\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"Edeltraut\"\n            } ]\n         } ]\n      },\n
+      \     \"info\" : \"setlist incomplete and out of order\",\n      \"url\" : \"https://www.setlist.fm/setlist/hans-sollner/2019/spielboden-dornbirn-austria-5b9d9b94.html\"\n
+      \  }, {\n      \"id\" : \"4b9f8326\",\n      \"versionId\" : \"305f5c7\",\n
+      \     \"eventDate\" : \"09-08-2019\",\n      \"lastUpdated\" : \"2019-08-10T09:15:31.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"74aab3b7-93a5-473c-a729-f975234c58b6\",\n
+      \        \"name\" : \"Kodaline\",\n         \"sortName\" : \"Kodaline\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/kodaline-bdfc91e.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"13d7e9b5\",\n         \"name\"
+      : \"Altes Hallenbad\",\n         \"city\" : {\n            \"id\" : \"2779674\",\n
+      \           \"name\" : \"Feldkirch\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.2330556,\n               \"long\" : 9.6\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/altes-hallenbad-feldkirch-austria-13d7e9b5.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/kodaline/2019/altes-hallenbad-feldkirch-austria-4b9f8326.html\"\n
+      \  }, {\n      \"id\" : \"7b9fa6f8\",\n      \"versionId\" : \"1304493d\",\n
+      \     \"eventDate\" : \"06-08-2019\",\n      \"lastUpdated\" : \"2019-08-06T12:32:48.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"295f594b-b87a-4ba1-947c-dd02d372f67c\",\n
+      \        \"name\" : \"The Vintage Caravan\",\n         \"sortName\" : \"Vintage
+      Caravan, The\",\n         \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/the-vintage-caravan-3dbe587.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"13d7e9b5\",\n         \"name\"
+      : \"Altes Hallenbad\",\n         \"city\" : {\n            \"id\" : \"2779674\",\n
+      \           \"name\" : \"Feldkirch\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.2330556,\n               \"long\" : 9.6\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/altes-hallenbad-feldkirch-austria-13d7e9b5.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Gateways\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/the-vintage-caravan/2019/altes-hallenbad-feldkirch-austria-7b9fa6f8.html\"\n
+      \  }, {\n      \"id\" : \"139e4d49\",\n      \"versionId\" : \"1304c915\",\n
+      \     \"eventDate\" : \"03-08-2019\",\n      \"lastUpdated\" : \"2019-08-01T09:43:44.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"b8f89be1-25cb-4f90-897a-d382ee36132a\",\n
+      \        \"name\" : \"BRKN\",\n         \"sortName\" : \"BRKN\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/brkn-53d9736d.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/brkn/2019/am-alten-rhein-lustenau-austria-139e4d49.html\"\n
+      \  }, {\n      \"id\" : \"39e4d4b\",\n      \"versionId\" : \"304c917\",\n      \"eventDate\"
+      : \"03-08-2019\",\n      \"lastUpdated\" : \"2019-08-01T09:43:28.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"4d26c4d8-5a0e-4656-94a3-3943af8d7e10\",\n
+      \        \"name\" : \"Otto Waalkes\",\n         \"sortName\" : \"Waalkes, Otto\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/otto-waalkes-63d62e9b.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/otto-waalkes/2019/am-alten-rhein-lustenau-austria-39e4d4b.html\"\n
+      \  }, {\n      \"id\" : \"1b9e4d54\",\n      \"versionId\" : \"1b04c910\",\n
+      \     \"eventDate\" : \"03-08-2019\",\n      \"lastUpdated\" : \"2019-08-01T09:43:14.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"9958ab5f-a8a5-4670-9ca2-b85e5367248f\",\n
+      \        \"name\" : \"Grossstadtgefl\xFCster\",\n         \"sortName\" : \"Grossstadtgefl\xFCster\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/grossstadtgefluster-23d6505f.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/grossstadtgefluster/2019/am-alten-rhein-lustenau-austria-1b9e4d54.html\"\n
+      \  }, {\n      \"id\" : \"139e4d55\",\n      \"versionId\" : \"1304c911\",\n
+      \     \"eventDate\" : \"03-08-2019\",\n      \"lastUpdated\" : \"2019-08-01T09:42:56.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"65daba7b-f387-46cc-a0c8-d0191b099586\",\n
+      \        \"name\" : \"AnnenMayKantereit\",\n         \"sortName\" : \"AnnenMayKantereit\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/annenmaykantereit-33db8c65.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/annenmaykantereit/2019/am-alten-rhein-lustenau-austria-139e4d55.html\"\n
+      \  }, {\n      \"id\" : \"b9e4d56\",\n      \"versionId\" : \"b04c912\",\n      \"eventDate\"
+      : \"03-08-2019\",\n      \"lastUpdated\" : \"2019-08-01T09:42:48.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"06a4a555-1b69-4175-83df-2528a8e5af05\",\n
+      \        \"name\" : \"Donots\",\n         \"sortName\" : \"Donots\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/donots-3bd6c8c8.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/donots/2019/am-alten-rhein-lustenau-austria-b9e4d56.html\"\n
+      \  }, {\n      \"id\" : \"5b9e5b90\",\n      \"versionId\" : \"73040245\",\n
+      \     \"eventDate\" : \"02-08-2019\",\n      \"lastUpdated\" : \"2019-08-04T17:37:10.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"ed818245-5d44-458a-bbc5-ff480901c2b9\",\n
+      \        \"name\" : \"Trettmann\",\n         \"sortName\" : \"Trettmann\",\n
+      \        \"disambiguation\" : \"Ronny Trettmann\",\n         \"url\" : \"https://www.setlist.fm/setlists/trettmann-3cdf1e3.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"#DIY (intro)\"\n            }, {\n               \"name\"
+      : \"Intro\"\n            }, {\n               \"name\" : \"Kn\xF6cheltief\"\n
+      \           }, {\n               \"name\" : \"Billie Holiday\"\n            },
+      {\n               \"name\" : \"Adriano\"\n            }, {\n               \"name\"
+      : \"Standard\"\n            }, {\n               \"name\" : \"New York\"\n            },
+      {\n               \"name\" : \"5 Minuten\"\n            }, {\n               \"name\"
+      : \"Nur noch einen\"\n            }, {\n               \"name\" : \"Grauer Beton\"\n
+      \           }, {\n               \"name\" : \"Gottseidank\"\n            },
+      {\n               \"name\" : \"Skyline\"\n            }, {\n               \"name\"
+      : \"Stolpersteine\"\n            }, {\n               \"name\" : \"Du weisst\"\n
+      \           }, {\n               \"name\" : \"120 Jahre (KitschKrieg remix)
+      (outro)\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/trettmann/2019/am-alten-rhein-lustenau-austria-5b9e5b90.html\"\n
+      \  }, {\n      \"id\" : \"539e5b89\",\n      \"versionId\" : \"304e18b\",\n
+      \     \"eventDate\" : \"02-08-2019\",\n      \"lastUpdated\" : \"2019-07-31T08:07:14.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"25cb62f5-ebcf-413f-bba1-d9f55edd44dd\",\n
+      \        \"name\" : \"Milliarden\",\n         \"sortName\" : \"Milliarden\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/milliarden-5bd9cf94.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/milliarden/2019/am-alten-rhein-lustenau-austria-539e5b89.html\"\n
+      \  }, {\n      \"id\" : \"439e5b8b\",\n      \"versionId\" : \"1b04e190\",\n
+      \     \"eventDate\" : \"02-08-2019\",\n      \"lastUpdated\" : \"2019-07-31T08:06:48.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"f46941a0-8a30-4b0a-a165-50363d45e65e\",\n
+      \        \"name\" : \"Jugo \xDCrdens\",\n         \"sortName\" : \"\xDCrdens,
+      Jugo\",\n         \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/jugo-urdens-1bcbf934.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/jugo-urdens/2019/am-alten-rhein-lustenau-austria-439e5b8b.html\"\n
+      \  } ]\n}"
+    headers:
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:07:49 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding,Accept,Accept-Language
+      Via:
+      - 1.1 71994794c0ae42f7776bc799e33a979a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - GpaWkHL6pm_thknQGgRs3m3jJ9RuBl2TpS83Mh7KTATzXVYZ88G-Lw==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Hit from cloudfront
+      x-amz-apigw-id:
+      - U0oyUH-doAMFh7A=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '26871'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:07:49 GMT
+      x-amzn-RequestId:
+      - 588357a2-d3d7-499b-8eac-7bfe664123e4
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

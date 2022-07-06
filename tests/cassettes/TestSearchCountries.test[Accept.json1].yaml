@@ -1,0 +1,267 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/search/countries
+  response:
+    content: "{\n   \"type\" : \"countries\",\n   \"itemsPerPage\" : 250,\n   \"page\"
+      : 1,\n   \"total\" : 250,\n   \"country\" : [ {\n      \"code\" : \"AD\",\n
+      \     \"name\" : \"Andorra\"\n   }, {\n      \"code\" : \"AE\",\n      \"name\"
+      : \"United Arab Emirates\"\n   }, {\n      \"code\" : \"AF\",\n      \"name\"
+      : \"Afghanistan\"\n   }, {\n      \"code\" : \"AG\",\n      \"name\" : \"Antigua
+      & Barbuda\"\n   }, {\n      \"code\" : \"AI\",\n      \"name\" : \"Anguilla\"\n
+      \  }, {\n      \"code\" : \"AL\",\n      \"name\" : \"Albania\"\n   }, {\n      \"code\"
+      : \"AM\",\n      \"name\" : \"Armenia\"\n   }, {\n      \"code\" : \"AN\",\n
+      \     \"name\" : \"Netherlands Antilles\"\n   }, {\n      \"code\" : \"AO\",\n
+      \     \"name\" : \"Angola\"\n   }, {\n      \"code\" : \"AQ\",\n      \"name\"
+      : \"Antarctica\"\n   }, {\n      \"code\" : \"AR\",\n      \"name\" : \"Argentina\"\n
+      \  }, {\n      \"code\" : \"AS\",\n      \"name\" : \"American Samoa\"\n   },
+      {\n      \"code\" : \"AT\",\n      \"name\" : \"Austria\"\n   }, {\n      \"code\"
+      : \"AU\",\n      \"name\" : \"Australia\"\n   }, {\n      \"code\" : \"AW\",\n
+      \     \"name\" : \"Aruba\"\n   }, {\n      \"code\" : \"AX\",\n      \"name\"
+      : \"\xC5land Islands\"\n   }, {\n      \"code\" : \"AZ\",\n      \"name\" :
+      \"Azerbaijan\"\n   }, {\n      \"code\" : \"BA\",\n      \"name\" : \"Bosnia
+      & Herzegovina\"\n   }, {\n      \"code\" : \"BB\",\n      \"name\" : \"Barbados\"\n
+      \  }, {\n      \"code\" : \"BD\",\n      \"name\" : \"Bangladesh\"\n   }, {\n
+      \     \"code\" : \"BE\",\n      \"name\" : \"Belgium\"\n   }, {\n      \"code\"
+      : \"BF\",\n      \"name\" : \"Burkina Faso\"\n   }, {\n      \"code\" : \"BG\",\n
+      \     \"name\" : \"Bulgaria\"\n   }, {\n      \"code\" : \"BH\",\n      \"name\"
+      : \"Bahrain\"\n   }, {\n      \"code\" : \"BI\",\n      \"name\" : \"Burundi\"\n
+      \  }, {\n      \"code\" : \"BJ\",\n      \"name\" : \"Benin\"\n   }, {\n      \"code\"
+      : \"BL\",\n      \"name\" : \"St. Barth\xE9lemy\"\n   }, {\n      \"code\" :
+      \"BM\",\n      \"name\" : \"Bermuda\"\n   }, {\n      \"code\" : \"BN\",\n      \"name\"
+      : \"Brunei\"\n   }, {\n      \"code\" : \"BO\",\n      \"name\" : \"Bolivia\"\n
+      \  }, {\n      \"code\" : \"BQ\",\n      \"name\" : \"Caribbean Netherlands\"\n
+      \  }, {\n      \"code\" : \"BR\",\n      \"name\" : \"Brazil\"\n   }, {\n      \"code\"
+      : \"BS\",\n      \"name\" : \"Bahamas\"\n   }, {\n      \"code\" : \"BT\",\n
+      \     \"name\" : \"Bhutan\"\n   }, {\n      \"code\" : \"BV\",\n      \"name\"
+      : \"Bouvet Island\"\n   }, {\n      \"code\" : \"BW\",\n      \"name\" : \"Botswana\"\n
+      \  }, {\n      \"code\" : \"BY\",\n      \"name\" : \"Belarus\"\n   }, {\n      \"code\"
+      : \"BZ\",\n      \"name\" : \"Belize\"\n   }, {\n      \"code\" : \"CA\",\n
+      \     \"name\" : \"Canada\"\n   }, {\n      \"code\" : \"CC\",\n      \"name\"
+      : \"Cocos (Keeling) Islands\"\n   }, {\n      \"code\" : \"CD\",\n      \"name\"
+      : \"Congo - Kinshasa\"\n   }, {\n      \"code\" : \"CF\",\n      \"name\" :
+      \"Central African Republic\"\n   }, {\n      \"code\" : \"CG\",\n      \"name\"
+      : \"Congo - Brazzaville\"\n   }, {\n      \"code\" : \"CH\",\n      \"name\"
+      : \"Switzerland\"\n   }, {\n      \"code\" : \"CI\",\n      \"name\" : \"C\xF4te
+      d\u2019Ivoire\"\n   }, {\n      \"code\" : \"CK\",\n      \"name\" : \"Cook
+      Islands\"\n   }, {\n      \"code\" : \"CL\",\n      \"name\" : \"Chile\"\n   },
+      {\n      \"code\" : \"CM\",\n      \"name\" : \"Cameroon\"\n   }, {\n      \"code\"
+      : \"CN\",\n      \"name\" : \"China\"\n   }, {\n      \"code\" : \"CO\",\n      \"name\"
+      : \"Colombia\"\n   }, {\n      \"code\" : \"CR\",\n      \"name\" : \"Costa
+      Rica\"\n   }, {\n      \"code\" : \"CU\",\n      \"name\" : \"Cuba\"\n   },
+      {\n      \"code\" : \"CV\",\n      \"name\" : \"Cape Verde\"\n   }, {\n      \"code\"
+      : \"CW\",\n      \"name\" : \"Cura\xE7ao\"\n   }, {\n      \"code\" : \"CX\",\n
+      \     \"name\" : \"Christmas Island\"\n   }, {\n      \"code\" : \"CY\",\n      \"name\"
+      : \"Cyprus\"\n   }, {\n      \"code\" : \"CZ\",\n      \"name\" : \"Czechia\"\n
+      \  }, {\n      \"code\" : \"DE\",\n      \"name\" : \"Germany\"\n   }, {\n      \"code\"
+      : \"DJ\",\n      \"name\" : \"Djibouti\"\n   }, {\n      \"code\" : \"DK\",\n
+      \     \"name\" : \"Denmark\"\n   }, {\n      \"code\" : \"DM\",\n      \"name\"
+      : \"Dominica\"\n   }, {\n      \"code\" : \"DO\",\n      \"name\" : \"Dominican
+      Republic\"\n   }, {\n      \"code\" : \"DZ\",\n      \"name\" : \"Algeria\"\n
+      \  }, {\n      \"code\" : \"EC\",\n      \"name\" : \"Ecuador\"\n   }, {\n      \"code\"
+      : \"EE\",\n      \"name\" : \"Estonia\"\n   }, {\n      \"code\" : \"EG\",\n
+      \     \"name\" : \"Egypt\"\n   }, {\n      \"code\" : \"EH\",\n      \"name\"
+      : \"Western Sahara\"\n   }, {\n      \"code\" : \"ER\",\n      \"name\" : \"Eritrea\"\n
+      \  }, {\n      \"code\" : \"ES\",\n      \"name\" : \"Spain\"\n   }, {\n      \"code\"
+      : \"ET\",\n      \"name\" : \"Ethiopia\"\n   }, {\n      \"code\" : \"FI\",\n
+      \     \"name\" : \"Finland\"\n   }, {\n      \"code\" : \"FJ\",\n      \"name\"
+      : \"Fiji\"\n   }, {\n      \"code\" : \"FK\",\n      \"name\" : \"Falkland Islands\"\n
+      \  }, {\n      \"code\" : \"FM\",\n      \"name\" : \"Micronesia\"\n   }, {\n
+      \     \"code\" : \"FO\",\n      \"name\" : \"Faroe Islands\"\n   }, {\n      \"code\"
+      : \"FR\",\n      \"name\" : \"France\"\n   }, {\n      \"code\" : \"GA\",\n
+      \     \"name\" : \"Gabon\"\n   }, {\n      \"code\" : \"GB\",\n      \"name\"
+      : \"United Kingdom\"\n   }, {\n      \"code\" : \"GD\",\n      \"name\" : \"Grenada\"\n
+      \  }, {\n      \"code\" : \"GE\",\n      \"name\" : \"Georgia\"\n   }, {\n      \"code\"
+      : \"GF\",\n      \"name\" : \"French Guiana\"\n   }, {\n      \"code\" : \"GG\",\n
+      \     \"name\" : \"Guernsey\"\n   }, {\n      \"code\" : \"GH\",\n      \"name\"
+      : \"Ghana\"\n   }, {\n      \"code\" : \"GI\",\n      \"name\" : \"Gibraltar\"\n
+      \  }, {\n      \"code\" : \"GL\",\n      \"name\" : \"Greenland\"\n   }, {\n
+      \     \"code\" : \"GM\",\n      \"name\" : \"Gambia\"\n   }, {\n      \"code\"
+      : \"GN\",\n      \"name\" : \"Guinea\"\n   }, {\n      \"code\" : \"GP\",\n
+      \     \"name\" : \"Guadeloupe\"\n   }, {\n      \"code\" : \"GQ\",\n      \"name\"
+      : \"Equatorial Guinea\"\n   }, {\n      \"code\" : \"GR\",\n      \"name\" :
+      \"Greece\"\n   }, {\n      \"code\" : \"GS\",\n      \"name\" : \"South Georgia
+      & South Sandwich Islands\"\n   }, {\n      \"code\" : \"GT\",\n      \"name\"
+      : \"Guatemala\"\n   }, {\n      \"code\" : \"GU\",\n      \"name\" : \"Guam\"\n
+      \  }, {\n      \"code\" : \"GW\",\n      \"name\" : \"Guinea-Bissau\"\n   },
+      {\n      \"code\" : \"GY\",\n      \"name\" : \"Guyana\"\n   }, {\n      \"code\"
+      : \"HK\",\n      \"name\" : \"Hong Kong SAR China\"\n   }, {\n      \"code\"
+      : \"HM\",\n      \"name\" : \"Heard & McDonald Islands\"\n   }, {\n      \"code\"
+      : \"HN\",\n      \"name\" : \"Honduras\"\n   }, {\n      \"code\" : \"HR\",\n
+      \     \"name\" : \"Croatia\"\n   }, {\n      \"code\" : \"HT\",\n      \"name\"
+      : \"Haiti\"\n   }, {\n      \"code\" : \"HU\",\n      \"name\" : \"Hungary\"\n
+      \  }, {\n      \"code\" : \"ID\",\n      \"name\" : \"Indonesia\"\n   }, {\n
+      \     \"code\" : \"IE\",\n      \"name\" : \"Ireland\"\n   }, {\n      \"code\"
+      : \"IL\",\n      \"name\" : \"Israel\"\n   }, {\n      \"code\" : \"IM\",\n
+      \     \"name\" : \"Isle of Man\"\n   }, {\n      \"code\" : \"IN\",\n      \"name\"
+      : \"India\"\n   }, {\n      \"code\" : \"IO\",\n      \"name\" : \"British Indian
+      Ocean Territory\"\n   }, {\n      \"code\" : \"IQ\",\n      \"name\" : \"Iraq\"\n
+      \  }, {\n      \"code\" : \"IR\",\n      \"name\" : \"Iran\"\n   }, {\n      \"code\"
+      : \"IS\",\n      \"name\" : \"Iceland\"\n   }, {\n      \"code\" : \"IT\",\n
+      \     \"name\" : \"Italy\"\n   }, {\n      \"code\" : \"JE\",\n      \"name\"
+      : \"Jersey\"\n   }, {\n      \"code\" : \"JM\",\n      \"name\" : \"Jamaica\"\n
+      \  }, {\n      \"code\" : \"JO\",\n      \"name\" : \"Jordan\"\n   }, {\n      \"code\"
+      : \"JP\",\n      \"name\" : \"Japan\"\n   }, {\n      \"code\" : \"KE\",\n      \"name\"
+      : \"Kenya\"\n   }, {\n      \"code\" : \"KG\",\n      \"name\" : \"Kyrgyzstan\"\n
+      \  }, {\n      \"code\" : \"KH\",\n      \"name\" : \"Cambodia\"\n   }, {\n
+      \     \"code\" : \"KI\",\n      \"name\" : \"Kiribati\"\n   }, {\n      \"code\"
+      : \"KM\",\n      \"name\" : \"Comoros\"\n   }, {\n      \"code\" : \"KN\",\n
+      \     \"name\" : \"St. Kitts & Nevis\"\n   }, {\n      \"code\" : \"KP\",\n
+      \     \"name\" : \"North Korea\"\n   }, {\n      \"code\" : \"KR\",\n      \"name\"
+      : \"South Korea\"\n   }, {\n      \"code\" : \"KW\",\n      \"name\" : \"Kuwait\"\n
+      \  }, {\n      \"code\" : \"KY\",\n      \"name\" : \"Cayman Islands\"\n   },
+      {\n      \"code\" : \"KZ\",\n      \"name\" : \"Kazakhstan\"\n   }, {\n      \"code\"
+      : \"LA\",\n      \"name\" : \"Laos\"\n   }, {\n      \"code\" : \"LB\",\n      \"name\"
+      : \"Lebanon\"\n   }, {\n      \"code\" : \"LC\",\n      \"name\" : \"St. Lucia\"\n
+      \  }, {\n      \"code\" : \"LI\",\n      \"name\" : \"Liechtenstein\"\n   },
+      {\n      \"code\" : \"LK\",\n      \"name\" : \"Sri Lanka\"\n   }, {\n      \"code\"
+      : \"LR\",\n      \"name\" : \"Liberia\"\n   }, {\n      \"code\" : \"LS\",\n
+      \     \"name\" : \"Lesotho\"\n   }, {\n      \"code\" : \"LT\",\n      \"name\"
+      : \"Lithuania\"\n   }, {\n      \"code\" : \"LU\",\n      \"name\" : \"Luxembourg\"\n
+      \  }, {\n      \"code\" : \"LV\",\n      \"name\" : \"Latvia\"\n   }, {\n      \"code\"
+      : \"LY\",\n      \"name\" : \"Libya\"\n   }, {\n      \"code\" : \"MA\",\n      \"name\"
+      : \"Morocco\"\n   }, {\n      \"code\" : \"MC\",\n      \"name\" : \"Monaco\"\n
+      \  }, {\n      \"code\" : \"MD\",\n      \"name\" : \"Moldova\"\n   }, {\n      \"code\"
+      : \"ME\",\n      \"name\" : \"Montenegro\"\n   }, {\n      \"code\" : \"MF\",\n
+      \     \"name\" : \"St. Martin\"\n   }, {\n      \"code\" : \"MG\",\n      \"name\"
+      : \"Madagascar\"\n   }, {\n      \"code\" : \"MH\",\n      \"name\" : \"Marshall
+      Islands\"\n   }, {\n      \"code\" : \"MK\",\n      \"name\" : \"North Macedonia\"\n
+      \  }, {\n      \"code\" : \"ML\",\n      \"name\" : \"Mali\"\n   }, {\n      \"code\"
+      : \"MM\",\n      \"name\" : \"Myanmar (Burma)\"\n   }, {\n      \"code\" : \"MN\",\n
+      \     \"name\" : \"Mongolia\"\n   }, {\n      \"code\" : \"MO\",\n      \"name\"
+      : \"Macao SAR China\"\n   }, {\n      \"code\" : \"MP\",\n      \"name\" : \"Northern
+      Mariana Islands\"\n   }, {\n      \"code\" : \"MQ\",\n      \"name\" : \"Martinique\"\n
+      \  }, {\n      \"code\" : \"MR\",\n      \"name\" : \"Mauritania\"\n   }, {\n
+      \     \"code\" : \"MS\",\n      \"name\" : \"Montserrat\"\n   }, {\n      \"code\"
+      : \"MT\",\n      \"name\" : \"Malta\"\n   }, {\n      \"code\" : \"MU\",\n      \"name\"
+      : \"Mauritius\"\n   }, {\n      \"code\" : \"MV\",\n      \"name\" : \"Maldives\"\n
+      \  }, {\n      \"code\" : \"MW\",\n      \"name\" : \"Malawi\"\n   }, {\n      \"code\"
+      : \"MX\",\n      \"name\" : \"Mexico\"\n   }, {\n      \"code\" : \"MY\",\n
+      \     \"name\" : \"Malaysia\"\n   }, {\n      \"code\" : \"MZ\",\n      \"name\"
+      : \"Mozambique\"\n   }, {\n      \"code\" : \"NA\",\n      \"name\" : \"Namibia\"\n
+      \  }, {\n      \"code\" : \"NC\",\n      \"name\" : \"New Caledonia\"\n   },
+      {\n      \"code\" : \"NE\",\n      \"name\" : \"Niger\"\n   }, {\n      \"code\"
+      : \"NF\",\n      \"name\" : \"Norfolk Island\"\n   }, {\n      \"code\" : \"NG\",\n
+      \     \"name\" : \"Nigeria\"\n   }, {\n      \"code\" : \"NI\",\n      \"name\"
+      : \"Nicaragua\"\n   }, {\n      \"code\" : \"NL\",\n      \"name\" : \"Netherlands\"\n
+      \  }, {\n      \"code\" : \"NO\",\n      \"name\" : \"Norway\"\n   }, {\n      \"code\"
+      : \"NP\",\n      \"name\" : \"Nepal\"\n   }, {\n      \"code\" : \"NR\",\n      \"name\"
+      : \"Nauru\"\n   }, {\n      \"code\" : \"NU\",\n      \"name\" : \"Niue\"\n
+      \  }, {\n      \"code\" : \"NZ\",\n      \"name\" : \"New Zealand\"\n   }, {\n
+      \     \"code\" : \"OM\",\n      \"name\" : \"Oman\"\n   }, {\n      \"code\"
+      : \"PA\",\n      \"name\" : \"Panama\"\n   }, {\n      \"code\" : \"PE\",\n
+      \     \"name\" : \"Peru\"\n   }, {\n      \"code\" : \"PF\",\n      \"name\"
+      : \"French Polynesia\"\n   }, {\n      \"code\" : \"PG\",\n      \"name\" :
+      \"Papua New Guinea\"\n   }, {\n      \"code\" : \"PH\",\n      \"name\" : \"Philippines\"\n
+      \  }, {\n      \"code\" : \"PK\",\n      \"name\" : \"Pakistan\"\n   }, {\n
+      \     \"code\" : \"PL\",\n      \"name\" : \"Poland\"\n   }, {\n      \"code\"
+      : \"PM\",\n      \"name\" : \"St. Pierre & Miquelon\"\n   }, {\n      \"code\"
+      : \"PN\",\n      \"name\" : \"Pitcairn Islands\"\n   }, {\n      \"code\" :
+      \"PR\",\n      \"name\" : \"Puerto Rico\"\n   }, {\n      \"code\" : \"PS\",\n
+      \     \"name\" : \"Palestinian Territories\"\n   }, {\n      \"code\" : \"PT\",\n
+      \     \"name\" : \"Portugal\"\n   }, {\n      \"code\" : \"PW\",\n      \"name\"
+      : \"Palau\"\n   }, {\n      \"code\" : \"PY\",\n      \"name\" : \"Paraguay\"\n
+      \  }, {\n      \"code\" : \"QA\",\n      \"name\" : \"Qatar\"\n   }, {\n      \"code\"
+      : \"RE\",\n      \"name\" : \"R\xE9union\"\n   }, {\n      \"code\" : \"RO\",\n
+      \     \"name\" : \"Romania\"\n   }, {\n      \"code\" : \"RS\",\n      \"name\"
+      : \"Serbia\"\n   }, {\n      \"code\" : \"RU\",\n      \"name\" : \"Russia\"\n
+      \  }, {\n      \"code\" : \"RW\",\n      \"name\" : \"Rwanda\"\n   }, {\n      \"code\"
+      : \"SA\",\n      \"name\" : \"Saudi Arabia\"\n   }, {\n      \"code\" : \"SB\",\n
+      \     \"name\" : \"Solomon Islands\"\n   }, {\n      \"code\" : \"SC\",\n      \"name\"
+      : \"Seychelles\"\n   }, {\n      \"code\" : \"SD\",\n      \"name\" : \"Sudan\"\n
+      \  }, {\n      \"code\" : \"SE\",\n      \"name\" : \"Sweden\"\n   }, {\n      \"code\"
+      : \"SG\",\n      \"name\" : \"Singapore\"\n   }, {\n      \"code\" : \"SH\",\n
+      \     \"name\" : \"St. Helena\"\n   }, {\n      \"code\" : \"SI\",\n      \"name\"
+      : \"Slovenia\"\n   }, {\n      \"code\" : \"SJ\",\n      \"name\" : \"Svalbard
+      & Jan Mayen\"\n   }, {\n      \"code\" : \"SK\",\n      \"name\" : \"Slovakia\"\n
+      \  }, {\n      \"code\" : \"SL\",\n      \"name\" : \"Sierra Leone\"\n   },
+      {\n      \"code\" : \"SM\",\n      \"name\" : \"San Marino\"\n   }, {\n      \"code\"
+      : \"SN\",\n      \"name\" : \"Senegal\"\n   }, {\n      \"code\" : \"SO\",\n
+      \     \"name\" : \"Somalia\"\n   }, {\n      \"code\" : \"SR\",\n      \"name\"
+      : \"Suriname\"\n   }, {\n      \"code\" : \"SS\",\n      \"name\" : \"South
+      Sudan\"\n   }, {\n      \"code\" : \"ST\",\n      \"name\" : \"S\xE3o Tom\xE9
+      & Pr\xEDncipe\"\n   }, {\n      \"code\" : \"SV\",\n      \"name\" : \"El Salvador\"\n
+      \  }, {\n      \"code\" : \"SX\",\n      \"name\" : \"Sint Maarten\"\n   },
+      {\n      \"code\" : \"SY\",\n      \"name\" : \"Syria\"\n   }, {\n      \"code\"
+      : \"SZ\",\n      \"name\" : \"Eswatini\"\n   }, {\n      \"code\" : \"TC\",\n
+      \     \"name\" : \"Turks & Caicos Islands\"\n   }, {\n      \"code\" : \"TD\",\n
+      \     \"name\" : \"Chad\"\n   }, {\n      \"code\" : \"TF\",\n      \"name\"
+      : \"French Southern Territories\"\n   }, {\n      \"code\" : \"TG\",\n      \"name\"
+      : \"Togo\"\n   }, {\n      \"code\" : \"TH\",\n      \"name\" : \"Thailand\"\n
+      \  }, {\n      \"code\" : \"TJ\",\n      \"name\" : \"Tajikistan\"\n   }, {\n
+      \     \"code\" : \"TK\",\n      \"name\" : \"Tokelau\"\n   }, {\n      \"code\"
+      : \"TL\",\n      \"name\" : \"Timor-Leste\"\n   }, {\n      \"code\" : \"TM\",\n
+      \     \"name\" : \"Turkmenistan\"\n   }, {\n      \"code\" : \"TN\",\n      \"name\"
+      : \"Tunisia\"\n   }, {\n      \"code\" : \"TO\",\n      \"name\" : \"Tonga\"\n
+      \  }, {\n      \"code\" : \"TR\",\n      \"name\" : \"Turkey\"\n   }, {\n      \"code\"
+      : \"TT\",\n      \"name\" : \"Trinidad & Tobago\"\n   }, {\n      \"code\" :
+      \"TV\",\n      \"name\" : \"Tuvalu\"\n   }, {\n      \"code\" : \"TW\",\n      \"name\"
+      : \"Taiwan\"\n   }, {\n      \"code\" : \"TZ\",\n      \"name\" : \"Tanzania\"\n
+      \  }, {\n      \"code\" : \"UA\",\n      \"name\" : \"Ukraine\"\n   }, {\n      \"code\"
+      : \"UG\",\n      \"name\" : \"Uganda\"\n   }, {\n      \"code\" : \"UM\",\n
+      \     \"name\" : \"U.S. Outlying Islands\"\n   }, {\n      \"code\" : \"US\",\n
+      \     \"name\" : \"United States\"\n   }, {\n      \"code\" : \"UY\",\n      \"name\"
+      : \"Uruguay\"\n   }, {\n      \"code\" : \"UZ\",\n      \"name\" : \"Uzbekistan\"\n
+      \  }, {\n      \"code\" : \"VA\",\n      \"name\" : \"Vatican City\"\n   },
+      {\n      \"code\" : \"VC\",\n      \"name\" : \"St. Vincent & Grenadines\"\n
+      \  }, {\n      \"code\" : \"VE\",\n      \"name\" : \"Venezuela\"\n   }, {\n
+      \     \"code\" : \"VG\",\n      \"name\" : \"British Virgin Islands\"\n   },
+      {\n      \"code\" : \"VI\",\n      \"name\" : \"U.S. Virgin Islands\"\n   },
+      {\n      \"code\" : \"VN\",\n      \"name\" : \"Vietnam\"\n   }, {\n      \"code\"
+      : \"VU\",\n      \"name\" : \"Vanuatu\"\n   }, {\n      \"code\" : \"WF\",\n
+      \     \"name\" : \"Wallis & Futuna\"\n   }, {\n      \"code\" : \"WS\",\n      \"name\"
+      : \"Samoa\"\n   }, {\n      \"code\" : \"YE\",\n      \"name\" : \"Yemen\"\n
+      \  }, {\n      \"code\" : \"YT\",\n      \"name\" : \"Mayotte\"\n   }, {\n      \"code\"
+      : \"ZA\",\n      \"name\" : \"South Africa\"\n   }, {\n      \"code\" : \"ZM\",\n
+      \     \"name\" : \"Zambia\"\n   }, {\n      \"code\" : \"ZW\",\n      \"name\"
+      : \"Zimbabwe\"\n   } ]\n}"
+    headers:
+      Cache-Control:
+      - no-transform, max-age=3600
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:07:53 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding,Accept,Accept-Language
+      Via:
+      - 1.1 6b40574acc577d1185c505c40886acc6.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - YTatpOAQFVqZdmuAT-w1pXGzXu2cEJ8DV6rIH3jJeurfL2dzWFAcmg==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Hit from cloudfront
+      x-amz-apigw-id:
+      - U0oy-HB2oAMFTUg=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '14298'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:07:53 GMT
+      x-amzn-RequestId:
+      - 28cb12ae-e077-49a9-81af-4a2d4284c98a
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

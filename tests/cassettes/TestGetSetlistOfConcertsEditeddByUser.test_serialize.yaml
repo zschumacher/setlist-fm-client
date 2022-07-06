@@ -1,0 +1,730 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/user/michi/edited?p=1
+  response:
+    content: "{\n   \"type\" : \"setlists\",\n   \"itemsPerPage\" : 20,\n   \"page\"
+      : 1,\n   \"total\" : 29341,\n   \"setlist\" : [ {\n      \"id\" : \"6bb5c232\",\n
+      \     \"versionId\" : \"gbf55d52\",\n      \"eventDate\" : \"01-07-2022\",\n
+      \     \"lastUpdated\" : \"2022-07-04T06:00:11.000+0000\",\n      \"artist\"
+      : {\n         \"mbid\" : \"f1c7b5c6-ba5d-4d14-a2b0-97aa76fae28a\",\n         \"name\"
+      : \"Elles Bailey\",\n         \"sortName\" : \"Bailey, Elles\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/elles-bailey-bda3562.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"bd2051e\",\n         \"name\"
+      : \"Fiddlers\",\n         \"city\" : {\n            \"id\" : \"2654675\",\n
+      \           \"name\" : \"Bristol\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 51.45,\n               \"long\" : -2.5833333\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/fiddlers-bristol-england-bd2051e.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"The Game\"\n            }, {\n               \"name\"
+      : \"Stones\"\n            }, {\n               \"name\" : \"Perfect Storm\"\n
+      \           }, {\n               \"name\" : \"Different Kind of Love\"\n            },
+      {\n               \"name\" : \"What's the Matter With You?\"\n            },
+      {\n               \"name\" : \"Riding Out The Storm\"\n            }, {\n               \"name\"
+      : \"Miss me when I'm gone\",\n               \"info\" : \"Acoustic\"\n            },
+      {\n               \"name\" : \"Don't Let the Green Grass Fool You\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"fc6214b3-6d82-4803-be74-01ece1723e42\",\n
+      \                 \"name\" : \"Wilson Pickett\",\n                  \"sortName\"
+      : \"Pickett, Wilson\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/wilson-pickett-7bd6ba8c.html\"\n               },\n
+      \              \"info\" : \"Acoustic\"\n            }, {\n               \"name\"
+      : \"Help Somebody\"\n            }, {\n               \"name\" : \"Medicine
+      Man\"\n            }, {\n               \"name\" : \"Sunshine City\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"Howlin' Wolf\",\n               \"info\" : \"\",\n
+      \              \"with\" : {\n                  \"mbid\" : \"0d505bea-a0cb-4090-a6fc-7e2a71950f46\",\n
+      \                 \"name\" : \"Hannah Williams & The Affirmations\",\n                  \"sortName\"
+      : \"Williams, Hannah & Affirmations, The\",\n                  \"url\" : \"https://www.setlist.fm/setlists/hannah-williams-and-the-affirmations-4bca2f9a.html\"\n
+      \              }\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/elles-bailey/2022/fiddlers-bristol-england-6bb5c232.html\"\n
+      \  }, {\n      \"id\" : \"5bb5e3c4\",\n      \"versionId\" : \"g33f55811\",\n
+      \     \"eventDate\" : \"30-06-2022\",\n      \"lastUpdated\" : \"2022-07-04T12:42:24.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"00ed154e-8679-42f0-8f42-e59bd7e185af\",\n
+      \        \"name\" : \"Zucchero\",\n         \"sortName\" : \"Zucchero\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/zucchero-63d62e97.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"63d5fa7f\",\n         \"name\"
+      : \"Messegel\xE4nde\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/messegelande-dornbirn-austria-63d5fa7f.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"World Wild Tour\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Oh, Doctor Jesus\",\n               \"tape\" : true,\n               \"cover\"
+      : {\n                  \"mbid\" : \"a69c83f7-6a87-4800-91e2-b4e00a21aeb6\",\n
+      \                 \"name\" : \"Ella Fitzgerald & Louis Armstrong\",\n                  \"sortName\"
+      : \"Ella Fitzgerald & Louis Armstrong\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/ella-fitzgerald-and-louis-armstrong-53d93359.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Spirito nel
+      buio\"\n            }, {\n               \"name\" : \"Soul Mama\"\n            },
+      {\n               \"name\" : \"Il mare impetuoso al tramonto sal\xEC sulla Luna
+      e dietro una tendina di stelle\u2026\"\n            }, {\n               \"name\"
+      : \"Sarebbe questo il mondo\"\n            }, {\n               \"name\" : \"La
+      canzone che se ne va\"\n            }, {\n               \"name\" : \"Partigiano
+      reggiano\"\n            }, {\n               \"name\" : \"13 buone ragioni\"\n
+      \           }, {\n               \"name\" : \"Ci si arrende\"\n            },
+      {\n               \"name\" : \"Pene\"\n            }, {\n               \"name\"
+      : \"Facile\"\n            }, {\n               \"name\" : \"Vedo nero\"\n            },
+      {\n               \"name\" : \"Baila (Sexy Thing)\"\n            }, {\n               \"name\"
+      : \"Menta e rosmarino\"\n            }, {\n               \"name\" : \"Un soffio
+      caldo\"\n            }, {\n               \"name\" : \"L'urlo\"\n            },
+      {\n               \"name\" : \"Solo una sana e consapevole libidine salva il
+      giovane dallo stress e dall'Azione Cattolica\"\n            }, {\n               \"name\"
+      : \"Miserere\",\n               \"info\" : \"Following by band intros\"\n            },
+      {\n               \"name\" : \"Stayin' Alive\",\n               \"cover\" :
+      {\n                  \"mbid\" : \"bf0f7e29-dfe1-416c-b5c6-f9ebc19ea810\",\n
+      \                 \"name\" : \"Bee Gees\",\n                  \"sortName\" :
+      \"Bee Gees\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/bee-gees-1bd6bd48.html\"\n               },\n
+      \              \"info\" : \"Band only\"\n            }, {\n               \"name\"
+      : \"Honky Tonk Train Blues\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"e1350b4d-286e-40f1-894f-8c88a03351fe\",\n                  \"name\" : \"Keith
+      Emerson\",\n                  \"sortName\" : \"Emerson, Keith\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/keith-emerson-63d6ba07.html\"\n
+      \              },\n               \"info\" : \"Band only\"\n            }, {\n
+      \              \"name\" : \"Il volo\"\n            }, {\n               \"name\"
+      : \"Diamante\"\n            }, {\n               \"name\" : \"X colpa di chi?\"\n
+      \           }, {\n               \"name\" : \"Diavolo in me\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"Chocabeck\"\n            }, {\n               \"name\"
+      : \"Senza una donna (Without a Woman)\"\n            } ]\n         }, {\n            \"encore\"
+      : 2,\n            \"song\" : [ {\n               \"name\" : \"Hai scelto me\"\n
+      \           } ]\n         } ]\n      },\n      \"info\" : \"Voci / A Wonderful
+      World / Cos\xEC Celeste / Hey Man / Bacco Perbacco were listed as options for
+      the first encores on the mixing desk setlist\",\n      \"url\" : \"https://www.setlist.fm/setlist/zucchero/2022/messegelande-dornbirn-austria-5bb5e3c4.html\"\n
+      \  }, {\n      \"id\" : \"43b5ebc3\",\n      \"versionId\" : \"gbf535fe\",\n
+      \     \"eventDate\" : \"26-06-2022\",\n      \"lastUpdated\" : \"2022-07-01T01:13:31.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"a19fd898-5e9e-405e-baf4-9ca0c88eac6c\",\n
+      \        \"name\" : \"PET NEEDS\",\n         \"sortName\" : \"PET NEEDS\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/pet-needs-bf6d122.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"bd621ca\",\n         \"name\"
+      : \"House of Blues\",\n         \"city\" : {\n            \"id\" : \"4161168\",\n
+      \           \"name\" : \"Lake Buena Vista\",\n            \"state\" : \"Florida\",\n
+      \           \"stateCode\" : \"FL\",\n            \"coords\" : {\n               \"lat\"
+      : 28.3936186,\n               \"long\" : -81.5386842\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/house-of-blues-lake-buena-vista-fl-usa-bd621ca.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"The Neverending Tour of
+      Everywhere\"\n      },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\"
+      : [ {\n               \"name\" : \"Kayak\"\n            }, {\n               \"name\"
+      : \"Toothpaste\"\n            }, {\n               \"name\" : \"Get On The Roof\"\n
+      \           }, {\n               \"name\" : \"Punk Isn't Dead; It's Just Up
+      for Sale\"\n            }, {\n               \"name\" : \"Scratch Card\"\n            },
+      {\n               \"name\" : \"Spin Cycle\"\n            }, {\n               \"name\"
+      : \"Tracey Emin's Bed\"\n            }, {\n               \"name\" : \"Overcompensating\"\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/pet-needs/2022/house-of-blues-lake-buena-vista-fl-43b5ebc3.html\"\n
+      \  }, {\n      \"id\" : \"3b5bd5f\",\n      \"versionId\" : \"g73f41231\",\n
+      \     \"eventDate\" : \"20-06-2022\",\n      \"lastUpdated\" : \"2022-06-22T13:31:45.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"aca5718f-4f49-4439-b8f6-209db3f11757\",\n
+      \        \"name\" : \"Frank Turner\",\n         \"sortName\" : \"Turner, Frank\",\n
+      \        \"disambiguation\" : \"UK punk & folk singer-songwriter\",\n         \"url\"
+      : \"https://www.setlist.fm/setlists/frank-turner-6bd626f2.html\"\n      },\n
+      \     \"venue\" : {\n         \"id\" : \"53d3ffd1\",\n         \"name\" : \"Crossroads\",\n
+      \        \"city\" : {\n            \"id\" : \"5098358\",\n            \"name\"
+      : \"Garwood\",\n            \"state\" : \"New Jersey\",\n            \"stateCode\"
+      : \"NJ\",\n            \"coords\" : {\n               \"lat\" : 40.6517692,\n
+      \              \"long\" : -74.3229264\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/crossroads-garwood-nj-usa-53d3ffd1.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"50 States in 50 Days\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"If Ever I Stray\"\n            }, {\n               \"name\"
+      : \"Little Changes\"\n            }, {\n               \"name\" : \"Mittens\"\n
+      \           }, {\n               \"name\" : \"Little Life\"\n            },
+      {\n               \"name\" : \"Wessex Boy\"\n            }, {\n               \"name\"
+      : \"Heartless Bastard Motherfucker\"\n            }, {\n               \"name\"
+      : \"The Work\"\n            }, {\n               \"name\" : \"Love Ire & Song\"\n
+      \           }, {\n               \"name\" : \"The Opening Act of Spring\"\n
+      \           }, {\n               \"name\" : \"Thunder Road\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"70248960-cb53-4ea4-943a-edb18f7d336f\",\n
+      \                 \"name\" : \"Bruce Springsteen\",\n                  \"sortName\"
+      : \"Springsteen, Bruce\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Perfect Score\"\n            },
+      {\n               \"name\" : \"Long Live the Queen\"\n            }, {\n               \"name\"
+      : \"The Ballad of Me and My Friends\"\n            } ]\n         } ]\n      },\n
+      \     \"info\" : \"Late night solo show\",\n      \"url\" : \"https://www.setlist.fm/setlist/frank-turner/2022/crossroads-garwood-nj-3b5bd5f.html\"\n
+      \  }, {\n      \"id\" : \"bb5bd5a\",\n      \"versionId\" : \"g6bf41232\",\n
+      \     \"eventDate\" : \"20-06-2022\",\n      \"lastUpdated\" : \"2022-06-22T13:31:09.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"aca5718f-4f49-4439-b8f6-209db3f11757\",\n
+      \        \"name\" : \"Frank Turner\",\n         \"sortName\" : \"Turner, Frank\",\n
+      \        \"disambiguation\" : \"UK punk & folk singer-songwriter\",\n         \"url\"
+      : \"https://www.setlist.fm/setlists/frank-turner-6bd626f2.html\"\n      },\n
+      \     \"venue\" : {\n         \"id\" : \"63d43e3f\",\n         \"name\" : \"Knockdown
+      Center\",\n         \"city\" : {\n            \"id\" : \"5133266\",\n            \"name\"
+      : \"Queens\",\n            \"state\" : \"New York\",\n            \"stateCode\"
+      : \"NY\",\n            \"coords\" : {\n               \"lat\" : 40.7498243,\n
+      \              \"long\" : -73.7976337\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/knockdown-center-queens-ny-usa-63d43e3f.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"50 States in 50 Days\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Four Simple Words\"\n            }, {\n               \"name\"
+      : \"The Gathering\"\n            }, {\n               \"name\" : \"Haven't Been
+      Doing So Well\"\n            }, {\n               \"name\" : \"Photosynthesis\"\n
+      \           }, {\n               \"name\" : \"Plain Sailing Weather\"\n            },
+      {\n               \"name\" : \"The Next Storm\"\n            }, {\n               \"name\"
+      : \"Punches\"\n            }, {\n               \"name\" : \"1933\"\n            },
+      {\n               \"name\" : \"Out of Breath\"\n            }, {\n               \"name\"
+      : \"Miranda\"\n            }, {\n               \"name\" : \"I Am Disappeared\"\n
+      \           }, {\n               \"name\" : \"The Road\"\n            }, {\n
+      \              \"name\" : \"A Wave Across a Bay\"\n            }, {\n               \"name\"
+      : \"The House Where I Was Raised\"\n            }, {\n               \"name\"
+      : \"Dan's Song\"\n            }, {\n               \"name\" : \"Be More Kind\"\n
+      \           }, {\n               \"name\" : \"The Way I Tend to Be\"\n            },
+      {\n               \"name\" : \"Non Serviam\"\n            }, {\n               \"name\"
+      : \"Polaroid Picture\"\n            }, {\n               \"name\" : \"Get Better\"\n
+      \           } ]\n         }, {\n            \"encore\" : 1,\n            \"song\"
+      : [ {\n               \"name\" : \"The Ballad of Me and My Friends\"\n            },
+      {\n               \"name\" : \"Recovery\"\n            }, {\n               \"name\"
+      : \"Try This at Home\"\n            }, {\n               \"name\" : \"I Still
+      Believe\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/frank-turner/2022/knockdown-center-queens-ny-bb5bd5a.html\"\n
+      \  }, {\n      \"id\" : \"23b474f7\",\n      \"versionId\" : \"g63f5d67f\",\n
+      \     \"eventDate\" : \"16-06-2022\",\n      \"lastUpdated\" : \"2022-06-29T23:37:50.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"c79c43d4-cbed-4373-89ce-6560f62eb7d8\",\n
+      \        \"name\" : \"Poison\",\n         \"sortName\" : \"Poison\",\n         \"disambiguation\"
+      : \"US glam metal band\",\n         \"url\" : \"https://www.setlist.fm/setlists/poison-73d6aa2d.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"43d087bf\",\n         \"name\"
+      : \"Truist Park\",\n         \"city\" : {\n            \"id\" : \"4180439\",\n
+      \           \"name\" : \"Atlanta\",\n            \"state\" : \"Georgia\",\n
+      \           \"stateCode\" : \"GA\",\n            \"coords\" : {\n               \"lat\"
+      : 33.7489954,\n               \"long\" : -84.3879824\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/truist-park-atlanta-ga-usa-43d087bf.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"The Stadium Tour\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Highway to Hell\",\n               \"tape\" : true,\n               \"cover\"
+      : {\n                  \"mbid\" : \"66c662b6-6e2f-4930-8610-912e24c63ed1\",\n
+      \                 \"name\" : \"AC/DC\",\n                  \"sortName\" : \"AC/DC\",\n
+      \                 \"disambiguation\" : \"Australian hard rock band\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/acdc-23d6807b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Look What the Cat Dragged In\"\n
+      \           }, {\n               \"name\" : \"Ride the Wind\"\n            },
+      {\n               \"name\" : \"I Want Action\"\n            }, {\n               \"name\"
+      : \"Talk Dirty to Me\"\n            }, {\n               \"name\" : \"Something
+      to Believe In\"\n            }, {\n               \"name\" : \"Your Mama Don't
+      Dance\",\n               \"cover\" : {\n                  \"mbid\" : \"aef6e491-3121-4048-b035-4704a9ce0716\",\n
+      \                 \"name\" : \"Loggins & Messina\",\n                  \"sortName\"
+      : \"Loggins & Messina\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/loggins-and-messina-bd6059e.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Guitar Solo\",\n               \"info\"
+      : \"with portions of Van Halen Eruption\"\n            }, {\n               \"name\"
+      : \"Fallen Angel\"\n            }, {\n               \"name\" : \"Unskinny Bop\"\n
+      \           }, {\n               \"name\" : \"Drum Solo\"\n            }, {\n
+      \              \"name\" : \"Every Rose Has Its Thorn\"\n            }, {\n               \"name\"
+      : \"Nothin' but a Good Time\"\n            } ]\n         } ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/poison/2022/truist-park-atlanta-ga-23b474f7.html\"\n
+      \  }, {\n      \"id\" : \"63b46e8b\",\n      \"versionId\" : \"gbf4b12a\",\n
+      \     \"eventDate\" : \"16-06-2022\",\n      \"lastUpdated\" : \"2022-06-17T06:24:13.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"e01755e3-58ab-4a5b-a9e9-a0a3bd3dff4c\",\n
+      \        \"name\" : \"Parquet Courts\",\n         \"sortName\" : \"Parquet Courts\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/parquet-courts-73dc8a81.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"bd5dd8e\",\n         \"name\"
+      : \"O2 Institute2\",\n         \"city\" : {\n            \"id\" : \"2655603\",\n
+      \           \"name\" : \"Birmingham\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 52.4666667,\n               \"long\" : -1.9166667\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/o2-institute2-birmingham-england-bd5dd8e.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Sympathy for Life\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Application/Apparatus\"\n            }, {\n               \"name\" : \"Human
+      Performance\"\n            }, {\n               \"name\" : \"Dust\"\n            },
+      {\n               \"name\" : \"Almost Had to Start a Fight / In and Out of Patience\"\n
+      \           }, {\n               \"name\" : \"Freebird II\"\n            },
+      {\n               \"name\" : \"Marathon of Anger\"\n            }, {\n               \"name\"
+      : \"Zoom Out\"\n            }, {\n               \"name\" : \"Walking at a Downtown
+      Pace\"\n            }, {\n               \"name\" : \"Wide Awake\"\n            },
+      {\n               \"name\" : \"Plant Life\"\n            }, {\n               \"name\"
+      : \"Light Up Gold II\"\n            }, {\n               \"name\" : \"Homo Sapien\"\n
+      \           }, {\n               \"name\" : \"Black and White\"\n            },
+      {\n               \"name\" : \"Mardi Gras Beads\"\n            }, {\n               \"name\"
+      : \"Stoned and Starving\"\n            }, {\n               \"name\" : \"Pulcinella\"\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/parquet-courts/2022/o2-institute2-birmingham-england-63b46e8b.html\"\n
+      \  }, {\n      \"id\" : \"1bb40554\",\n      \"versionId\" : \"g43f717f3\",\n
+      \     \"eventDate\" : \"11-06-2022\",\n      \"lastUpdated\" : \"2022-06-13T07:39:56.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"a1b4de9a-1a73-41c8-8441-9861ce877d9c\",\n
+      \        \"name\" : \"Free Rock\",\n         \"sortName\" : \"Free Rock\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/free-rock-3bfff4b4.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"1bd67194\",\n         \"name\"
+      : \"Midway Cafe\",\n         \"city\" : {\n            \"id\" : \"4930956\",\n
+      \           \"name\" : \"Boston\",\n            \"state\" : \"Massachusetts\",\n
+      \           \"stateCode\" : \"MA\",\n            \"coords\" : {\n               \"lat\"
+      : 42.3584308,\n               \"long\" : -71.0597732\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/midway-cafe-boston-ma-usa-1bd67194.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Free Jam\"\n            }, {\n               \"name\"
+      : \"Higher Power\"\n            }, {\n               \"name\" : \"Second Wind\",\n
+      \              \"info\" : \"Live Debut\"\n            }, {\n               \"name\"
+      : \"Racket\"\n            }, {\n               \"name\" : \"Free Rock National
+      Park\"\n            }, {\n               \"name\" : \"The Races\",\n               \"info\"
+      : \"Live Debut\"\n            }, {\n               \"name\" : \"On the Border\"\n
+      \           }, {\n               \"name\" : \"Everybody Wants to Be Me\"\n            }
+      ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/free-rock/2022/midway-cafe-boston-ma-1bb40554.html\"\n
+      \  }, {\n      \"id\" : \"33b47c45\",\n      \"versionId\" : \"g3bf714d4\",\n
+      \     \"eventDate\" : \"11-06-2022\",\n      \"lastUpdated\" : \"2022-06-13T06:32:59.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"e739971e-c967-468d-a5ef-5689dd641d24\",\n
+      \        \"name\" : \"Granada\",\n         \"sortName\" : \"Granada\",\n         \"disambiguation\"
+      : \"Austrian band\",\n         \"url\" : \"https://www.setlist.fm/setlists/granada-3c59117.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd623dc\",\n         \"name\"
+      : \"Conrad Sohm\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/conrad-sohm-dornbirn-austria-5bd623dc.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/granada/2022/conrad-sohm-dornbirn-austria-33b47c45.html\"\n
+      \  }, {\n      \"id\" : \"43b43f0b\",\n      \"versionId\" : \"g13f455c9\",\n
+      \     \"eventDate\" : \"09-06-2022\",\n      \"lastUpdated\" : \"2022-06-24T20:03:06.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"b071f9fa-14b0-4217-8e97-eb41da73f598\",\n
+      \        \"name\" : \"The Rolling Stones\",\n         \"sortName\" : \"Rolling
+      Stones, The\",\n         \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"1bd4b548\",\n         \"name\"
+      : \"Anfield\",\n         \"city\" : {\n            \"id\" : \"2644210\",\n            \"name\"
+      : \"Liverpool\",\n            \"state\" : \"England\",\n            \"stateCode\"
+      : \"ENG\",\n            \"coords\" : {\n               \"lat\" : 53.4166667,\n
+      \              \"long\" : -3.0\n            },\n            \"country\" : {\n
+      \              \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/anfield-liverpool-england-1bd4b548.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Sixty\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Charlie Watts Tribute\",\n               \"tape\" : true\n            },
+      {\n               \"name\" : \"Street Fighting Man\"\n            }, {\n               \"name\"
+      : \"19th Nervous Breakdown\"\n            }, {\n               \"name\" : \"Get
+      Off of My Cloud\",\n               \"info\" : \"Tour debut; Dedicated to Charlie
+      Watts\"\n            }, {\n               \"name\" : \"Tumbling Dice\"\n            },
+      {\n               \"name\" : \"I Wanna Be Your Man\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               },\n
+      \              \"info\" : \"first time live since 2012\"\n            }, {\n
+      \              \"name\" : \"Out of Time\"\n            }, {\n               \"name\"
+      : \"You Can't Always Get What You Want\"\n            }, {\n               \"name\"
+      : \"Living in a Ghost Town\"\n            }, {\n               \"name\" : \"Honky
+      Tonk Women\",\n               \"info\" : \"followed by band introductions\"\n
+      \           }, {\n               \"name\" : \"You Got the Silver\",\n               \"info\"
+      : \"tour debut; Keith Richards on lead vocals\"\n            }, {\n               \"name\"
+      : \"Connection\",\n               \"info\" : \"Keith Richards on lead vocals\"\n
+      \           }, {\n               \"name\" : \"Miss You\"\n            }, {\n
+      \              \"name\" : \"Midnight Rambler\"\n            }, {\n               \"name\"
+      : \"Start Me Up\"\n            }, {\n               \"name\" : \"Paint It Black\"\n
+      \           }, {\n               \"name\" : \"Sympathy for the Devil\"\n            },
+      {\n               \"name\" : \"Jumpin' Jack Flash\"\n            } ]\n         },
+      {\n            \"encore\" : 1,\n            \"song\" : [ {\n               \"name\"
+      : \"Gimme Shelter\"\n            }, {\n               \"name\" : \"(I Can't
+      Get No) Satisfaction\"\n            } ]\n         } ]\n      },\n      \"info\"
+      : \"During encore break, Gerry and the Pacemakers \\\"You'll Never Walk Alone\\\"
+      performed by the audience.\",\n      \"url\" : \"https://www.setlist.fm/setlist/the-rolling-stones/2022/anfield-liverpool-england-43b43f0b.html\"\n
+      \  }, {\n      \"id\" : \"5bb43f08\",\n      \"versionId\" : \"g1bf7e92c\",\n
+      \     \"eventDate\" : \"09-06-2022\",\n      \"lastUpdated\" : \"2022-06-10T06:15:56.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"ccd4879c-5e88-4385-b131-bf65296bf245\",\n
+      \        \"name\" : \"Echo & the Bunnymen\",\n         \"sortName\" : \"Echo
+      & the Bunnymen\",\n         \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/echo-and-the-bunnymen-73d6b231.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"1bd4b548\",\n         \"name\"
+      : \"Anfield\",\n         \"city\" : {\n            \"id\" : \"2644210\",\n            \"name\"
+      : \"Liverpool\",\n            \"state\" : \"England\",\n            \"stateCode\"
+      : \"ENG\",\n            \"coords\" : {\n               \"lat\" : 53.4166667,\n
+      \              \"long\" : -3.0\n            },\n            \"country\" : {\n
+      \              \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/anfield-liverpool-england-1bd4b548.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Celebrating 40 Years of
+      Magical Songs\"\n      },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\"
+      : [ {\n               \"name\" : \"Lips Like Sugar\"\n            }, {\n               \"name\"
+      : \"Rescue\"\n            }, {\n               \"name\" : \"Bring On the Dancing
+      Horses\"\n            }, {\n               \"name\" : \"Seven Seas\"\n            },
+      {\n               \"name\" : \"Nothing Lasts Forever / Walk On The Wild Side\"\n
+      \           }, {\n               \"name\" : \"Bedbugs and Ballyhoo\"\n            },
+      {\n               \"name\" : \"Never Stop\"\n            }, {\n               \"name\"
+      : \"The Cutter\"\n            }, {\n               \"name\" : \"The Killing
+      Moon\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/echo-and-the-bunnymen/2022/anfield-liverpool-england-5bb43f08.html\"\n
+      \  }, {\n      \"id\" : \"6bb43a66\",\n      \"versionId\" : \"g3bf78020\",\n
+      \     \"eventDate\" : \"08-06-2022\",\n      \"lastUpdated\" : \"2022-06-09T06:04:09.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"ba550d0e-adac-4864-b88b-407cab5e76af\",\n
+      \        \"name\" : \"Paul McCartney\",\n         \"sortName\" : \"McCartney,
+      Paul\",\n         \"disambiguation\" : \"The Beatles\",\n         \"url\" :
+      \"https://www.setlist.fm/setlists/paul-mccartney-13d6bd15.html\"\n      },\n
+      \     \"venue\" : {\n         \"id\" : \"3d639d3\",\n         \"name\" : \"Fenway
+      Park\",\n         \"city\" : {\n            \"id\" : \"4930956\",\n            \"name\"
+      : \"Boston\",\n            \"state\" : \"Massachusetts\",\n            \"stateCode\"
+      : \"MA\",\n            \"coords\" : {\n               \"lat\" : 42.3584308,\n
+      \              \"long\" : -71.0597732\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/fenway-park-boston-ma-usa-3d639d3.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"VIP soundchecks with paying
+      audience\"\n      },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\"
+      : [ {\n               \"name\" : \"Instrumental Jam\"\n            }, {\n               \"name\"
+      : \"Honey Don't\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"068bd7ab-c38e-4fae-8ed2-cb0c153ed68f\",\n                  \"name\" : \"Carl
+      Perkins\",\n                  \"sortName\" : \"Perkins, Carl\",\n                  \"disambiguation\"
+      : \"American pioneer of rockabilly music\",\n                  \"url\" : \"https://www.setlist.fm/setlists/carl-perkins-5bd6af10.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Honey Hush\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"b123ba15-c4a5-4281-8117-2e57f8f02496\",\n
+      \                 \"name\" : \"Big Joe Turner\",\n                  \"sortName\"
+      : \"Turner, Big Joe\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/big-joe-turner-6bd6a29e.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Drive My Car\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Jet\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"d922d727-240a-4432-9a88-05a7cf9bc403\",\n
+      \                 \"name\" : \"Wings\",\n                  \"sortName\" : \"Wings\",\n
+      \                 \"disambiguation\" : \"Paul McCartney\u2019s band\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/wings-23d68837.html\"\n               }\n
+      \           }, {\n               \"name\" : \"C Moon\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"d922d727-240a-4432-9a88-05a7cf9bc403\",\n
+      \                 \"name\" : \"Wings\",\n                  \"sortName\" : \"Wings\",\n
+      \                 \"disambiguation\" : \"Paul McCartney\u2019s band\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/wings-23d68837.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Celebration\"\n            },
+      {\n               \"name\" : \"Let 'Em In\",\n               \"cover\" : {\n
+      \                 \"mbid\" : \"d922d727-240a-4432-9a88-05a7cf9bc403\",\n                  \"name\"
+      : \"Wings\",\n                  \"sortName\" : \"Wings\",\n                  \"disambiguation\"
+      : \"Paul McCartney\u2019s band\",\n                  \"url\" : \"https://www.setlist.fm/setlists/wings-23d68837.html\"\n
+      \              }\n            }, {\n               \"name\" : \"San Francisco
+      Bay Blues\",\n               \"cover\" : {\n                  \"mbid\" : \"e148154d-e1fb-4da4-8db2-d54bf9a894b8\",\n
+      \                 \"name\" : \"Jesse Fuller\",\n                  \"sortName\"
+      : \"Fuller, Jesse\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/jesse-fuller-3d60103.html\"\n               }\n
+      \           }, {\n               \"name\" : \"From Me to You\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Ram On\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"cd7a47b2-bdcb-413f-a939-7d8d55bd6fc3\",\n
+      \                 \"name\" : \"Paul & Linda McCartney\",\n                  \"sortName\"
+      : \"McCartney, Paul & McCartney, Linda\",\n                  \"url\" : \"https://www.setlist.fm/setlists/paul-and-linda-mccartney-3bd68830.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Midnight Special\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"9be7f096-97ec-4615-8957-8d40b5dcbc41\",\n
+      \                 \"name\" : \"[traditional]\",\n                  \"sortName\"
+      : \"[traditional]\",\n                  \"disambiguation\" : \"Special Purpose
+      Artist\",\n                  \"url\" : \"https://www.setlist.fm/setlists/traditional-5bd2f7e4.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Queenie Eye\"\n
+      \           }, {\n               \"name\" : \"Lady Madonna\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \                 \"name\" : \"The Beatles\",\n                  \"sortName\"
+      : \"Beatles, The\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n               }\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/paul-mccartney/2022/fenway-park-boston-ma-6bb43a66.html\"\n
+      \  }, {\n      \"id\" : \"73b4f611\",\n      \"versionId\" : \"g7bf4f208\",\n
+      \     \"eventDate\" : \"04-06-2022\",\n      \"lastUpdated\" : \"2022-06-19T08:15:51.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"1f2345fa-344e-4863-a1d7-3958d57f4301\",\n
+      \        \"name\" : \"Liam Gallagher\",\n         \"sortName\" : \"Gallagher,
+      Liam\",\n         \"disambiguation\" : \"English musician, lead singer of Oasis\",\n
+      \        \"url\" : \"https://www.setlist.fm/setlists/liam-gallagher-bd6bd72.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"73d2ee9d\",\n         \"name\"
+      : \"Knebworth House\",\n         \"city\" : {\n            \"id\" : \"2645161\",\n
+      \           \"name\" : \"Knebworth\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 51.8666667,\n               \"long\" : -0.2\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/knebworth-house-knebworth-england-73d2ee9d.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Manchester City Champions Chant\",\n               \"tape\"
+      : true\n            }, {\n               \"name\" : \"Fuckin' in the Bushes\",\n
+      \              \"tape\" : true,\n               \"cover\" : {\n                  \"mbid\"
+      : \"a7a848c3-515d-4486-9e69-dc7491dd3bd1\",\n                  \"name\" : \"Oasis\",\n
+      \                 \"sortName\" : \"Oasis\",\n                  \"disambiguation\"
+      : \"\u201970s US rock band\",\n                  \"url\" : \"https://www.setlist.fm/setlists/oasis-1bd6bd7c.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Hello\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"39ab1aed-75e0-4140-bd47-540276886b60\",\n
+      \                 \"name\" : \"Oasis\",\n                  \"sortName\" : \"Oasis\",\n
+      \                 \"disambiguation\" : \"1991-2009 Britpop\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/oasis-bd6bd7e.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Rock 'n' Roll Star\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"39ab1aed-75e0-4140-bd47-540276886b60\",\n
+      \                 \"name\" : \"Oasis\",\n                  \"sortName\" : \"Oasis\",\n
+      \                 \"disambiguation\" : \"1991-2009 Britpop\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/oasis-bd6bd7e.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Morning Glory\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"39ab1aed-75e0-4140-bd47-540276886b60\",\n
+      \                 \"name\" : \"Oasis\",\n                  \"sortName\" : \"Oasis\",\n
+      \                 \"disambiguation\" : \"1991-2009 Britpop\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/oasis-bd6bd7e.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Wall of Glass\"\n            },
+      {\n               \"name\" : \"Everything's Electric\"\n            }, {\n               \"name\"
+      : \"Better Days\"\n            }, {\n               \"name\" : \"Why Me? Why
+      Not.\",\n               \"info\" : \"With snippet of Beatles \u201CCome Together\u201D\"\n
+      \           }, {\n               \"name\" : \"Stand by Me\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"39ab1aed-75e0-4140-bd47-540276886b60\",\n
+      \                 \"name\" : \"Oasis\",\n                  \"sortName\" : \"Oasis\",\n
+      \                 \"disambiguation\" : \"1991-2009 Britpop\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/oasis-bd6bd7e.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Roll It Over\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"39ab1aed-75e0-4140-bd47-540276886b60\",\n
+      \                 \"name\" : \"Oasis\",\n                  \"sortName\" : \"Oasis\",\n
+      \                 \"disambiguation\" : \"1991-2009 Britpop\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/oasis-bd6bd7e.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Slide Away\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"39ab1aed-75e0-4140-bd47-540276886b60\",\n
+      \                 \"name\" : \"Oasis\",\n                  \"sortName\" : \"Oasis\",\n
+      \                 \"disambiguation\" : \"1991-2009 Britpop\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/oasis-bd6bd7e.html\"\n               }\n
+      \           }, {\n               \"name\" : \"More Power\",\n               \"info\"
+      : \"Dedicated to Bonehead\"\n            }, {\n               \"name\" : \"C'mon
+      You Know\"\n            }, {\n               \"name\" : \"Diamond in the Dark\"\n
+      \           }, {\n               \"name\" : \"The River\"\n            }, {\n
+      \              \"name\" : \"Once\"\n            } ]\n         }, {\n            \"encore\"
+      : 1,\n            \"song\" : [ {\n               \"name\" : \"Some Might Say\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"39ab1aed-75e0-4140-bd47-540276886b60\",\n
+      \                 \"name\" : \"Oasis\",\n                  \"sortName\" : \"Oasis\",\n
+      \                 \"disambiguation\" : \"1991-2009 Britpop\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/oasis-bd6bd7e.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Cigarettes & Alcohol\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"39ab1aed-75e0-4140-bd47-540276886b60\",\n
+      \                 \"name\" : \"Oasis\",\n                  \"sortName\" : \"Oasis\",\n
+      \                 \"disambiguation\" : \"1991-2009 Britpop\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/oasis-bd6bd7e.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Supersonic\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"39ab1aed-75e0-4140-bd47-540276886b60\",\n
+      \                 \"name\" : \"Oasis\",\n                  \"sortName\" : \"Oasis\",\n
+      \                 \"disambiguation\" : \"1991-2009 Britpop\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/oasis-bd6bd7e.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Wonderwall\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"39ab1aed-75e0-4140-bd47-540276886b60\",\n
+      \                 \"name\" : \"Oasis\",\n                  \"sortName\" : \"Oasis\",\n
+      \                 \"disambiguation\" : \"1991-2009 Britpop\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/oasis-bd6bd7e.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Live Forever\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"39ab1aed-75e0-4140-bd47-540276886b60\",\n
+      \                 \"name\" : \"Oasis\",\n                  \"sortName\" : \"Oasis\",\n
+      \                 \"disambiguation\" : \"1991-2009 Britpop\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/oasis-bd6bd7e.html\"\n               }\n
+      \           } ]\n         }, {\n            \"encore\" : 2,\n            \"song\"
+      : [ {\n               \"name\" : \"Champagne Supernova\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"39ab1aed-75e0-4140-bd47-540276886b60\",\n
+      \                 \"name\" : \"Oasis\",\n                  \"sortName\" : \"Oasis\",\n
+      \                 \"disambiguation\" : \"1991-2009 Britpop\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/oasis-bd6bd7e.html\"\n               },\n
+      \              \"with\" : {\n                  \"mbid\" : \"a5fe0213-6f08-4369-8f16-5d15b329e56d\",\n
+      \                 \"name\" : \"John Squire\",\n                  \"sortName\"
+      : \"Squire, John\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/john-squire-13d6bded.html\"\n               }\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/liam-gallagher/2022/knebworth-house-knebworth-england-73b4f611.html\"\n
+      \  }, {\n      \"id\" : \"53b4f3d5\",\n      \"versionId\" : \"g3f7e91f\",\n
+      \     \"eventDate\" : \"04-06-2022\",\n      \"lastUpdated\" : \"2022-06-10T06:18:00.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"69b39eab-6577-46a4-a9f5-817839092033\",\n
+      \        \"name\" : \"Kasabian\",\n         \"sortName\" : \"Kasabian\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/kasabian-3d6bd5b.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"73d2ee9d\",\n         \"name\"
+      : \"Knebworth House\",\n         \"city\" : {\n            \"id\" : \"2645161\",\n
+      \           \"name\" : \"Knebworth\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 51.8666667,\n               \"long\" : -0.2\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/knebworth-house-knebworth-england-73d2ee9d.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Club Foot\"\n            }, {\n               \"name\"
+      : \"Ill Ray (The King)\"\n            }, {\n               \"name\" : \"Underdog\"\n
+      \           }, {\n               \"name\" : \"You're in Love With a Psycho\"\n
+      \           }, {\n               \"name\" : \"ALYGATYR\"\n            }, {\n
+      \              \"name\" : \"Shoot the Runner\"\n            }, {\n               \"name\"
+      : \"SCRIPTVRE\"\n            }, {\n               \"name\" : \"Bless This Acid
+      House\"\n            }, {\n               \"name\" : \"Empire\"\n            },
+      {\n               \"name\" : \"Vlad the Impaler\"\n            }, {\n               \"name\"
+      : \"L.S.F. (Lost Souls Forever)\"\n            }, {\n               \"name\"
+      : \"Fire\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/kasabian/2022/knebworth-house-knebworth-england-53b4f3d5.html\"\n
+      \  }, {\n      \"id\" : \"23b48423\",\n      \"versionId\" : \"g73f61ed1\",\n
+      \     \"eventDate\" : \"02-06-2022\",\n      \"lastUpdated\" : \"2022-06-03T05:42:18.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"8e494408-8620-4c6a-82c2-c2ca4a1e4f12\",\n
+      \        \"name\" : \"Lorde\",\n         \"sortName\" : \"Lorde\",\n         \"disambiguation\"
+      : \"New Zealand singer\u2010songwriter\",\n         \"url\" : \"https://www.setlist.fm/setlists/lorde-6bdc4632.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"2bd6d0d2\",\n         \"name\"
+      : \"Roundhouse\",\n         \"city\" : {\n            \"id\" : \"2643743\",\n
+      \           \"name\" : \"London\",\n            \"state\" : \"England\",\n            \"stateCode\"
+      : \"ENG\",\n            \"coords\" : {\n               \"lat\" : 51.5084152563931,\n
+      \              \"long\" : -0.125532746315002\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/roundhouse-london-england-2bd6d0d2.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Solar Power Tour\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"name\" : \"Act I\",\n
+      \           \"song\" : [ {\n               \"name\" : \"Leader of a New Regime\"\n
+      \           }, {\n               \"name\" : \"Homemade Dynamite\"\n            },
+      {\n               \"name\" : \"Buzzcut Season\"\n            }, {\n               \"name\"
+      : \"Stoned at the Nail Salon\"\n            }, {\n               \"name\" :
+      \"Fallen Fruit\"\n            } ]\n         }, {\n            \"name\" : \"Act
+      II\",\n            \"song\" : [ {\n               \"name\" : \"The Path\"\n
+      \           }, {\n               \"name\" : \"California\"\n            }, {\n
+      \              \"name\" : \"Ribs\"\n            }, {\n               \"name\"
+      : \"The Louvre\"\n            }, {\n               \"name\" : \"Big Star\"\n
+      \           }, {\n               \"name\" : \"Liability\"\n            }, {\n
+      \              \"name\" : \"Secrets From a Girl (Who\u2019s Seen It All)\"\n
+      \           } ]\n         }, {\n            \"name\" : \"Act III\",\n            \"song\"
+      : [ {\n               \"name\" : \"Mood Ring\"\n            }, {\n               \"name\"
+      : \"Sober\"\n            }, {\n               \"name\" : \"Supercut\"\n            },
+      {\n               \"name\" : \"Perfect Places\"\n            }, {\n               \"name\"
+      : \"Solar Power\"\n            }, {\n               \"name\" : \"Green Light\"\n
+      \           }, {\n               \"name\" : \"Oceanic Feeling\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"Helen of Troy\"\n            }, {\n               \"name\"
+      : \"Royals\"\n            }, {\n               \"name\" : \"Tennis Court\"\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/lorde/2022/roundhouse-london-england-23b48423.html\"\n
+      \  }, {\n      \"id\" : \"6bb4f65a\",\n      \"versionId\" : \"g33f718c5\",\n
+      \     \"eventDate\" : \"01-06-2022\",\n      \"lastUpdated\" : \"2022-06-13T01:47:59.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"8434409e-baa9-4e12-b4aa-566a91c7d7cf\",\n
+      \        \"name\" : \"The Charlatans\",\n         \"sortName\" : \"Charlatans,
+      The\",\n         \"disambiguation\" : \"English indie rock band\",\n         \"url\"
+      : \"https://www.setlist.fm/setlists/the-charlatans-1bd6bde4.html\"\n      },\n
+      \     \"venue\" : {\n         \"id\" : \"43d71f37\",\n         \"name\" : \"Etihad
+      Stadium\",\n         \"city\" : {\n            \"id\" : \"2643123\",\n            \"name\"
+      : \"Manchester\",\n            \"state\" : \"England\",\n            \"stateCode\"
+      : \"ENG\",\n            \"coords\" : {\n               \"lat\" : 53.4809464283615,\n
+      \              \"long\" : -2.23743438720703\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/etihad-stadium-manchester-england-43d71f37.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"A Head Full of Ideas 31st
+      Anniversary Best Of Tour\"\n      },\n      \"sets\" : {\n         \"set\" :
+      [ {\n            \"song\" : [ {\n               \"name\" : \"Weirdo\"\n            },
+      {\n               \"name\" : \"Can't Get Out of Bed\"\n            }, {\n               \"name\"
+      : \"Then\"\n            }, {\n               \"name\" : \"Just When You're Thinkin'
+      Things Over\"\n            }, {\n               \"name\" : \"One to Another\"\n
+      \           }, {\n               \"name\" : \"You're So Pretty - We're So Pretty\"\n
+      \           }, {\n               \"name\" : \"Tellin' Stories\"\n            },
+      {\n               \"name\" : \"The Only One I Know\"\n            }, {\n               \"name\"
+      : \"North Country Boy\"\n            }, {\n               \"name\" : \"How High\"\n
+      \           }, {\n               \"name\" : \"Blackened Blue Eyes\"\n            },
+      {\n               \"name\" : \"Sproston Green\",\n               \"info\" :
+      \"with Nick McCabe\"\n            } ]\n         } ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/the-charlatans/2022/etihad-stadium-manchester-england-6bb4f65a.html\"\n
+      \  }, {\n      \"id\" : \"53b4fb6d\",\n      \"versionId\" : \"g5bf61bf8\",\n
+      \     \"eventDate\" : \"01-06-2022\",\n      \"lastUpdated\" : \"2022-06-03T10:44:02.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"fad10ed4-58c7-47bb-9d70-88d8c3b0ccc2\",\n
+      \        \"name\" : \"Friska Viljor\",\n         \"sortName\" : \"Friska Viljor\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/friska-viljor-63d632ab.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd623dc\",\n         \"name\"
+      : \"Conrad Sohm\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/conrad-sohm-dornbirn-austria-5bd623dc.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"If I Die Now\"\n            } ]\n         },
+      {\n            \"encore\" : 1,\n            \"song\" : [ {\n               \"name\"
+      : \"Inbreeds\",\n               \"with\" : {\n                  \"mbid\" : \"281db260-0c3d-4dd9-b48d-2c10f13ec2d1\",\n
+      \                 \"name\" : \"MESSINA\",\n                  \"sortName\" :
+      \"MESSINA\",\n                  \"disambiguation\" : \"Electronic pop group\",\n
+      \                 \"url\" : \"https://www.setlist.fm/setlists/messina-3f239ef.html\"\n
+      \              }\n            } ]\n         }, {\n            \"encore\" : 2,\n
+      \           \"song\" : [ {\n               \"name\" : \"Shotgun Sister\",\n
+      \              \"info\" : \"Played on bar at the back of the venue and within
+      the audience\"\n            }, {\n               \"name\" : \"Ooh La La\",\n
+      \              \"tape\" : true,\n               \"cover\" : {\n                  \"mbid\"
+      : \"8c7a8406-f15a-408d-b0f6-23be813bdddc\",\n                  \"name\" : \"Faces\",\n
+      \                 \"sortName\" : \"Faces\",\n                  \"disambiguation\"
+      : \"successor of \\\"Small Faces\\\", members Rod Stewart, Ron Wood\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/faces-2bd6b8a6.html\"\n               }\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/friska-viljor/2022/conrad-sohm-dornbirn-austria-53b4fb6d.html\"\n
+      \  }, {\n      \"id\" : \"5bb4fb60\",\n      \"versionId\" : \"g33f63071\",\n
+      \     \"eventDate\" : \"01-06-2022\",\n      \"lastUpdated\" : \"2022-06-02T06:29:07.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"281db260-0c3d-4dd9-b48d-2c10f13ec2d1\",\n
+      \        \"name\" : \"MESSINA\",\n         \"sortName\" : \"MESSINA\",\n         \"disambiguation\"
+      : \"Electronic pop group\",\n         \"url\" : \"https://www.setlist.fm/setlists/messina-3f239ef.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd623dc\",\n         \"name\"
+      : \"Conrad Sohm\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/conrad-sohm-dornbirn-austria-5bd623dc.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/messina/2022/conrad-sohm-dornbirn-austria-5bb4fb60.html\"\n
+      \  }, {\n      \"id\" : \"6bb48616\",\n      \"versionId\" : \"g4bf717f2\",\n
+      \     \"eventDate\" : \"30-05-2022\",\n      \"lastUpdated\" : \"2022-06-13T07:39:56.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"a1b4de9a-1a73-41c8-8441-9861ce877d9c\",\n
+      \        \"name\" : \"Free Rock\",\n         \"sortName\" : \"Free Rock\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/free-rock-3bfff4b4.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd03b38\",\n         \"name\"
+      : \"Dud's Dungeon\",\n         \"city\" : {\n            \"id\" : \"4955336\",\n
+      \           \"name\" : \"Weymouth\",\n            \"state\" : \"Massachusetts\",\n
+      \           \"stateCode\" : \"MA\",\n            \"coords\" : {\n               \"lat\"
+      : 42.2209333,\n               \"long\" : -70.9397684\n            },\n            \"country\"
+      : {\n               \"code\" : \"US\",\n               \"name\" : \"United States\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/duds-dungeon-weymouth-ma-usa-5bd03b38.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"name\" :
+      \"Set 1\",\n            \"song\" : [ {\n               \"name\" : \"Higher Power\"\n
+      \           }, {\n               \"name\" : \"Everybody Wants to Be Me\",\n
+      \              \"info\" : \"Live Debut\"\n            }, {\n               \"name\"
+      : \"On the Border\"\n            }, {\n               \"name\" : \"Recliner\"\n
+      \           }, {\n               \"name\" : \"Fantastic!\"\n            }, {\n
+      \              \"name\" : \"Say Goodbye to Saigon\"\n            }, {\n               \"name\"
+      : \"Do What Ya Want\"\n            } ]\n         }, {\n            \"name\"
+      : \"Set 2\",\n            \"song\" : [ {\n               \"name\" : \"Free Mandareens\",\n
+      \              \"info\" : \"Septet jam with Three Mandareens\"\n            },
+      {\n               \"name\" : \"Red Clay\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"59ae7a1a-f454-435b-8a5a-e327e692bb5a\",\n                  \"name\" : \"Freddie
+      Hubbard\",\n                  \"sortName\" : \"Hubbard, Freddie\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/freddie-hubbard-1bd6b594.html\"\n
+      \              }\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/free-rock/2022/duds-dungeon-weymouth-ma-6bb48616.html\"\n
+      \  }, {\n      \"id\" : \"3b4894f\",\n      \"versionId\" : \"g2bf6307e\",\n
+      \     \"eventDate\" : \"30-05-2022\",\n      \"lastUpdated\" : \"2022-06-02T06:28:00.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"281db260-0c3d-4dd9-b48d-2c10f13ec2d1\",\n
+      \        \"name\" : \"MESSINA\",\n         \"sortName\" : \"MESSINA\",\n         \"disambiguation\"
+      : \"Electronic pop group\",\n         \"url\" : \"https://www.setlist.fm/setlists/messina-3f239ef.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"23d63493\",\n         \"name\"
+      : \"Flex\",\n         \"city\" : {\n            \"id\" : \"2761369\",\n            \"name\"
+      : \"Vienna\",\n            \"state\" : \"Vienna\",\n            \"stateCode\"
+      : \"09\",\n            \"coords\" : {\n               \"lat\" : 48.2084877601653,\n
+      \              \"long\" : 16.3720750808716\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/flex-vienna-austria-23d63493.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/messina/2022/flex-vienna-austria-3b4894f.html\"\n
+      \  } ]\n}"
+    headers:
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:07:50 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding,Accept,Accept-Language
+      Via:
+      - 1.1 71f2fed44216f4391ecbb693ee450dce.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - TkK5YX0lgm1WPcN_R6Cdx-dUuDBOTl2L_zi8ECjCEM4n5pWyR8spFg==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Miss from cloudfront
+      x-amz-apigw-id:
+      - U0oyiH2qoAMFRGw=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '53843'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:07:50 GMT
+      x-amzn-RequestId:
+      - 6585a25e-d937-45c8-9f86-6145b9754abe
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

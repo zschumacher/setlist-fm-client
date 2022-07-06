@@ -1,0 +1,54 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/user/michi
+  response:
+    content: "{\n   \"userId\" : \"michi\",\n   \"url\" : \"https://www.setlist.fm/user/michi\"\n}"
+    headers:
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '73'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:07:46 GMT
+      Vary:
+      - Accept,Accept-Language
+      Via:
+      - 1.1 edf41293681a3c1555cb4f36266904cc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - nmKzPAe2yKifJ1MQmXW0G4z9coZ60wNbIl4enb9GR3SwzZD5Suayig==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Hit from cloudfront
+      x-amz-apigw-id:
+      - U0ox4EvWoAMFdYA=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '73'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:07:46 GMT
+      x-amzn-RequestId:
+      - 51a256d9-9b5a-4310-8fe7-c24f9155b468
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

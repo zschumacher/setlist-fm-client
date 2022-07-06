@@ -1,0 +1,98 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/search/setlists?artistMbid=67f66c07-6e61-4026-ade5-7e782fad3a5d&artistName=Foo+Fighters&cityId=5140405&cityName=Syracuse&countryCode=US&date=15-09-2021&lastUpdated=20211104153955&state=New+York&stateCode=NY&tourName=26th+Anniversary+Tour&venueId=43d23f0f&venueName=St.+Joseph%27s+Health+Amphitheater+at+Lakeview&year=2021&p=1
+  response:
+    content: "{\n   \"type\" : \"setlists\",\n   \"itemsPerPage\" : 20,\n   \"page\"
+      : 1,\n   \"total\" : 1,\n   \"setlist\" : [ {\n      \"id\" : \"5b8c7b4c\",\n
+      \     \"versionId\" : \"g23c7ecd3\",\n      \"eventDate\" : \"15-09-2021\",\n
+      \     \"lastUpdated\" : \"2021-11-04T15:39:55.000+0000\",\n      \"artist\"
+      : {\n         \"mbid\" : \"67f66c07-6e61-4026-ade5-7e782fad3a5d\",\n         \"name\"
+      : \"Foo Fighters\",\n         \"sortName\" : \"Foo Fighters\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/foo-fighters-bd6893a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"43d23f0f\",\n         \"name\"
+      : \"St. Joseph's Health Amphitheater at Lakeview\",\n         \"city\" : {\n
+      \           \"id\" : \"5140405\",\n            \"name\" : \"Syracuse\",\n            \"state\"
+      : \"New York\",\n            \"stateCode\" : \"NY\",\n            \"coords\"
+      : {\n               \"lat\" : 43.0481221,\n               \"long\" : -76.1474244\n
+      \           },\n            \"country\" : {\n               \"code\" : \"US\",\n
+      \              \"name\" : \"United States\"\n            }\n         },\n         \"url\"
+      : \"https://www.setlist.fm/venue/st-josephs-health-amphitheater-at-lakeview-syracuse-ny-usa-43d23f0f.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"26th Anniversary Tour\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Times Like These\"\n            }, {\n               \"name\"
+      : \"The Pretender\"\n            }, {\n               \"name\" : \"Learn to
+      Fly\"\n            }, {\n               \"name\" : \"No Son of Mine\",\n               \"info\"
+      : \"Not on printed setlist\"\n            }, {\n               \"name\" : \"The
+      Sky Is a Neighborhood\"\n            }, {\n               \"name\" : \"Shame
+      Shame\"\n            }, {\n               \"name\" : \"Breakout\"\n            },
+      {\n               \"name\" : \"My Hero\"\n            }, {\n               \"name\"
+      : \"These Days\"\n            }, {\n               \"name\" : \"Walk\"\n            },
+      {\n               \"name\" : \"You Should Be Dancing\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"bf0f7e29-dfe1-416c-b5c6-f9ebc19ea810\",\n
+      \                 \"name\" : \"Bee Gees\",\n                  \"sortName\" :
+      \"Bee Gees\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/bee-gees-1bd6bd48.html\"\n               },\n
+      \              \"info\" : \"followed by band introductions\"\n            },
+      {\n               \"name\" : \"Somebody to Love\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"0383dadf-2a4e-4d10-a46a-e9e041da8eb3\",\n
+      \                 \"name\" : \"Queen\",\n                  \"sortName\" : \"Queen\",\n
+      \                 \"disambiguation\" : \"UK rock group\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/queen-43d6e37f.html\"\n               }\n
+      \           }, {\n               \"name\" : \"All My Life\"\n            },
+      {\n               \"name\" : \"This Is a Call\"\n            }, {\n               \"name\"
+      : \"Best of You\"\n            }, {\n               \"name\" : \"Everlong\"\n
+      \           } ]\n         } ]\n      },\n      \"info\" : \"Set starts 90 minutes
+      late, after FF spent 4 hrs delayed on the tarmac at JFK. \\\"Monkey Wrench\\\"
+      on setlist before \\\"Everlong\\\" but not played.\",\n      \"url\" : \"https://www.setlist.fm/setlist/foo-fighters/2021/st-josephs-health-amphitheater-at-lakeview-syracuse-ny-5b8c7b4c.html\"\n
+      \  } ]\n}"
+    headers:
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:07:55 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding,Accept,Accept-Language
+      Via:
+      - 1.1 c855cfdfac580e3b58f1c68c8d67dcf6.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - NU6HzGufAWBUNNIBsoWE1mZhJ59ZSxKY5VPoa7QTCRUqbUfB-evOLg==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Hit from cloudfront
+      x-amz-apigw-id:
+      - U0ozTFg3IAMFU_A=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '3246'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:07:55 GMT
+      x-amzn-RequestId:
+      - a70d6867-84a2-4baa-8c53-05fcdb810736
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

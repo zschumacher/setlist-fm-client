@@ -1,0 +1,258 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/search/venues?cityId=5128581&cityName=New+York&country=US&state=New+York&stateCode=NY&p=1
+  response:
+    content: "{\n   \"type\" : \"venues\",\n   \"itemsPerPage\" : 30,\n   \"page\"
+      : 1,\n   \"total\" : 2531,\n   \"venue\" : [ {\n      \"id\" : \"7bd34a94\",\n
+      \     \"name\" : \"lpr.tv\",\n      \"city\" : {\n         \"id\" : \"5128581\",\n
+      \        \"name\" : \"New York\",\n         \"state\" : \"New York\",\n         \"stateCode\"
+      : \"NY\",\n         \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/lprtv-new-york-ny-usa-7bd34a94.html\"\n   },
+      {\n      \"id\" : \"23d5bcdf\",\n      \"name\" : \"iHeartRadio Theater\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/iheartradio-theater-new-york-ny-usa-23d5bcdf.html\"\n
+      \  }, {\n      \"id\" : \"4bd56326\",\n      \"name\" : \"iHeartRadio Sessions\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/iheartradio-sessions-new-york-ny-usa-4bd56326.html\"\n
+      \  }, {\n      \"id\" : \"13d5112d\",\n      \"name\" : \"iHeartRadio HQ\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/iheartradio-hq-new-york-ny-usa-13d5112d.html\"\n
+      \  }, {\n      \"id\" : \"6bd02216\",\n      \"name\" : \"iHeartMedia\",\n      \"city\"
+      : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New York\",\n         \"state\"
+      : \"New York\",\n         \"stateCode\" : \"NY\",\n         \"coords\" : {\n
+      \           \"lat\" : 40.7142691,\n            \"long\" : -74.0059729\n         },\n
+      \        \"country\" : {\n            \"code\" : \"US\",\n            \"name\"
+      : \"United States\"\n         }\n      },\n      \"url\" : \"https://www.setlist.fm/venue/iheartmedia-new-york-ny-usa-6bd02216.html\"\n
+      \  }, {\n      \"id\" : \"5bd5bff0\",\n      \"name\" : \"iHeart Theater\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/iheart-theater-new-york-ny-usa-5bd5bff0.html\"\n
+      \  }, {\n      \"id\" : \"43d56327\",\n      \"name\" : \"iHeart Radio Sessions\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/iheart-radio-sessions-new-york-ny-usa-43d56327.html\"\n
+      \  }, {\n      \"id\" : \"53d09771\",\n      \"name\" : \"eOne Heavy Live\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/eone-heavy-live-new-york-ny-usa-53d09771.html\"\n
+      \  }, {\n      \"id\" : \"43d26713\",\n      \"name\" : \"Z\xFCrcher Gallery\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/zurcher-gallery-new-york-ny-usa-43d26713.html\"\n
+      \  }, {\n      \"id\" : \"63d4c23f\",\n      \"name\" : \"Zuccotti Park\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/zuccotti-park-new-york-ny-usa-63d4c23f.html\"\n
+      \  }, {\n      \"id\" : \"1bd2412c\",\n      \"name\" : \"Zu Loft\",\n      \"city\"
+      : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New York\",\n         \"state\"
+      : \"New York\",\n         \"stateCode\" : \"NY\",\n         \"coords\" : {\n
+      \           \"lat\" : 40.7142691,\n            \"long\" : -74.0059729\n         },\n
+      \        \"country\" : {\n            \"code\" : \"US\",\n            \"name\"
+      : \"United States\"\n         }\n      },\n      \"url\" : \"https://www.setlist.fm/venue/zu-loft-new-york-ny-usa-1bd2412c.html\"\n
+      \  }, {\n      \"id\" : \"4bd5b7f6\",\n      \"name\" : \"Zone DK\",\n      \"city\"
+      : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New York\",\n         \"state\"
+      : \"New York\",\n         \"stateCode\" : \"NY\",\n         \"coords\" : {\n
+      \           \"lat\" : 40.7142691,\n            \"long\" : -74.0059729\n         },\n
+      \        \"country\" : {\n            \"code\" : \"US\",\n            \"name\"
+      : \"United States\"\n         }\n      },\n      \"url\" : \"https://www.setlist.fm/venue/zone-dk-new-york-ny-usa-4bd5b7f6.html\"\n
+      \  }, {\n      \"id\" : \"bd75122\",\n      \"name\" : \"ZirZamin\",\n      \"city\"
+      : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New York\",\n         \"state\"
+      : \"New York\",\n         \"stateCode\" : \"NY\",\n         \"coords\" : {\n
+      \           \"lat\" : 40.7142691,\n            \"long\" : -74.0059729\n         },\n
+      \        \"country\" : {\n            \"code\" : \"US\",\n            \"name\"
+      : \"United States\"\n         }\n      },\n      \"url\" : \"https://www.setlist.fm/venue/zirzamin-new-york-ny-usa-bd75122.html\"\n
+      \  }, {\n      \"id\" : \"23d50c97\",\n      \"name\" : \"Zinno\",\n      \"city\"
+      : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New York\",\n         \"state\"
+      : \"New York\",\n         \"stateCode\" : \"NY\",\n         \"coords\" : {\n
+      \           \"lat\" : 40.7142691,\n            \"long\" : -74.0059729\n         },\n
+      \        \"country\" : {\n            \"code\" : \"US\",\n            \"name\"
+      : \"United States\"\n         }\n      },\n      \"url\" : \"https://www.setlist.fm/venue/zinno-new-york-ny-usa-23d50c97.html\"\n
+      \  }, {\n      \"id\" : \"3d41907\",\n      \"name\" : \"Zinc Bar\",\n      \"city\"
+      : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New York\",\n         \"state\"
+      : \"New York\",\n         \"stateCode\" : \"NY\",\n         \"coords\" : {\n
+      \           \"lat\" : 40.7142691,\n            \"long\" : -74.0059729\n         },\n
+      \        \"country\" : {\n            \"code\" : \"US\",\n            \"name\"
+      : \"United States\"\n         }\n      },\n      \"url\" : \"https://www.setlist.fm/venue/zinc-bar-new-york-ny-usa-3d41907.html\"\n
+      \  }, {\n      \"id\" : \"43d41b13\",\n      \"name\" : \"Ziegfield Theater\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/ziegfield-theater-new-york-ny-usa-43d41b13.html\"\n
+      \  }, {\n      \"id\" : \"13d50d79\",\n      \"name\" : \"Zerzura\",\n      \"city\"
+      : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New York\",\n         \"state\"
+      : \"New York\",\n         \"stateCode\" : \"NY\",\n         \"coords\" : {\n
+      \           \"lat\" : 40.7142691,\n            \"long\" : -74.0059729\n         },\n
+      \        \"country\" : {\n            \"code\" : \"US\",\n            \"name\"
+      : \"United States\"\n         }\n      },\n      \"url\" : \"https://www.setlist.fm/venue/zerzura-new-york-ny-usa-13d50d79.html\"\n
+      \  }, {\n      \"id\" : \"13d359a1\",\n      \"name\" : \"ZeroSpace\",\n      \"city\"
+      : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New York\",\n         \"state\"
+      : \"New York\",\n         \"stateCode\" : \"NY\",\n         \"coords\" : {\n
+      \           \"lat\" : 40.7142691,\n            \"long\" : -74.0059729\n         },\n
+      \        \"country\" : {\n            \"code\" : \"US\",\n            \"name\"
+      : \"United States\"\n         }\n      },\n      \"url\" : \"https://www.setlist.fm/venue/zerospace-new-york-ny-usa-13d359a1.html\"\n
+      \  }, {\n      \"id\" : \"2bd7a856\",\n      \"name\" : \"Zebulon\",\n      \"city\"
+      : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New York\",\n         \"state\"
+      : \"New York\",\n         \"stateCode\" : \"NY\",\n         \"coords\" : {\n
+      \           \"lat\" : 40.7142691,\n            \"long\" : -74.0059729\n         },\n
+      \        \"country\" : {\n            \"code\" : \"US\",\n            \"name\"
+      : \"United States\"\n         }\n      },\n      \"url\" : \"https://www.setlist.fm/venue/zebulon-new-york-ny-usa-2bd7a856.html\"\n
+      \  }, {\n      \"id\" : \"4bd58bd2\",\n      \"name\" : \"Zankel Hall at Carnegie
+      Hall\",\n      \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\"
+      : \"New York\",\n         \"state\" : \"New York\",\n         \"stateCode\"
+      : \"NY\",\n         \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/zankel-hall-at-carnegie-hall-new-york-ny-usa-4bd58bd2.html\"\n
+      \  }, {\n      \"id\" : \"23d798ef\",\n      \"name\" : \"Z100 Studios\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/z100-studios-new-york-ny-usa-23d798ef.html\"\n
+      \  }, {\n      \"id\" : \"73d5d20d\",\n      \"name\" : \"Z-Bar\",\n      \"city\"
+      : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New York\",\n         \"state\"
+      : \"New York\",\n         \"stateCode\" : \"NY\",\n         \"coords\" : {\n
+      \           \"lat\" : 40.7142691,\n            \"long\" : -74.0059729\n         },\n
+      \        \"country\" : {\n            \"code\" : \"US\",\n            \"name\"
+      : \"United States\"\n         }\n      },\n      \"url\" : \"https://www.setlist.fm/venue/z-bar-new-york-ny-usa-73d5d20d.html\"\n
+      \  }, {\n      \"id\" : \"23d7e8af\",\n      \"name\" : \"Youth Centre\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/youth-centre-new-york-ny-usa-23d7e8af.html\"\n
+      \  }, {\n      \"id\" : \"73d45e65\",\n      \"name\" : \"YouTube Space New
+      York\",\n      \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\"
+      : \"New York\",\n         \"state\" : \"New York\",\n         \"stateCode\"
+      : \"NY\",\n         \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/youtube-space-new-york-new-york-ny-usa-73d45e65.html\"\n
+      \  }, {\n      \"id\" : \"43d25333\",\n      \"name\" : \"Yorkville Palace\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/yorkville-palace-new-york-ny-usa-43d25333.html\"\n
+      \  }, {\n      \"id\" : \"43d4bb37\",\n      \"name\" : \"Yippie Museum Caf\xE9\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/yippie-museum-cafe-new-york-ny-usa-43d4bb37.html\"\n
+      \  }, {\n      \"id\" : \"3bd5147c\",\n      \"name\" : \"Yardbird Suite\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/yardbird-suite-new-york-ny-usa-3bd5147c.html\"\n
+      \  }, {\n      \"id\" : \"1bd5a10c\",\n      \"name\" : \"Yahoo Music Awards\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/yahoo-music-awards-new-york-ny-usa-1bd5a10c.html\"\n
+      \  }, {\n      \"id\" : \"4bd5c33e\",\n      \"name\" : \"Yacht Club\",\n      \"city\"
+      : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New York\",\n         \"state\"
+      : \"New York\",\n         \"stateCode\" : \"NY\",\n         \"coords\" : {\n
+      \           \"lat\" : 40.7142691,\n            \"long\" : -74.0059729\n         },\n
+      \        \"country\" : {\n            \"code\" : \"US\",\n            \"name\"
+      : \"United States\"\n         }\n      },\n      \"url\" : \"https://www.setlist.fm/venue/yacht-club-new-york-ny-usa-4bd5c33e.html\"\n
+      \  }, {\n      \"id\" : \"13d719f1\",\n      \"name\" : \"XVI Rooftop Lounge\",\n
+      \     \"city\" : {\n         \"id\" : \"5128581\",\n         \"name\" : \"New
+      York\",\n         \"state\" : \"New York\",\n         \"stateCode\" : \"NY\",\n
+      \        \"coords\" : {\n            \"lat\" : 40.7142691,\n            \"long\"
+      : -74.0059729\n         },\n         \"country\" : {\n            \"code\" :
+      \"US\",\n            \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/xvi-rooftop-lounge-new-york-ny-usa-13d719f1.html\"\n
+      \  } ]\n}"
+    headers:
+      Age:
+      - '1'
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:10:09 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding,Accept,Accept-Language
+      Via:
+      - 1.1 b4396731a9663e6ea5f94926a9a70198.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - ti89JWrs05ScmcexyLuOfOZAGjSAzozR3vEn8sqEcmv5sntIR4fZhw==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Hit from cloudfront
+      x-amz-apigw-id:
+      - U0pIRFcvIAMF7ew=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '14928'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:10:09 GMT
+      x-amzn-RequestId:
+      - a5182fc4-56c2-4cf1-b62e-4276b1a75fd2
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

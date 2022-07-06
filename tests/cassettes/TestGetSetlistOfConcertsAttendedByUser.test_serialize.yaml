@@ -1,0 +1,425 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/user/michi/attended?p=1
+  response:
+    content: "{\n   \"type\" : \"setlists\",\n   \"itemsPerPage\" : 20,\n   \"page\"
+      : 1,\n   \"total\" : 543,\n   \"setlist\" : [ {\n      \"id\" : \"33b47c45\",\n
+      \     \"versionId\" : \"g3bf714d4\",\n      \"eventDate\" : \"11-06-2022\",\n
+      \     \"lastUpdated\" : \"2022-06-13T06:32:59.000+0000\",\n      \"artist\"
+      : {\n         \"mbid\" : \"e739971e-c967-468d-a5ef-5689dd641d24\",\n         \"name\"
+      : \"Granada\",\n         \"sortName\" : \"Granada\",\n         \"disambiguation\"
+      : \"Austrian band\",\n         \"url\" : \"https://www.setlist.fm/setlists/granada-3c59117.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd623dc\",\n         \"name\"
+      : \"Conrad Sohm\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/conrad-sohm-dornbirn-austria-5bd623dc.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/granada/2022/conrad-sohm-dornbirn-austria-33b47c45.html\"\n
+      \  }, {\n      \"id\" : \"53b4fb6d\",\n      \"versionId\" : \"g5bf61bf8\",\n
+      \     \"eventDate\" : \"01-06-2022\",\n      \"lastUpdated\" : \"2022-06-03T10:44:02.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"fad10ed4-58c7-47bb-9d70-88d8c3b0ccc2\",\n
+      \        \"name\" : \"Friska Viljor\",\n         \"sortName\" : \"Friska Viljor\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/friska-viljor-63d632ab.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd623dc\",\n         \"name\"
+      : \"Conrad Sohm\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/conrad-sohm-dornbirn-austria-5bd623dc.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"If I Die Now\"\n            } ]\n         },
+      {\n            \"encore\" : 1,\n            \"song\" : [ {\n               \"name\"
+      : \"Inbreeds\",\n               \"with\" : {\n                  \"mbid\" : \"281db260-0c3d-4dd9-b48d-2c10f13ec2d1\",\n
+      \                 \"name\" : \"MESSINA\",\n                  \"sortName\" :
+      \"MESSINA\",\n                  \"disambiguation\" : \"Electronic pop group\",\n
+      \                 \"url\" : \"https://www.setlist.fm/setlists/messina-3f239ef.html\"\n
+      \              }\n            } ]\n         }, {\n            \"encore\" : 2,\n
+      \           \"song\" : [ {\n               \"name\" : \"Shotgun Sister\",\n
+      \              \"info\" : \"Played on bar at the back of the venue and within
+      the audience\"\n            }, {\n               \"name\" : \"Ooh La La\",\n
+      \              \"tape\" : true,\n               \"cover\" : {\n                  \"mbid\"
+      : \"8c7a8406-f15a-408d-b0f6-23be813bdddc\",\n                  \"name\" : \"Faces\",\n
+      \                 \"sortName\" : \"Faces\",\n                  \"disambiguation\"
+      : \"successor of \\\"Small Faces\\\", members Rod Stewart, Ron Wood\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/faces-2bd6b8a6.html\"\n               }\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/friska-viljor/2022/conrad-sohm-dornbirn-austria-53b4fb6d.html\"\n
+      \  }, {\n      \"id\" : \"5bb4fb60\",\n      \"versionId\" : \"g33f63071\",\n
+      \     \"eventDate\" : \"01-06-2022\",\n      \"lastUpdated\" : \"2022-06-02T06:29:07.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"281db260-0c3d-4dd9-b48d-2c10f13ec2d1\",\n
+      \        \"name\" : \"MESSINA\",\n         \"sortName\" : \"MESSINA\",\n         \"disambiguation\"
+      : \"Electronic pop group\",\n         \"url\" : \"https://www.setlist.fm/setlists/messina-3f239ef.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd623dc\",\n         \"name\"
+      : \"Conrad Sohm\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/conrad-sohm-dornbirn-austria-5bd623dc.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/messina/2022/conrad-sohm-dornbirn-austria-5bb4fb60.html\"\n
+      \  }, {\n      \"id\" : \"43b73797\",\n      \"versionId\" : \"g43c8076f\",\n
+      \     \"eventDate\" : \"13-05-2022\",\n      \"lastUpdated\" : \"2022-05-13T21:47:52.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"456104db-b21e-46a6-a094-1dd396f4c6a6\",\n
+      \        \"name\" : \"Bilderbuch\",\n         \"sortName\" : \"Bilderbuch\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/bilderbuch-33d47cf9.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"3d62533\",\n         \"name\"
+      : \"Rathaus\",\n         \"city\" : {\n            \"id\" : \"2761369\",\n            \"name\"
+      : \"Vienna\",\n            \"state\" : \"Vienna\",\n            \"stateCode\"
+      : \"09\",\n            \"coords\" : {\n               \"lat\" : 48.2084877601653,\n
+      \              \"long\" : 16.3720750808716\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/rathaus-vienna-austria-3d62533.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Gelb ist das Feld Tour 2022\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Zwischen deiner und meiner Welt\"\n            },
+      {\n               \"name\" : \"Spliff\"\n            } ]\n         } ]\n      },\n
+      \     \"info\" : \"Part of Wiener Festwochen 2022 Opening\",\n      \"url\"
+      : \"https://www.setlist.fm/setlist/bilderbuch/2022/rathaus-vienna-austria-43b73797.html\"\n
+      \  }, {\n      \"id\" : \"1bb72184\",\n      \"versionId\" : \"gbc84d82\",\n
+      \     \"eventDate\" : \"12-05-2022\",\n      \"lastUpdated\" : \"2022-05-16T07:27:12.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"24762087-34ce-4f65-b743-7d8402cf30dd\",\n
+      \        \"name\" : \"Joshua Radin\",\n         \"sortName\" : \"Radin, Joshua\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/joshua-radin-73d6fe91.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd62320\",\n         \"name\"
+      : \"Porgy & Bess\",\n         \"city\" : {\n            \"id\" : \"2761369\",\n
+      \           \"name\" : \"Vienna\",\n            \"state\" : \"Vienna\",\n            \"stateCode\"
+      : \"09\",\n            \"coords\" : {\n               \"lat\" : 48.2084877601653,\n
+      \              \"long\" : 16.3720750808716\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/porgy-and-bess-vienna-austria-5bd62320.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"No Envy, No Fear\"\n            }, {\n               \"name\"
+      : \"Only You\",\n               \"cover\" : {\n                  \"mbid\" :
+      \"29ba8304-1ca2-4170-b415-4ee5381ec783\",\n                  \"name\" : \"Yaz\",\n
+      \                 \"sortName\" : \"Yaz\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/yaz-43d3ebe7.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Here, Right
+      Now\"\n            }, {\n               \"name\" : \"Winter\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"Don't Think Twice, It's All Right\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"72c536dc-7137-4477-a521-567eeb840fa8\",\n
+      \                 \"name\" : \"Bob Dylan\",\n                  \"sortName\"
+      : \"Dylan, Bob\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/bob-dylan-1bd6adb8.html\"\n               },\n
+      \              \"with\" : {\n                  \"mbid\" : \"b2b3b680-958a-4ee7-bf3b-0a3998a79a42\",\n
+      \                 \"name\" : \"Clara Louise\",\n                  \"sortName\"
+      : \"Clara Louise\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/clara-louise-13c9d161.html\"\n               }\n
+      \           } ]\n         } ]\n      },\n      \"info\" : \"Setlist incomplete
+      and out of order\",\n      \"url\" : \"https://www.setlist.fm/setlist/joshua-radin/2022/porgy-and-bess-vienna-austria-1bb72184.html\"\n
+      \  }, {\n      \"id\" : \"2bb7207a\",\n      \"versionId\" : \"g3c84dab\",\n
+      \     \"eventDate\" : \"12-05-2022\",\n      \"lastUpdated\" : \"2022-05-16T07:16:06.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"b2b3b680-958a-4ee7-bf3b-0a3998a79a42\",\n
+      \        \"name\" : \"Clara Louise\",\n         \"sortName\" : \"Clara Louise\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/clara-louise-13c9d161.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd62320\",\n         \"name\"
+      : \"Porgy & Bess\",\n         \"city\" : {\n            \"id\" : \"2761369\",\n
+      \           \"name\" : \"Vienna\",\n            \"state\" : \"Vienna\",\n            \"stateCode\"
+      : \"09\",\n            \"coords\" : {\n               \"lat\" : 48.2084877601653,\n
+      \              \"long\" : 16.3720750808716\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/porgy-and-bess-vienna-austria-5bd62320.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/clara-louise/2022/porgy-and-bess-vienna-austria-2bb7207a.html\"\n
+      \  }, {\n      \"id\" : \"33b79881\",\n      \"versionId\" : \"g13f40121\",\n
+      \     \"eventDate\" : \"04-05-2022\",\n      \"lastUpdated\" : \"2022-06-23T01:04:11.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"a19fd898-5e9e-405e-baf4-9ca0c88eac6c\",\n
+      \        \"name\" : \"PET NEEDS\",\n         \"sortName\" : \"PET NEEDS\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/pet-needs-bf6d122.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"13d37525\",\n         \"name\"
+      : \"X-TRA\",\n         \"city\" : {\n            \"id\" : \"2657896\",\n            \"name\"
+      : \"Zurich\",\n            \"state\" : \"Z\xFCrich\",\n            \"stateCode\"
+      : \"ZH\",\n            \"coords\" : {\n               \"lat\" : 47.3666667,\n
+      \              \"long\" : 8.55\n            },\n            \"country\" : {\n
+      \              \"code\" : \"CH\",\n               \"name\" : \"Switzerland\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/x-tra-zurich-switzerland-13d37525.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"The Neverending Tour of
+      Everywhere\"\n      },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\"
+      : [ {\n               \"name\" : \"Toothpaste\"\n            }, {\n               \"name\"
+      : \"Kayak\"\n            }, {\n               \"name\" : \"Get On The Roof\"\n
+      \           }, {\n               \"name\" : \"Punk Isn't Dead; It's Just Up
+      for Sale\"\n            }, {\n               \"name\" : \"Scratch Card\"\n            },
+      {\n               \"name\" : \"Spin Cycle\"\n            }, {\n               \"name\"
+      : \"Tracey Emin's Bed\"\n            }, {\n               \"name\" : \"Overcompensating\"\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/pet-needs/2022/x-tra-zurich-switzerland-33b79881.html\"\n
+      \  }, {\n      \"id\" : \"1bb7a19c\",\n      \"versionId\" : \"g5bc8b33c\",\n
+      \     \"eventDate\" : \"04-05-2022\",\n      \"lastUpdated\" : \"2022-05-06T13:21:59.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"aca5718f-4f49-4439-b8f6-209db3f11757\",\n
+      \        \"name\" : \"Frank Turner\",\n         \"sortName\" : \"Turner, Frank\",\n
+      \        \"disambiguation\" : \"UK punk & folk singer-songwriter\",\n         \"url\"
+      : \"https://www.setlist.fm/setlists/frank-turner-6bd626f2.html\"\n      },\n
+      \     \"venue\" : {\n         \"id\" : \"13d37525\",\n         \"name\" : \"X-TRA\",\n
+      \        \"city\" : {\n            \"id\" : \"2657896\",\n            \"name\"
+      : \"Zurich\",\n            \"state\" : \"Z\xFCrich\",\n            \"stateCode\"
+      : \"ZH\",\n            \"coords\" : {\n               \"lat\" : 47.3666667,\n
+      \              \"long\" : 8.55\n            },\n            \"country\" : {\n
+      \              \"code\" : \"CH\",\n               \"name\" : \"Switzerland\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/x-tra-zurich-switzerland-13d37525.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"The Neverending Tour of
+      Everywhere\"\n      },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\"
+      : [ {\n               \"name\" : \"Four Simple Words\"\n            }, {\n               \"name\"
+      : \"The Gathering\"\n            }, {\n               \"name\" : \"Haven't Been
+      Doing So Well\"\n            }, {\n               \"name\" : \"Photosynthesis\"\n
+      \           }, {\n               \"name\" : \"Plain Sailing Weather\"\n            },
+      {\n               \"name\" : \"If Ever I Stray\"\n            }, {\n               \"name\"
+      : \"Punches\"\n            }, {\n               \"name\" : \"1933\"\n            },
+      {\n               \"name\" : \"Glorious You\"\n            }, {\n               \"name\"
+      : \"Miranda\"\n            }, {\n               \"name\" : \"I Am Disappeared\"\n
+      \           }, {\n               \"name\" : \"Out of Breath\"\n            },
+      {\n               \"name\" : \"The Resurrectionists\",\n               \"info\"
+      : \"Introduced as \\\"First time ever live\\\"\"\n            } ]\n         },
+      {\n            \"name\" : \"Frank Solo\",\n            \"song\" : [ {\n               \"name\"
+      : \"There She Is\"\n            }, {\n               \"name\" : \"Dan's Song\"\n
+      \           }, {\n               \"name\" : \"Be More Kind\"\n            }
+      ]\n         }, {\n            \"song\" : [ {\n               \"name\" : \"I
+      Knew Prufrock Before He Got Famous\"\n            }, {\n               \"name\"
+      : \"The Next Storm\"\n            }, {\n               \"name\" : \"My Bad\"\n
+      \           }, {\n               \"name\" : \"Non Serviam\"\n            },
+      {\n               \"name\" : \"Polaroid Picture\"\n            }, {\n               \"name\"
+      : \"Get Better\"\n            } ]\n         }, {\n            \"encore\" : 1,\n
+      \           \"song\" : [ {\n               \"name\" : \"The Ballad of Me and
+      My Friends\"\n            }, {\n               \"name\" : \"Recovery\"\n            },
+      {\n               \"name\" : \"Try This at Home\"\n            }, {\n               \"name\"
+      : \"I Still Believe\"\n            } ]\n         } ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/frank-turner/2022/x-tra-zurich-switzerland-1bb7a19c.html\"\n
+      \  }, {\n      \"id\" : \"388a597\",\n      \"versionId\" : \"g3bc320c8\",\n
+      \     \"eventDate\" : \"12-01-2022\",\n      \"lastUpdated\" : \"2022-01-13T07:12:48.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"fe5896cb-18d2-4471-9b10-28c6ebe1b6c7\",\n
+      \        \"name\" : \"Austrofred\",\n         \"sortName\" : \"Austrofred\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/austrofred-33d5783d.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd6c7a0\",\n         \"name\"
+      : \"Spielboden\",\n         \"city\" : {\n            \"id\" : \"2780741\",\n
+      \           \"name\" : \"Dornbirn\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4166667,\n               \"long\" : 9.7330556\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/spielboden-dornbirn-austria-5bd6c7a0.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Die Fitten Jahren Sind Vorbei\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/austrofred/2022/spielboden-dornbirn-austria-388a597.html\"\n
+      \  }, {\n      \"id\" : \"7b8a9a5c\",\n      \"versionId\" : \"g53c0330d\",\n
+      \     \"eventDate\" : \"02-11-2021\",\n      \"lastUpdated\" : \"2022-01-31T22:47:26.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"69b39eab-6577-46a4-a9f5-817839092033\",\n
+      \        \"name\" : \"Kasabian\",\n         \"sortName\" : \"Kasabian\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/kasabian-3d6bd5b.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"2bd6c8ea\",\n         \"name\"
+      : \"O2 Academy Brixton\",\n         \"city\" : {\n            \"id\" : \"2643743\",\n
+      \           \"name\" : \"London\",\n            \"state\" : \"England\",\n            \"stateCode\"
+      : \"ENG\",\n            \"coords\" : {\n               \"lat\" : 51.5084152563931,\n
+      \              \"long\" : -0.125532746315002\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/o2-academy-brixton-london-england-2bd6c8ea.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"UK Tour 2021\"\n      },\n
+      \     \"sets\" : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Club Foot\"\n            }, {\n               \"name\" : \"Ill Ray (The
+      King)\"\n            }, {\n               \"name\" : \"Underdog\"\n            },
+      {\n               \"name\" : \"You're in Love With a Psycho\"\n            },
+      {\n               \"name\" : \"Shoot the Runner\"\n            }, {\n               \"name\"
+      : \"ALYGATYR\"\n            }, {\n               \"name\" : \"stevie\"\n            },
+      {\n               \"name\" : \"I.D.\"\n            }, {\n               \"name\"
+      : \"Pinch Roller\"\n            }, {\n               \"name\" : \"treat\",\n
+      \              \"info\" : \"including Sweet Dreams by Eurythmics\"\n            },
+      {\n               \"name\" : \"Empire\"\n            }, {\n               \"name\"
+      : \"Vlad the Impaler\"\n            } ]\n         }, {\n            \"encore\"
+      : 1,\n            \"song\" : [ {\n               \"name\" : \"Bless This Acid
+      House\"\n            }, {\n               \"name\" : \"L.S.F. (Lost Souls Forever)\"\n
+      \           }, {\n               \"name\" : \"Fire\"\n            } ]\n         }
+      ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/kasabian/2021/o2-academy-brixton-london-england-7b8a9a5c.html\"\n
+      \  }, {\n      \"id\" : \"2b8a94ea\",\n      \"versionId\" : \"g3bc7b0ec\",\n
+      \     \"eventDate\" : \"02-11-2021\",\n      \"lastUpdated\" : \"2021-10-31T11:28:20.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"ae1b32a2-107d-4093-a00b-ac6acf838632\",\n
+      \        \"name\" : \"The Skinner Brothers\",\n         \"sortName\" : \"The
+      Skinner Brothers\",\n         \"disambiguation\" : \"\",\n         \"url\" :
+      \"https://www.setlist.fm/setlists/the-skinner-brothers-23f0e827.html\"\n      },\n
+      \     \"venue\" : {\n         \"id\" : \"2bd6c8ea\",\n         \"name\" : \"O2
+      Academy Brixton\",\n         \"city\" : {\n            \"id\" : \"2643743\",\n
+      \           \"name\" : \"London\",\n            \"state\" : \"England\",\n            \"stateCode\"
+      : \"ENG\",\n            \"coords\" : {\n               \"lat\" : 51.5084152563931,\n
+      \              \"long\" : -0.125532746315002\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/o2-academy-brixton-london-england-2bd6c8ea.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/the-skinner-brothers/2021/o2-academy-brixton-london-england-2b8a94ea.html\"\n
+      \  }, {\n      \"id\" : \"238f781b\",\n      \"versionId\" : \"g23d830bb\",\n
+      \     \"eventDate\" : \"06-08-2021\",\n      \"lastUpdated\" : \"2021-09-28T08:48:30.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"51840e23-72a6-4731-ad0e-6b177bc45030\",\n
+      \        \"name\" : \"5K HD\",\n         \"sortName\" : \"5K HD\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/5k-hd-1bc895c8.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"13d7e9b5\",\n         \"name\"
+      : \"Altes Hallenbad\",\n         \"city\" : {\n            \"id\" : \"2779674\",\n
+      \           \"name\" : \"Feldkirch\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.2330556,\n               \"long\" : 9.6\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/altes-hallenbad-feldkirch-austria-13d7e9b5.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/5k-hd/2021/altes-hallenbad-feldkirch-austria-238f781b.html\"\n
+      \  }, {\n      \"id\" : \"3b8f7824\",\n      \"versionId\" : \"g3bd830c4\",\n
+      \     \"eventDate\" : \"06-08-2021\",\n      \"lastUpdated\" : \"2021-09-28T08:47:58.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"945b8d4c-16f6-44d7-b0b6-20a1bee0cc22\",\n
+      \        \"name\" : \"Cari Cari\",\n         \"sortName\" : \"Cari Cari\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/cari-cari-13c4f1ed.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"13d7e9b5\",\n         \"name\"
+      : \"Altes Hallenbad\",\n         \"city\" : {\n            \"id\" : \"2779674\",\n
+      \           \"name\" : \"Feldkirch\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.2330556,\n               \"long\" : 9.6\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/altes-hallenbad-feldkirch-austria-13d7e9b5.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/cari-cari/2021/altes-hallenbad-feldkirch-austria-3b8f7824.html\"\n
+      \  }, {\n      \"id\" : \"3b8f14cc\",\n      \"versionId\" : \"g63dc3a0f\",\n
+      \     \"eventDate\" : \"31-07-2021\",\n      \"lastUpdated\" : \"2021-07-30T06:44:57.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"fcb5351b-6b35-4dab-9942-bba1fc2c6edc\",\n
+      \        \"name\" : \"AVEC\",\n         \"sortName\" : \"AVEC\",\n         \"disambiguation\"
+      : \"Austrian artist\",\n         \"url\" : \"https://www.setlist.fm/setlists/avec-3bc53ccc.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/avec/2021/am-alten-rhein-lustenau-austria-3b8f14cc.html\"\n
+      \  }, {\n      \"id\" : \"238f14cf\",\n      \"versionId\" : \"g6bdc3a0a\",\n
+      \     \"eventDate\" : \"31-07-2021\",\n      \"lastUpdated\" : \"2021-07-30T06:43:26.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"7b52405c-7d5a-4231-bbfb-b46020706193\",\n
+      \        \"name\" : \"Bonez MC & RAF Camora\",\n         \"sortName\" : \"Bonez
+      MC & RAF Camora\",\n         \"url\" : \"https://www.setlist.fm/setlists/bonez-mc-and-raf-camora-5bc0371c.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/bonez-mc-and-raf-camora/2021/am-alten-rhein-lustenau-austria-238f14cf.html\"\n
+      \  }, {\n      \"id\" : \"338f14c9\",\n      \"versionId\" : \"g7bdc3a14\",\n
+      \     \"eventDate\" : \"31-07-2021\",\n      \"lastUpdated\" : \"2021-07-30T06:42:52.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"7e7507a7-65c6-41fc-bc92-330d5b316ec5\",\n
+      \        \"name\" : \"77 Bombay Street\",\n         \"sortName\" : \"77 Bombay
+      Street\",\n         \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/77-bombay-street-3d26533.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/77-bombay-street/2021/am-alten-rhein-lustenau-austria-338f14c9.html\"\n
+      \  }, {\n      \"id\" : \"7b8f1e5c\",\n      \"versionId\" : \"g4bdcc702\",\n
+      \     \"eventDate\" : \"31-07-2021\",\n      \"lastUpdated\" : \"2021-07-29T06:35:09.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"58e80cb1-6b99-43de-b3f8-0d24ab25688e\",\n
+      \        \"name\" : \"Leoniden\",\n         \"sortName\" : \"Leoniden\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/leoniden-3c6e9df.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/leoniden/2021/am-alten-rhein-lustenau-austria-7b8f1e5c.html\"\n
+      \  }, {\n      \"id\" : \"6b8f1e5e\",\n      \"versionId\" : \"gbdc096a\",\n
+      \     \"eventDate\" : \"30-07-2021\",\n      \"lastUpdated\" : \"2021-08-02T07:12:32.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"e0675fe9-0288-45cd-a7aa-ba5941a8a052\",\n
+      \        \"name\" : \"Voodoo J\xFCrgens\",\n         \"sortName\" : \"Voodoo
+      J\xFCrgens\",\n         \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/voodoo-jurgens-63c32653.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"info\"
+      : \"Show suspended and ultimately canceled after some songs due to a storm warning.\",\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/voodoo-jurgens/2021/am-alten-rhein-lustenau-austria-6b8f1e5e.html\"\n
+      \  }, {\n      \"id\" : \"238f14d7\",\n      \"versionId\" : \"g63dc3a13\",\n
+      \     \"eventDate\" : \"30-07-2021\",\n      \"lastUpdated\" : \"2021-07-30T06:39:32.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"43c23d5c-6ffa-4240-b37e-b0bc063436e4\",\n
+      \        \"name\" : \"Finch\",\n         \"sortName\" : \"Finch\",\n         \"disambiguation\"
+      : \"German IDM duo\",\n         \"url\" : \"https://www.setlist.fm/setlists/finch-73d6f63d.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/finch/2021/am-alten-rhein-lustenau-austria-238f14d7.html\"\n
+      \  }, {\n      \"id\" : \"6b8f1e5a\",\n      \"versionId\" : \"g5bdcc708\",\n
+      \     \"eventDate\" : \"29-07-2021\",\n      \"lastUpdated\" : \"2021-07-29T06:33:47.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"ee37f948-be59-4501-aa4f-2f5e4ea18209\",\n
+      \        \"name\" : \"Juleah\",\n         \"sortName\" : \"Juleah\",\n         \"disambiguation\"
+      : \"Austrian psychedelic rock band from Vorarlberg.\",\n         \"url\" : \"https://www.setlist.fm/setlists/juleah-23c000a3.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d7b3e9\",\n         \"name\"
+      : \"Am alten Rhein\",\n         \"city\" : {\n            \"id\" : \"2772173\",\n
+      \           \"name\" : \"Lustenau\",\n            \"state\" : \"Vorarlberg\",\n
+      \           \"stateCode\" : \"08\",\n            \"coords\" : {\n               \"lat\"
+      : 47.4330556,\n               \"long\" : 9.65\n            },\n            \"country\"
+      : {\n               \"code\" : \"AT\",\n               \"name\" : \"Austria\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/am-alten-rhein-lustenau-austria-53d7b3e9.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ ]\n      },\n      \"url\"
+      : \"https://www.setlist.fm/setlist/juleah/2021/am-alten-rhein-lustenau-austria-6b8f1e5a.html\"\n
+      \  } ]\n}"
+    headers:
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:07:49 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding,Accept,Accept-Language
+      Via:
+      - 1.1 784a91ee0539c02263f0e03f7760900c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - xkc2YS2WsW9pjc8tIpiBxaoYE2qOf-q3vEoCLMN1r8J_VrTgZa_7_g==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Miss from cloudfront
+      x-amz-apigw-id:
+      - U0oyYF1oIAMFY1g=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '29431'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:07:49 GMT
+      x-amzn-RequestId:
+      - 53145104-3e5b-42b0-8255-c3aad2d0806e
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

@@ -1,0 +1,849 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/artist/0bfba3d3-6a04-4779-bb0a-df07df5b0558/setlists?p=2
+  response:
+    content: "{\n   \"type\" : \"setlists\",\n   \"itemsPerPage\" : 20,\n   \"page\"
+      : 2,\n   \"total\" : 991,\n   \"setlist\" : [ {\n      \"id\" : \"538b9f8d\",\n
+      \     \"versionId\" : \"g3bc51098\",\n      \"eventDate\" : \"04-12-2021\",\n
+      \     \"lastUpdated\" : \"2021-12-07T00:56:15.000+0000\",\n      \"artist\"
+      : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n         \"name\"
+      : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n         \"disambiguation\"
+      : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"33d6c8f1\",\n         \"name\"
+      : \"Usher Hall\",\n         \"city\" : {\n            \"id\" : \"2650225\",\n
+      \           \"name\" : \"Edinburgh\",\n            \"state\" : \"Scotland\",\n
+      \           \"stateCode\" : \"SCT\",\n            \"coords\" : {\n               \"lat\"
+      : 55.95,\n               \"long\" : -3.2\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/usher-hall-edinburgh-scotland-33d6c8f1.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Just Enough Education to
+      Perform 20th Anniversary Tour\"\n      },\n      \"sets\" : {\n         \"set\"
+      : [ {\n            \"name\" : \"Just Enough Education to Perform\",\n            \"song\"
+      : [ {\n               \"name\" : \"Vegas Two Times\"\n            }, {\n               \"name\"
+      : \"Surprise\"\n            }, {\n               \"name\" : \"Lying in the Sun\"\n
+      \           }, {\n               \"name\" : \"Mr Writer\"\n            }, {\n
+      \              \"name\" : \"Step on My Old Size Nines\"\n            }, {\n
+      \              \"name\" : \"Have a Nice Day\"\n            }, {\n               \"name\"
+      : \"Nice to Be Out\"\n            }, {\n               \"name\" : \"Handbags
+      and Gladrags\",\n               \"cover\" : {\n                  \"mbid\" :
+      \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Watch Them Fly
+      Sundays\"\n            }, {\n               \"name\" : \"Everyday I Think of
+      Money\"\n            }, {\n               \"name\" : \"Maybe\"\n            },
+      {\n               \"name\" : \"Caravan Holiday\"\n            }, {\n               \"name\"
+      : \"Rooftop\"\n            } ]\n         }, {\n            \"encore\" : 1,\n
+      \           \"song\" : [ {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Do Ya Feel My Love\"\n            }, {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"Just Looking\"\n
+      \           }, {\n               \"name\" : \"Fly Like an Eagle\"\n            },
+      {\n               \"name\" : \"Mr and Mrs Smith\"\n            } ]\n         },
+      {\n            \"encore\" : 2,\n            \"song\" : [ {\n               \"name\"
+      : \"Hurry Up and Wait\"\n            }, {\n               \"name\" : \"Traffic\"\n
+      \           }, {\n               \"name\" : \"Maybe Tomorrow\"\n            },
+      {\n               \"name\" : \"Dakota\"\n            } ]\n         } ]\n      },\n
+      \     \"info\" : \"EDINBURGH - JEEP @ 20 TOUR - SHOW SIX v.1 (printed on setlist)\",\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2021/usher-hall-edinburgh-scotland-538b9f8d.html\"\n
+      \  }, {\n      \"id\" : \"638ba663\",\n      \"versionId\" : \"g3bc5109c\",\n
+      \     \"eventDate\" : \"03-12-2021\",\n      \"lastUpdated\" : \"2021-12-07T00:57:01.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"1bd62140\",\n         \"name\"
+      : \"Caird Hall\",\n         \"city\" : {\n            \"id\" : \"2650752\",\n
+      \           \"name\" : \"Dundee\",\n            \"state\" : \"Scotland\",\n
+      \           \"stateCode\" : \"SCT\",\n            \"coords\" : {\n               \"lat\"
+      : 56.5,\n               \"long\" : -2.9666667\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/caird-hall-dundee-scotland-1bd62140.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Just Enough Education to
+      Perform 20th Anniversary Tour\"\n      },\n      \"sets\" : {\n         \"set\"
+      : [ {\n            \"name\" : \"Just Enough Education to Perform\",\n            \"song\"
+      : [ {\n               \"name\" : \"Vegas Two Times\"\n            }, {\n               \"name\"
+      : \"Surprise\"\n            }, {\n               \"name\" : \"Lying in the Sun\"\n
+      \           }, {\n               \"name\" : \"Mr Writer\"\n            }, {\n
+      \              \"name\" : \"Step on My Old Size Nines\"\n            }, {\n
+      \              \"name\" : \"Have a Nice Day\"\n            }, {\n               \"name\"
+      : \"Nice to Be Out\"\n            }, {\n               \"name\" : \"Handbags
+      and Gladrags\",\n               \"cover\" : {\n                  \"mbid\" :
+      \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Watch Them Fly
+      Sundays\"\n            }, {\n               \"name\" : \"Everyday I Think of
+      Money\"\n            }, {\n               \"name\" : \"Maybe\"\n            },
+      {\n               \"name\" : \"Caravan Holiday\"\n            }, {\n               \"name\"
+      : \"Rooftop\"\n            } ]\n         }, {\n            \"encore\" : 1,\n
+      \           \"song\" : [ {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Do Ya Feel My Love\"\n            }, {\n               \"name\"
+      : \"I Wanna Get Lost With You\"\n            }, {\n               \"name\" :
+      \"Just Looking\"\n            }, {\n               \"name\" : \"Maybe Tomorrow\"\n
+      \           }, {\n               \"name\" : \"Traffic\"\n            }, {\n
+      \              \"name\" : \"The Bartender and the Thief\"\n            }, {\n
+      \              \"name\" : \"C'est la vie\"\n            }, {\n               \"name\"
+      : \"Dakota\"\n            } ]\n         } ]\n      },\n      \"info\" : \"DUNDEE
+      - JEEP @ 20 TOUR - SHOW FIVE - v.2 (printed on setlist)\",\n      \"url\" :
+      \"https://www.setlist.fm/setlist/stereophonics/2021/caird-hall-dundee-scotland-638ba663.html\"\n
+      \  }, {\n      \"id\" : \"b8bbdd6\",\n      \"versionId\" : \"g3bc51090\",\n
+      \     \"eventDate\" : \"30-11-2021\",\n      \"lastUpdated\" : \"2021-12-07T00:57:46.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"33d5f06d\",\n         \"name\"
+      : \"Cambridge Corn Exchange\",\n         \"city\" : {\n            \"id\" :
+      \"2653942\",\n            \"name\" : \"Cambridge\",\n            \"state\" :
+      \"England\",\n            \"stateCode\" : \"ENG\",\n            \"coords\" :
+      {\n               \"lat\" : 52.2018,\n               \"long\" : 0.1144\n            },\n
+      \           \"country\" : {\n               \"code\" : \"GB\",\n               \"name\"
+      : \"United Kingdom\"\n            }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/cambridge-corn-exchange-cambridge-england-33d5f06d.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Just Enough Education to
+      Perform 20th Anniversary Tour\"\n      },\n      \"sets\" : {\n         \"set\"
+      : [ {\n            \"name\" : \"Just Enough Education to Perform\",\n            \"song\"
+      : [ {\n               \"name\" : \"Vegas Two Times\"\n            }, {\n               \"name\"
+      : \"Surprise\"\n            }, {\n               \"name\" : \"Lying in the Sun\"\n
+      \           }, {\n               \"name\" : \"Mr Writer\"\n            }, {\n
+      \              \"name\" : \"Step on My Old Size Nines\"\n            }, {\n
+      \              \"name\" : \"Have a Nice Day\"\n            }, {\n               \"name\"
+      : \"Nice to Be Out\"\n            }, {\n               \"name\" : \"Handbags
+      and Gladrags\",\n               \"cover\" : {\n                  \"mbid\" :
+      \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Watch Them Fly
+      Sundays\"\n            }, {\n               \"name\" : \"Everyday I Think of
+      Money\"\n            }, {\n               \"name\" : \"Maybe\"\n            },
+      {\n               \"name\" : \"Caravan Holiday\"\n            }, {\n               \"name\"
+      : \"Rooftop\"\n            } ]\n         }, {\n            \"encore\" : 1,\n
+      \           \"song\" : [ {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Do Ya Feel My Love\"\n            }, {\n               \"name\"
+      : \"A Thousand Trees\"\n            }, {\n               \"name\" : \"Traffic\"\n
+      \           }, {\n               \"name\" : \"Indian Summer\"\n            },
+      {\n               \"name\" : \"C'est la vie\"\n            } ]\n         },
+      {\n            \"encore\" : 2,\n            \"song\" : [ {\n               \"name\"
+      : \"Fly Like an Eagle\"\n            }, {\n               \"name\" : \"Maybe
+      Tomorrow\"\n            }, {\n               \"name\" : \"Just Looking\"\n            },
+      {\n               \"name\" : \"Dakota\"\n            } ]\n         } ]\n      },\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2021/cambridge-corn-exchange-cambridge-england-b8bbdd6.html\"\n
+      \  }, {\n      \"id\" : \"238a4403\",\n      \"versionId\" : \"g3bc51094\",\n
+      \     \"eventDate\" : \"29-11-2021\",\n      \"lastUpdated\" : \"2021-12-07T00:58:36.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd5c606\",\n         \"name\"
+      : \"Portsmouth Guildhall\",\n         \"city\" : {\n            \"id\" : \"2639996\",\n
+      \           \"name\" : \"Portsmouth\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 50.8090805768295,\n               \"long\" : -1.07142448425293\n            },\n
+      \           \"country\" : {\n               \"code\" : \"GB\",\n               \"name\"
+      : \"United Kingdom\"\n            }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/portsmouth-guildhall-portsmouth-england-6bd5c606.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Just Enough Education to
+      Perform 20th Anniversary Tour\"\n      },\n      \"sets\" : {\n         \"set\"
+      : [ {\n            \"name\" : \"Just Enough Education to Perform\",\n            \"song\"
+      : [ {\n               \"name\" : \"Vegas Two Times\"\n            }, {\n               \"name\"
+      : \"Surprise\"\n            }, {\n               \"name\" : \"Lying in the Sun\"\n
+      \           }, {\n               \"name\" : \"Mr Writer\"\n            }, {\n
+      \              \"name\" : \"Step on My Old Size Nines\"\n            }, {\n
+      \              \"name\" : \"Have a Nice Day\"\n            }, {\n               \"name\"
+      : \"Nice to Be Out\"\n            }, {\n               \"name\" : \"Handbags
+      and Gladrags\",\n               \"cover\" : {\n                  \"mbid\" :
+      \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Watch Them Fly
+      Sundays\"\n            }, {\n               \"name\" : \"Everyday I Think of
+      Money\"\n            }, {\n               \"name\" : \"Maybe\"\n            },
+      {\n               \"name\" : \"Caravan Holiday\"\n            }, {\n               \"name\"
+      : \"Rooftop\"\n            } ]\n         }, {\n            \"encore\" : 1,\n
+      \           \"song\" : [ {\n               \"name\" : \"Hanging On Your Hinges\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Do Ya Feel My Love\"\n            }, {\n               \"name\"
+      : \"Just Looking\"\n            }, {\n               \"name\" : \"Hurry Up and
+      Wait\"\n            }, {\n               \"name\" : \"Fly Like an Eagle\"\n
+      \           }, {\n               \"name\" : \"The Bartender and the Thief\"\n
+      \           } ]\n         }, {\n            \"encore\" : 2,\n            \"song\"
+      : [ {\n               \"name\" : \"Superman\"\n            }, {\n               \"name\"
+      : \"Dakota\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2021/portsmouth-guildhall-portsmouth-england-238a4403.html\"\n
+      \  }, {\n      \"id\" : \"1b8a5514\",\n      \"versionId\" : \"g3c539ff\",\n
+      \     \"eventDate\" : \"27-11-2021\",\n      \"lastUpdated\" : \"2021-12-05T00:05:19.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"bd6c96a\",\n         \"name\"
+      : \"Venue Cymru\",\n         \"city\" : {\n            \"id\" : \"2644120\",\n
+      \           \"name\" : \"Llandudno\",\n            \"state\" : \"Wales\",\n
+      \           \"stateCode\" : \"WLS\",\n            \"coords\" : {\n               \"lat\"
+      : 53.3249779644723,\n               \"long\" : -3.83148193359375\n            },\n
+      \           \"country\" : {\n               \"code\" : \"GB\",\n               \"name\"
+      : \"United Kingdom\"\n            }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/venue-cymru-llandudno-wales-bd6c96a.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Just Enough Education to
+      Perform 20th Anniversary Tour\"\n      },\n      \"sets\" : {\n         \"set\"
+      : [ {\n            \"song\" : [ {\n               \"name\" : \"\",\n               \"tape\"
+      : true,\n               \"info\" : \"Seven Bridges Road - The Eagles\"\n            }
+      ]\n         }, {\n            \"name\" : \"Just Enough Education to Perform\",\n
+      \           \"song\" : [ {\n               \"name\" : \"Vegas Two Times\"\n
+      \           }, {\n               \"name\" : \"Surprise\"\n            }, {\n
+      \              \"name\" : \"Lying in the Sun\"\n            }, {\n               \"name\"
+      : \"Mr Writer\"\n            }, {\n               \"name\" : \"Step on My Old
+      Size Nines\"\n            }, {\n               \"name\" : \"Have a Nice Day\"\n
+      \           }, {\n               \"name\" : \"Nice to Be Out\"\n            },
+      {\n               \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               },\n
+      \              \"info\" : \"Song Intro\"\n            }, {\n               \"name\"
+      : \"Watch Them Fly Sundays\"\n            }, {\n               \"name\" : \"Everyday
+      I Think of Money\"\n            }, {\n               \"name\" : \"Maybe\"\n
+      \           }, {\n               \"name\" : \"Caravan Holiday\"\n            },
+      {\n               \"name\" : \"Rooftop\"\n            } ]\n         }, {\n            \"name\"
+      : \"Set 2\",\n            \"song\" : [ {\n               \"name\" : \"Hanging
+      On Your Hinges\"\n            }, {\n               \"name\" : \"Geronimo\"\n
+      \           }, {\n               \"name\" : \"Do Ya Feel My Love\"\n            },
+      {\n               \"name\" : \"I Wanna Get Lost With You\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Stitches\"\n            }, {\n               \"name\" : \"Fly Like an Eagle\"\n
+      \           }, {\n               \"name\" : \"Too Many Sandwiches\",\n               \"info\"
+      : \"First time since 2018\"\n            } ]\n         }, {\n            \"encore\"
+      : 1,\n            \"song\" : [ {\n               \"name\" : \"C'est la vie\"\n
+      \           }, {\n               \"name\" : \"Dakota\"\n            } ]\n         }
+      ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2021/venue-cymru-llandudno-wales-1b8a5514.html\"\n
+      \  }, {\n      \"id\" : \"638a6227\",\n      \"versionId\" : \"gbc539fe\",\n
+      \     \"eventDate\" : \"26-11-2021\",\n      \"lastUpdated\" : \"2021-12-05T00:05:19.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"53d6cbb5\",\n         \"name\"
+      : \"De Montfort Hall\",\n         \"city\" : {\n            \"id\" : \"2644668\",\n
+      \           \"name\" : \"Leicester\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 52.6333333,\n               \"long\" : -1.1333333\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/de-montfort-hall-leicester-england-53d6cbb5.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Just Enough Education to
+      Perform 20th Anniversary Tour\"\n      },\n      \"sets\" : {\n         \"set\"
+      : [ {\n            \"name\" : \"Just Enough Education to Perform\",\n            \"song\"
+      : [ {\n               \"name\" : \"Vegas Two Times\"\n            }, {\n               \"name\"
+      : \"Surprise\",\n               \"info\" : \"live debut\"\n            }, {\n
+      \              \"name\" : \"Lying in the Sun\",\n               \"info\" : \"First
+      time since 2001.\"\n            }, {\n               \"name\" : \"Mr Writer\"\n
+      \           }, {\n               \"name\" : \"Step on My Old Size Nines\"\n
+      \           }, {\n               \"name\" : \"Have a Nice Day\"\n            },
+      {\n               \"name\" : \"Nice to Be Out\"\n            }, {\n               \"name\"
+      : \"Handbags and Gladrags\",\n               \"cover\" : {\n                  \"mbid\"
+      : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Watch Them Fly
+      Sundays\",\n               \"info\" : \"First time since 2003.\"\n            },
+      {\n               \"name\" : \"Everyday I Think of Money\",\n               \"info\"
+      : \"First time since 2003.\"\n            }, {\n               \"name\" : \"Maybe\",\n
+      \              \"info\" : \"First time since 2003.\"\n            }, {\n               \"name\"
+      : \"Caravan Holiday\"\n            }, {\n               \"name\" : \"Rooftop\"\n
+      \           } ]\n         }, {\n            \"song\" : [ {\n               \"name\"
+      : \"Hanging On Your Hinges\",\n               \"info\" : \"live debut\"\n            },
+      {\n               \"name\" : \"Geronimo\"\n            }, {\n               \"name\"
+      : \"Do Ya Feel My Love\",\n               \"info\" : \"live debut\"\n            },
+      {\n               \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Stitches\"\n            }, {\n               \"name\" : \"Fly Like an Eagle\"\n
+      \           }, {\n               \"name\" : \"Sunny\"\n            } ]\n         },
+      {\n            \"encore\" : 1,\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"Dakota\"\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2021/de-montfort-hall-leicester-england-638a6227.html\"\n
+      \  }, {\n      \"id\" : \"3b8f2028\",\n      \"versionId\" : \"g13c539fd\",\n
+      \     \"eventDate\" : \"28-07-2021\",\n      \"lastUpdated\" : \"2021-12-05T00:05:19.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"4bd7fb56\",\n         \"name\"
+      : \"Scarborough Open Air Theatre\",\n         \"city\" : {\n            \"id\"
+      : \"2638419\",\n            \"name\" : \"Scarborough\",\n            \"state\"
+      : \"England\",\n            \"stateCode\" : \"ENG\",\n            \"coords\"
+      : {\n               \"lat\" : 54.2872222,\n               \"long\" : -0.4141667\n
+      \           },\n            \"country\" : {\n               \"code\" : \"GB\",\n
+      \              \"name\" : \"United Kingdom\"\n            }\n         },\n         \"url\"
+      : \"https://www.setlist.fm/venue/scarborough-open-air-theatre-scarborough-england-4bd7fb56.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"Theme from \u201CThe Warriors\u201D\",\n               \"tape\"
+      : true,\n               \"cover\" : {\n                  \"mbid\" : \"b33c8aa6-036b-4c99-9249-b06791e7b2fd\",\n
+      \                 \"name\" : \"Barry De Vorzon\",\n                  \"sortName\"
+      : \"De Vorzon, Barry\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/barry-de-vorzon-4bd657de.html\"\n               }\n
+      \           }, {\n               \"name\" : \"C'est la vie\"\n            },
+      {\n               \"name\" : \"I Wanna Get Lost With You\"\n            }, {\n
+      \              \"name\" : \"The Bartender and the Thief\"\n            }, {\n
+      \              \"name\" : \"Superman\"\n            }, {\n               \"name\"
+      : \"Geronimo\"\n            }, {\n               \"name\" : \"Maybe Tomorrow\"\n
+      \           }, {\n               \"name\" : \"I Wouldn't Believe Your Radio\"\n
+      \           }, {\n               \"name\" : \"Have a Nice Day\"\n            },
+      {\n               \"name\" : \"Mr Writer\"\n            }, {\n               \"name\"
+      : \"All in One Night\"\n            }, {\n               \"name\" : \"Make Friends
+      With the Morning\"\n            }, {\n               \"name\" : \"Vegas Two
+      Times\"\n            }, {\n               \"name\" : \"Hurry Up and Wait\"\n
+      \           }, {\n               \"name\" : \"Traffic\"\n            }, {\n
+      \              \"name\" : \"Mr and Mrs Smith\"\n            }, {\n               \"name\"
+      : \"Fly Like an Eagle\"\n            }, {\n               \"name\" : \"Indian
+      Summer\"\n            }, {\n               \"name\" : \"Don't Let the Devil
+      Take Another Day\"\n            }, {\n               \"name\" : \"Handbags and
+      Gladrags\",\n               \"cover\" : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Local Boy in the Photograph\"\n
+      \           }, {\n               \"name\" : \"A Thousand Trees\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"Just Looking\"\n            }, {\n               \"name\"
+      : \"Dakota\"\n            } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2021/scarborough-open-air-theatre-scarborough-england-3b8f2028.html\"\n
+      \  }, {\n      \"id\" : \"7b993e28\",\n      \"versionId\" : \"6b38faca\",\n
+      \     \"eventDate\" : \"15-03-2020\",\n      \"lastUpdated\" : \"2020-06-13T01:06:56.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"3bd378a8\",\n         \"name\"
+      : \"Motorpoint Arena Cardiff\",\n         \"city\" : {\n            \"id\" :
+      \"2653822\",\n            \"name\" : \"Cardiff\",\n            \"state\" : \"Wales\",\n
+      \           \"stateCode\" : \"WLS\",\n            \"coords\" : {\n               \"lat\"
+      : 51.48,\n               \"long\" : -3.18\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/motorpoint-arena-cardiff-cardiff-wales-3bd378a8.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Kind\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"Bust This Town\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Mr Writer\"\n
+      \           }, {\n               \"name\" : \"Hungover for You\"\n            },
+      {\n               \"name\" : \"Restless Mind\"\n            }, {\n               \"name\"
+      : \"Local Boy in the Photograph\"\n            }, {\n               \"name\"
+      : \"A Thousand Trees\"\n            }, {\n               \"name\" : \"Traffic\"\n
+      \           }, {\n               \"name\" : \"Stitches\"\n            }, {\n
+      \              \"name\" : \"Indian Summer\"\n            }, {\n               \"name\"
+      : \"Make Friends With the Morning\"\n            }, {\n               \"name\"
+      : \"Mr and Mrs Smith\"\n            }, {\n               \"name\" : \"Fly Like
+      an Eagle\"\n            }, {\n               \"name\" : \"Superman\"\n            },
+      {\n               \"name\" : \"Don't Let the Devil Take Another Day\"\n            },
+      {\n               \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Before Anyone Knew Our Name\"\n
+      \           }, {\n               \"name\" : \"Sunny\"\n            }, {\n               \"name\"
+      : \"The Bartender and the Thief\"\n            } ]\n         }, {\n            \"encore\"
+      : 1,\n            \"song\" : [ {\n               \"name\" : \"Elevators\"\n
+      \           }, {\n               \"name\" : \"Just Looking\"\n            },
+      {\n               \"name\" : \"Dakota\"\n            } ]\n         } ]\n      },\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2020/motorpoint-arena-cardiff-cardiff-wales-7b993e28.html\"\n
+      \  }, {\n      \"id\" : \"6b99c692\",\n      \"versionId\" : \"6338facf\",\n
+      \     \"eventDate\" : \"14-03-2020\",\n      \"lastUpdated\" : \"2020-06-13T01:06:57.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"3bd378a8\",\n         \"name\"
+      : \"Motorpoint Arena Cardiff\",\n         \"city\" : {\n            \"id\" :
+      \"2653822\",\n            \"name\" : \"Cardiff\",\n            \"state\" : \"Wales\",\n
+      \           \"stateCode\" : \"WLS\",\n            \"coords\" : {\n               \"lat\"
+      : 51.48,\n               \"long\" : -3.18\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/motorpoint-arena-cardiff-cardiff-wales-3bd378a8.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Kind\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"Bust This Town\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Mr Writer\"\n
+      \           }, {\n               \"name\" : \"Hungover for You\"\n            },
+      {\n               \"name\" : \"Restless Mind\"\n            }, {\n               \"name\"
+      : \"Local Boy in the Photograph\"\n            }, {\n               \"name\"
+      : \"A Thousand Trees\"\n            }, {\n               \"name\" : \"Traffic\"\n
+      \           }, {\n               \"name\" : \"Stitches\"\n            }, {\n
+      \              \"name\" : \"Indian Summer\"\n            }, {\n               \"name\"
+      : \"Make Friends With the Morning\"\n            }, {\n               \"name\"
+      : \"Mr and Mrs Smith\"\n            }, {\n               \"name\" : \"Fly Like
+      an Eagle\"\n            }, {\n               \"name\" : \"Superman\"\n            },
+      {\n               \"name\" : \"Don't Let the Devil Take Another Day\"\n            },
+      {\n               \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Before Anyone Knew Our Name\"\n
+      \           }, {\n               \"name\" : \"Sunny\"\n            }, {\n               \"name\"
+      : \"The Bartender and the Thief\"\n            } ]\n         }, {\n            \"encore\"
+      : 1,\n            \"song\" : [ {\n               \"name\" : \"Elevators\"\n
+      \           }, {\n               \"name\" : \"Just Looking\"\n            },
+      {\n               \"name\" : \"Dakota\"\n            } ]\n         } ]\n      },\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2020/motorpoint-arena-cardiff-cardiff-wales-6b99c692.html\"\n
+      \  }, {\n      \"id\" : \"2399c827\",\n      \"versionId\" : \"3309dcf\",\n
+      \     \"eventDate\" : \"13-03-2020\",\n      \"lastUpdated\" : \"2020-03-17T22:27:25.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"3d73de3\",\n         \"name\"
+      : \"Manchester Arena\",\n         \"city\" : {\n            \"id\" : \"2643123\",\n
+      \           \"name\" : \"Manchester\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 53.4809464283615,\n               \"long\" : -2.23743438720703\n            },\n
+      \           \"country\" : {\n               \"code\" : \"GB\",\n               \"name\"
+      : \"United Kingdom\"\n            }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/manchester-arena-manchester-england-3d73de3.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Kind\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"Bust This Town\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Mr Writer\"\n
+      \           }, {\n               \"name\" : \"Hungover for You\"\n            },
+      {\n               \"name\" : \"Restless Mind\"\n            }, {\n               \"name\"
+      : \"Local Boy in the Photograph\"\n            }, {\n               \"name\"
+      : \"A Thousand Trees\"\n            }, {\n               \"name\" : \"I Wouldn't
+      Believe Your Radio\"\n            }, {\n               \"name\" : \"Traffic\"\n
+      \           }, {\n               \"name\" : \"Make Friends With the Morning\"\n
+      \           }, {\n               \"name\" : \"Indian Summer\"\n            },
+      {\n               \"name\" : \"Mr and Mrs Smith\"\n            }, {\n               \"name\"
+      : \"Fly Like an Eagle\"\n            }, {\n               \"name\" : \"Superman\"\n
+      \           }, {\n               \"name\" : \"Don't Let the Devil Take Another
+      Day\"\n            }, {\n               \"name\" : \"Handbags and Gladrags\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Before Anyone Knew Our Name\"\n
+      \           }, {\n               \"name\" : \"Sunny\"\n            }, {\n               \"name\"
+      : \"The Bartender and the Thief\"\n            } ]\n         }, {\n            \"encore\"
+      : 1,\n            \"song\" : [ {\n               \"name\" : \"Elevators\"\n
+      \           }, {\n               \"name\" : \"Just Looking\"\n            },
+      {\n               \"name\" : \"Dakota\"\n            } ]\n         } ]\n      },\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2020/manchester-arena-manchester-england-2399c827.html\"\n
+      \  }, {\n      \"id\" : \"1399d545\",\n      \"versionId\" : \"4b337b3e\",\n
+      \     \"eventDate\" : \"11-03-2020\",\n      \"lastUpdated\" : \"2020-03-12T00:39:30.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"23d4703b\",\n         \"name\"
+      : \"The SSE Hydro\",\n         \"city\" : {\n            \"id\" : \"2648579\",\n
+      \           \"name\" : \"Glasgow\",\n            \"state\" : \"Scotland\",\n
+      \           \"stateCode\" : \"SCT\",\n            \"coords\" : {\n               \"lat\"
+      : 55.8333333,\n               \"long\" : -4.25\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/the-sse-hydro-glasgow-scotland-23d4703b.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Kind\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"Bust This Town\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Mr Writer\"\n
+      \           }, {\n               \"name\" : \"Hungover for You\"\n            },
+      {\n               \"name\" : \"Restless Mind\"\n            }, {\n               \"name\"
+      : \"Local Boy in the Photograph\"\n            }, {\n               \"name\"
+      : \"A Thousand Trees\"\n            }, {\n               \"name\" : \"I Wouldn't
+      Believe Your Radio\"\n            }, {\n               \"name\" : \"Traffic\"\n
+      \           }, {\n               \"name\" : \"Make Friends With the Morning\"\n
+      \           }, {\n               \"name\" : \"Indian Summer\"\n            },
+      {\n               \"name\" : \"Mr and Mrs Smith\"\n            }, {\n               \"name\"
+      : \"Fly Like an Eagle\"\n            }, {\n               \"name\" : \"Superman\"\n
+      \           }, {\n               \"name\" : \"Don't Let the Devil Take Another
+      Day\"\n            }, {\n               \"name\" : \"Handbags and Gladrags\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Before Anyone Knew Our Name\"\n
+      \           }, {\n               \"name\" : \"Sunny\"\n            }, {\n               \"name\"
+      : \"The Bartender and the Thief\"\n            } ]\n         }, {\n            \"encore\"
+      : 1,\n            \"song\" : [ {\n               \"name\" : \"Elevators\"\n
+      \           }, {\n               \"name\" : \"Just Looking\"\n            },
+      {\n               \"name\" : \"Dakota\"\n            } ]\n         } ]\n      },\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2020/the-sse-hydro-glasgow-scotland-1399d545.html\"\n
+      \  }, {\n      \"id\" : \"5399e3d9\",\n      \"versionId\" : \"3b31bc6c\",\n
+      \     \"eventDate\" : \"10-03-2020\",\n      \"lastUpdated\" : \"2020-03-28T13:27:20.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"3d3e13b\",\n         \"name\"
+      : \"P&J Live\",\n         \"city\" : {\n            \"id\" : \"2657832\",\n
+      \           \"name\" : \"Aberdeen\",\n            \"state\" : \"Scotland\",\n
+      \           \"stateCode\" : \"SCT\",\n            \"coords\" : {\n               \"lat\"
+      : 57.1333333,\n               \"long\" : -2.1\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/pandj-live-aberdeen-scotland-3d3e13b.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Kind\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"Bust This Town\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Mr Writer\"\n
+      \           }, {\n               \"name\" : \"Hungover for You\"\n            },
+      {\n               \"name\" : \"Restless Mind\"\n            }, {\n               \"name\"
+      : \"Local Boy in the Photograph\"\n            }, {\n               \"name\"
+      : \"A Thousand Trees\"\n            }, {\n               \"name\" : \"More Life
+      in a Tramp's Vest\"\n            }, {\n               \"name\" : \"I Wouldn't
+      Believe Your Radio\"\n            }, {\n               \"name\" : \"Traffic\"\n
+      \           }, {\n               \"name\" : \"Graffiti on the Train\"\n            },
+      {\n               \"name\" : \"Make Friends With the Morning\"\n            },
+      {\n               \"name\" : \"Mr and Mrs Smith\"\n            }, {\n               \"name\"
+      : \"Fly Like an Eagle\"\n            }, {\n               \"name\" : \"Superman\"\n
+      \           }, {\n               \"name\" : \"Don't Let the Devil Take Another
+      Day\"\n            }, {\n               \"name\" : \"Handbags and Gladrags\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Before Anyone Knew Our Name\"\n
+      \           }, {\n               \"name\" : \"Sunny\"\n            }, {\n               \"name\"
+      : \"The Bartender and the Thief\"\n            }, {\n               \"name\"
+      : \"Elevators\"\n            }, {\n               \"name\" : \"Just Looking\"\n
+      \           }, {\n               \"name\" : \"Dakota\"\n            } ]\n         }
+      ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2020/pandj-live-aberdeen-scotland-5399e3d9.html\"\n
+      \  }, {\n      \"id\" : \"3b99e88c\",\n      \"versionId\" : \"g13d9bdc5\",\n
+      \     \"eventDate\" : \"09-03-2020\",\n      \"lastUpdated\" : \"2021-10-04T01:00:58.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"63d3be33\",\n         \"name\"
+      : \"Utilita Arena\",\n         \"city\" : {\n            \"id\" : \"2641673\",\n
+      \           \"name\" : \"Newcastle\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 54.973,\n               \"long\" : -1.614\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/utilita-arena-newcastle-england-63d3be33.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Kind\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"Bust This Town\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Mr Writer\"\n
+      \           }, {\n               \"name\" : \"Hungover for You\"\n            },
+      {\n               \"name\" : \"Restless Mind\"\n            }, {\n               \"name\"
+      : \"Local Boy in the Photograph\"\n            }, {\n               \"name\"
+      : \"A Thousand Trees\"\n            }, {\n               \"name\" : \"More Life
+      in a Tramp's Vest\"\n            }, {\n               \"name\" : \"I Wouldn't
+      Believe Your Radio\"\n            }, {\n               \"name\" : \"Traffic\"\n
+      \           }, {\n               \"name\" : \"Graffiti on the Train\"\n            },
+      {\n               \"name\" : \"Make Friends With the Morning\"\n            },
+      {\n               \"name\" : \"Mr and Mrs Smith\"\n            }, {\n               \"name\"
+      : \"Fly Like an Eagle\"\n            }, {\n               \"name\" : \"Superman\"\n
+      \           }, {\n               \"name\" : \"Don't Let the Devil Take Another
+      Day\"\n            }, {\n               \"name\" : \"Handbags and Gladrags\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Before Anyone Knew Our Name\"\n
+      \           }, {\n               \"name\" : \"Sunny\"\n            }, {\n               \"name\"
+      : \"The Bartender and the Thief\"\n            } ]\n         }, {\n            \"encore\"
+      : 1,\n            \"song\" : [ {\n               \"name\" : \"Elevators\"\n
+      \           }, {\n               \"name\" : \"Just Looking\"\n            },
+      {\n               \"name\" : \"Dakota\"\n            } ]\n         } ]\n      },\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2020/utilita-arena-newcastle-england-3b99e88c.html\"\n
+      \  }, {\n      \"id\" : \"b99f922\",\n      \"versionId\" : \"5333c7d5\",\n
+      \     \"eventDate\" : \"07-03-2020\",\n      \"lastUpdated\" : \"2020-03-08T05:25:01.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"1bd5e1d0\",\n         \"name\"
+      : \"Motorpoint Arena\",\n         \"city\" : {\n            \"id\" : \"2641170\",\n
+      \           \"name\" : \"Nottingham\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 52.9536023000285,\n               \"long\" : -1.15047454833984\n            },\n
+      \           \"country\" : {\n               \"code\" : \"GB\",\n               \"name\"
+      : \"United Kingdom\"\n            }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/motorpoint-arena-nottingham-england-1bd5e1d0.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Kind\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"Bust This Town\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Mr Writer\"\n
+      \           }, {\n               \"name\" : \"Hungover for You\"\n            },
+      {\n               \"name\" : \"Restless Mind\"\n            }, {\n               \"name\"
+      : \"Local Boy in the Photograph\"\n            }, {\n               \"name\"
+      : \"A Thousand Trees\"\n            }, {\n               \"name\" : \"Traffic\"\n
+      \           }, {\n               \"name\" : \"Graffiti on the Train\"\n            },
+      {\n               \"name\" : \"Make Friends With the Morning\"\n            },
+      {\n               \"name\" : \"Mr and Mrs Smith\"\n            }, {\n               \"name\"
+      : \"Fly Like an Eagle\"\n            }, {\n               \"name\" : \"I Wouldn't
+      Believe Your Radio\"\n            }, {\n               \"name\" : \"Superman\"\n
+      \           }, {\n               \"name\" : \"Don't Let the Devil Take Another
+      Day\"\n            }, {\n               \"name\" : \"Handbags and Gladrags\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Before Anyone Knew Our Name\"\n
+      \           }, {\n               \"name\" : \"Sunny\"\n            }, {\n               \"name\"
+      : \"The Bartender and the Thief\"\n            } ]\n         }, {\n            \"encore\"
+      : 1,\n            \"song\" : [ {\n               \"name\" : \"Elevators\"\n
+      \           }, {\n               \"name\" : \"Just Looking\"\n            },
+      {\n               \"name\" : \"Dakota\"\n            } ]\n         } ]\n      },\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2020/motorpoint-arena-nottingham-england-b99f922.html\"\n
+      \  }, {\n      \"id\" : \"2b998022\",\n      \"versionId\" : \"733336ad\",\n
+      \     \"eventDate\" : \"06-03-2020\",\n      \"lastUpdated\" : \"2020-03-08T19:07:43.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"73d466b5\",\n         \"name\"
+      : \"The O2 Arena\",\n         \"city\" : {\n            \"id\" : \"2643743\",\n
+      \           \"name\" : \"London\",\n            \"state\" : \"England\",\n            \"stateCode\"
+      : \"ENG\",\n            \"coords\" : {\n               \"lat\" : 51.5084152563931,\n
+      \              \"long\" : -0.125532746315002\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/the-o2-arena-london-england-73d466b5.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Kind\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"Bust This Town\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Mr Writer\"\n
+      \           }, {\n               \"name\" : \"Hungover for You\"\n            },
+      {\n               \"name\" : \"Restless Mind\",\n               \"info\" : \"first
+      verse and chorus only\"\n            }, {\n               \"name\" : \"Local
+      Boy in the Photograph\"\n            }, {\n               \"name\" : \"A Thousand
+      Trees\"\n            }, {\n               \"name\" : \"Traffic\"\n            },
+      {\n               \"name\" : \"Graffiti on the Train\"\n            }, {\n               \"name\"
+      : \"Make Friends With the Morning\"\n            }, {\n               \"name\"
+      : \"Mr and Mrs Smith\"\n            }, {\n               \"name\" : \"Fly Like
+      an Eagle\"\n            }, {\n               \"name\" : \"Superman\"\n            },
+      {\n               \"name\" : \"I Wouldn't Believe Your Radio\"\n            },
+      {\n               \"name\" : \"Don't Let the Devil Take Another Day\"\n            },
+      {\n               \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Before Anyone Knew Our Name\"\n
+      \           }, {\n               \"name\" : \"Sunny\"\n            }, {\n               \"name\"
+      : \"The Bartender and the Thief\"\n            } ]\n         }, {\n            \"encore\"
+      : 1,\n            \"song\" : [ {\n               \"name\" : \"Elevators\"\n
+      \           }, {\n               \"name\" : \"Just Looking\"\n            },
+      {\n               \"name\" : \"Dakota\"\n            } ]\n         } ]\n      },\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2020/the-o2-arena-london-england-2b998022.html\"\n
+      \  }, {\n      \"id\" : \"6b99f23e\",\n      \"versionId\" : \"33385f3\",\n
+      \     \"eventDate\" : \"05-03-2020\",\n      \"lastUpdated\" : \"2020-03-06T18:30:40.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"1bd4d104\",\n         \"name\"
+      : \"Eventim Apollo\",\n         \"city\" : {\n            \"id\" : \"2643743\",\n
+      \           \"name\" : \"London\",\n            \"state\" : \"England\",\n            \"stateCode\"
+      : \"ENG\",\n            \"coords\" : {\n               \"lat\" : 51.5084152563931,\n
+      \              \"long\" : -0.125532746315002\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/eventim-apollo-london-england-1bd4d104.html\"\n
+      \     },\n      \"sets\" : {\n         \"set\" : [ {\n            \"song\" :
+      [ {\n               \"name\" : \"C'est la vie\"\n            }, {\n               \"name\"
+      : \"Bust This Town\"\n            }, {\n               \"name\" : \"Have a Nice
+      Day\"\n            }, {\n               \"name\" : \"Maybe Tomorrow\"\n            },
+      {\n               \"name\" : \"Dakota\"\n            } ]\n         } ]\n      },\n
+      \     \"info\" : \"five song set at The Global Awards 2020 as they won Best
+      Indie Band\",\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2020/eventim-apollo-london-england-6b99f23e.html\"\n
+      \  }, {\n      \"id\" : \"2b99986a\",\n      \"versionId\" : \"3b33f088\",\n
+      \     \"eventDate\" : \"03-03-2020\",\n      \"lastUpdated\" : \"2020-03-07T15:56:16.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"3bd22408\",\n         \"name\"
+      : \"Bournemouth International Centre\",\n         \"city\" : {\n            \"id\"
+      : \"2655095\",\n            \"name\" : \"Bournemouth\",\n            \"state\"
+      : \"England\",\n            \"stateCode\" : \"ENG\",\n            \"coords\"
+      : {\n               \"lat\" : 50.7166667,\n               \"long\" : -1.8833333\n
+      \           },\n            \"country\" : {\n               \"code\" : \"GB\",\n
+      \              \"name\" : \"United Kingdom\"\n            }\n         },\n         \"url\"
+      : \"https://www.setlist.fm/venue/bournemouth-international-centre-bournemouth-england-3bd22408.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Kind\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            } ]\n         } ]\n      },\n      \"url\" :
+      \"https://www.setlist.fm/setlist/stereophonics/2020/bournemouth-international-centre-bournemouth-england-2b99986a.html\"\n
+      \  }, {\n      \"id\" : \"73999e15\",\n      \"versionId\" : \"7333ae6d\",\n
+      \     \"eventDate\" : \"02-03-2020\",\n      \"lastUpdated\" : \"2020-03-05T09:10:30.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"63d6ceb3\",\n         \"name\"
+      : \"Brighton Centre\",\n         \"city\" : {\n            \"id\" : \"2654710\",\n
+      \           \"name\" : \"Brighton\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 50.8283849472495,\n               \"long\" : -0.139474868774414\n            },\n
+      \           \"country\" : {\n               \"code\" : \"GB\",\n               \"name\"
+      : \"United Kingdom\"\n            }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/brighton-centre-brighton-england-63d6ceb3.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Kind\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"Bust This Town\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Mr Writer\"\n
+      \           }, {\n               \"name\" : \"Hungover for You\"\n            },
+      {\n               \"name\" : \"I Wouldn't Believe Your Radio\",\n               \"info\"
+      : \"first verse and chorus only\"\n            }, {\n               \"name\"
+      : \"Local Boy in the Photograph\"\n            }, {\n               \"name\"
+      : \"Traffic\"\n            }, {\n               \"name\" : \"Graffiti on the
+      Train\"\n            }, {\n               \"name\" : \"Make Friends With the
+      Morning\"\n            }, {\n               \"name\" : \"Mr and Mrs Smith\"\n
+      \           }, {\n               \"name\" : \"Fly Like an Eagle\"\n            },
+      {\n               \"name\" : \"Hurry Up and Wait\"\n            }, {\n               \"name\"
+      : \"Superman\"\n            }, {\n               \"name\" : \"Don't Let the
+      Devil Take Another Day\"\n            }, {\n               \"name\" : \"Handbags
+      and Gladrags\",\n               \"cover\" : {\n                  \"mbid\" :
+      \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n                  \"name\" : \"Mike
+      d\u2019Abo\",\n                  \"sortName\" : \"d\u2019Abo, Mike\",\n                  \"disambiguation\"
+      : \"\",\n                  \"url\" : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n
+      \              }\n            }, {\n               \"name\" : \"Before Anyone
+      Knew Our Name\"\n            }, {\n               \"name\" : \"Sunny\"\n            },
+      {\n               \"name\" : \"The Bartender and the Thief\"\n            }
+      ]\n         }, {\n            \"encore\" : 1,\n            \"song\" : [ {\n
+      \              \"name\" : \"Elevators\"\n            }, {\n               \"name\"
+      : \"Just Looking\"\n            }, {\n               \"name\" : \"Dakota\"\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2020/brighton-centre-brighton-england-73999e15.html\"\n
+      \  }, {\n      \"id\" : \"3399b039\",\n      \"versionId\" : \"2b321042\",\n
+      \     \"eventDate\" : \"29-02-2020\",\n      \"lastUpdated\" : \"2020-03-01T09:32:51.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"5bd2a364\",\n         \"name\"
+      : \"Arena Birmingham\",\n         \"city\" : {\n            \"id\" : \"2655603\",\n
+      \           \"name\" : \"Birmingham\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 52.4666667,\n               \"long\" : -1.9166667\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/arena-birmingham-birmingham-england-5bd2a364.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Kind\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"C'est la vie\"\n            }, {\n               \"name\" : \"I Wanna Get
+      Lost With You\"\n            }, {\n               \"name\" : \"Bust This Town\"\n
+      \           }, {\n               \"name\" : \"Geronimo\"\n            }, {\n
+      \              \"name\" : \"Maybe Tomorrow\"\n            }, {\n               \"name\"
+      : \"Have a Nice Day\"\n            }, {\n               \"name\" : \"Mr Writer\"\n
+      \           }, {\n               \"name\" : \"Hungover for You\"\n            },
+      {\n               \"name\" : \"I Wouldn't Believe Your Radio\",\n               \"info\"
+      : \"first verse and chorus only\"\n            }, {\n               \"name\"
+      : \"Local Boy in the Photograph\"\n            }, {\n               \"name\"
+      : \"A Thousand Trees\"\n            }, {\n               \"name\" : \"Traffic\"\n
+      \           }, {\n               \"name\" : \"Graffiti on the Train\"\n            },
+      {\n               \"name\" : \"Make Friends With the Morning\"\n            },
+      {\n               \"name\" : \"Mr and Mrs Smith\"\n            }, {\n               \"name\"
+      : \"Fly Like an Eagle\"\n            }, {\n               \"name\" : \"Hurry
+      Up and Wait\"\n            }, {\n               \"name\" : \"Superman\"\n            },
+      {\n               \"name\" : \"Don't Let the Devil Take Another Day\"\n            },
+      {\n               \"name\" : \"Handbags and Gladrags\",\n               \"cover\"
+      : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Before Anyone Knew Our Name\"\n
+      \           }, {\n               \"name\" : \"Sunny\"\n            }, {\n               \"name\"
+      : \"The Bartender and the Thief\"\n            } ]\n         }, {\n            \"encore\"
+      : 1,\n            \"song\" : [ {\n               \"name\" : \"Elevators\"\n
+      \           }, {\n               \"name\" : \"Just Looking\"\n            },
+      {\n               \"name\" : \"Dakota\"\n            } ]\n         } ]\n      },\n
+      \     \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2020/arena-birmingham-birmingham-england-3399b039.html\"\n
+      \  }, {\n      \"id\" : \"2399b84f\",\n      \"versionId\" : \"3b2b0040\",\n
+      \     \"eventDate\" : \"28-02-2020\",\n      \"lastUpdated\" : \"2020-10-30T10:15:55.000+0000\",\n
+      \     \"artist\" : {\n         \"mbid\" : \"0bfba3d3-6a04-4779-bb0a-df07df5b0558\",\n
+      \        \"name\" : \"Stereophonics\",\n         \"sortName\" : \"Stereophonics\",\n
+      \        \"disambiguation\" : \"\",\n         \"url\" : \"https://www.setlist.fm/setlists/stereophonics-bd6bd7a.html\"\n
+      \     },\n      \"venue\" : {\n         \"id\" : \"6bd29a8a\",\n         \"name\"
+      : \"FlyDSA Arena\",\n         \"city\" : {\n            \"id\" : \"2638077\",\n
+      \           \"name\" : \"Sheffield\",\n            \"state\" : \"England\",\n
+      \           \"stateCode\" : \"ENG\",\n            \"coords\" : {\n               \"lat\"
+      : 53.383,\n               \"long\" : -1.466\n            },\n            \"country\"
+      : {\n               \"code\" : \"GB\",\n               \"name\" : \"United Kingdom\"\n
+      \           }\n         },\n         \"url\" : \"https://www.setlist.fm/venue/flydsa-arena-sheffield-england-6bd29a8a.html\"\n
+      \     },\n      \"tour\" : {\n         \"name\" : \"Kind\"\n      },\n      \"sets\"
+      : {\n         \"set\" : [ {\n            \"song\" : [ {\n               \"name\"
+      : \"Theme from \u201CThe Warriors\u201D\",\n               \"tape\" : true,\n
+      \              \"cover\" : {\n                  \"mbid\" : \"b33c8aa6-036b-4c99-9249-b06791e7b2fd\",\n
+      \                 \"name\" : \"Barry De Vorzon\",\n                  \"sortName\"
+      : \"De Vorzon, Barry\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/barry-de-vorzon-4bd657de.html\"\n               }\n
+      \           }, {\n               \"name\" : \"C'est la vie\"\n            },
+      {\n               \"name\" : \"I Wanna Get Lost With You\"\n            }, {\n
+      \              \"name\" : \"Bust This Town\"\n            }, {\n               \"name\"
+      : \"Geronimo\"\n            }, {\n               \"name\" : \"Maybe Tomorrow\"\n
+      \           }, {\n               \"name\" : \"Have a Nice Day\"\n            },
+      {\n               \"name\" : \"Mr Writer\"\n            }, {\n               \"name\"
+      : \"Hungover for You\"\n            } ]\n         }, {\n            \"name\"
+      : \"End of the runway\",\n            \"song\" : [ {\n               \"name\"
+      : \"Local Boy in the Photograph\"\n            }, {\n               \"name\"
+      : \"Traffic\"\n            } ]\n         }, {\n            \"name\" : \"On stage\",\n
+      \           \"song\" : [ {\n               \"name\" : \"Graffiti on the Train\"\n
+      \           }, {\n               \"name\" : \"Make Friends With the Morning\"\n
+      \           }, {\n               \"name\" : \"Mr and Mrs Smith\"\n            },
+      {\n               \"name\" : \"Fly Like an Eagle\"\n            }, {\n               \"name\"
+      : \"Hurry Up and Wait\"\n            }, {\n               \"name\" : \"Superman\"\n
+      \           }, {\n               \"name\" : \"Don't Let the Devil Take Another
+      Day\"\n            }, {\n               \"name\" : \"Handbags and Gladrags\",\n
+      \              \"cover\" : {\n                  \"mbid\" : \"3ffdc562-47d6-4862-b3ab-b1077e0e8b15\",\n
+      \                 \"name\" : \"Mike d\u2019Abo\",\n                  \"sortName\"
+      : \"d\u2019Abo, Mike\",\n                  \"disambiguation\" : \"\",\n                  \"url\"
+      : \"https://www.setlist.fm/setlists/mike-dabo-73d4ee05.html\"\n               }\n
+      \           }, {\n               \"name\" : \"Before Anyone Knew Our Name\",\n
+      \              \"info\" : \"Kelly solo\"\n            }, {\n               \"name\"
+      : \"Sunny\"\n            }, {\n               \"name\" : \"The Bartender and
+      the Thief\"\n            } ]\n         }, {\n            \"encore\" : 1,\n            \"song\"
+      : [ {\n               \"name\" : \"Elevators\"\n            }, {\n               \"name\"
+      : \"Just Looking\"\n            }, {\n               \"name\" : \"Dakota\"\n
+      \           } ]\n         } ]\n      },\n      \"url\" : \"https://www.setlist.fm/setlist/stereophonics/2020/flydsa-arena-sheffield-england-2399b84f.html\"\n
+      \  } ]\n}"
+    headers:
+      Age:
+      - '59'
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:07:44 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding,Accept,Accept-Language
+      Via:
+      - 1.1 f452d023faa737bf8fd4899df4e76a44.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 4-4NgggGSDPnpCXyjlcbIr3xmj7JO_DyqUYEqEQesuu24JX4DZKSIA==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Hit from cloudfront
+      x-amz-apigw-id:
+      - U0oxlFAkoAMFjGw=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '62076'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:07:44 GMT
+      x-amzn-RequestId:
+      - fb191db0-9e9e-4529-907e-4427fd45b3af
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

@@ -1,0 +1,93 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/setlist/version/be1aaa0
+  response:
+    content: "{\n   \"id\" : \"63de4613\",\n   \"versionId\" : \"7be1aaa0\",\n   \"eventDate\"
+      : \"23-08-1964\",\n   \"lastUpdated\" : \"2022-07-04T01:06:23.000+0000\",\n
+      \  \"artist\" : {\n      \"mbid\" : \"b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\",\n
+      \     \"name\" : \"The Beatles\",\n      \"sortName\" : \"Beatles, The\",\n
+      \     \"disambiguation\" : \"\",\n      \"url\" : \"https://www.setlist.fm/setlists/the-beatles-23d6a88b.html\"\n
+      \  },\n   \"venue\" : {\n      \"id\" : \"33d62cf9\",\n      \"name\" : \"Hollywood
+      Bowl\",\n      \"city\" : {\n         \"id\" : \"5368361\",\n         \"name\"
+      : \"Los Angeles\",\n         \"state\" : \"California\",\n         \"stateCode\"
+      : \"CA\",\n         \"coords\" : {\n            \"lat\" : 34.052,\n            \"long\"
+      : -118.244\n         },\n         \"country\" : {\n            \"code\" : \"US\",\n
+      \           \"name\" : \"United States\"\n         }\n      },\n      \"url\"
+      : \"https://www.setlist.fm/venue/hollywood-bowl-los-angeles-ca-usa-33d62cf9.html\"\n
+      \  },\n   \"tour\" : {\n      \"name\" : \"North American Tour 1964\"\n   },\n
+      \  \"sets\" : {\n      \"set\" : [ {\n         \"song\" : [ {\n            \"name\"
+      : \"Twist and Shout\",\n            \"cover\" : {\n               \"mbid\" :
+      \"f18eac60-48d2-4d2b-b432-e43ce7e31d36\",\n               \"name\" : \"The Top
+      Notes\",\n               \"sortName\" : \"Top Notes, The\",\n               \"disambiguation\"
+      : \"\",\n               \"url\" : \"https://www.setlist.fm/setlists/the-top-notes-53d433dd.html\"\n
+      \           }\n         }, {\n            \"name\" : \"You Can't Do That\"\n
+      \        }, {\n            \"name\" : \"All My Loving\"\n         }, {\n            \"name\"
+      : \"She Loves You\"\n         }, {\n            \"name\" : \"Things We Said
+      Today\"\n         }, {\n            \"name\" : \"Roll Over Beethoven\",\n            \"cover\"
+      : {\n               \"mbid\" : \"592a3b6d-c42b-4567-99c9-ecf63bd66499\",\n               \"name\"
+      : \"Chuck Berry\",\n               \"sortName\" : \"Berry, Chuck\",\n               \"disambiguation\"
+      : \"\",\n               \"url\" : \"https://www.setlist.fm/setlists/chuck-berry-63d6a2b7.html\"\n
+      \           }\n         }, {\n            \"name\" : \"Can't Buy Me Love\"\n
+      \        }, {\n            \"name\" : \"If I Fell\"\n         }, {\n            \"name\"
+      : \"I Want to Hold Your Hand\"\n         }, {\n            \"name\" : \"Boys\",\n
+      \           \"cover\" : {\n               \"mbid\" : \"a8540ea0-1a74-4c22-8b70-1348a77a74a0\",\n
+      \              \"name\" : \"The Shirelles\",\n               \"sortName\" :
+      \"Shirelles, The\",\n               \"disambiguation\" : \"\",\n               \"url\"
+      : \"https://www.setlist.fm/setlists/the-shirelles-bd69d7a.html\"\n            }\n
+      \        }, {\n            \"name\" : \"A Hard Day's Night\"\n         }, {\n
+      \           \"name\" : \"Long Tall Sally\",\n            \"cover\" : {\n               \"mbid\"
+      : \"95c2339b-8277-49a6-9aaf-08d8eeeaa0be\",\n               \"name\" : \"Little
+      Richard\",\n               \"sortName\" : \"Little Richard\",\n               \"disambiguation\"
+      : \"\",\n               \"url\" : \"https://www.setlist.fm/setlists/little-richard-4bd6af2e.html\"\n
+      \           }\n         } ]\n      } ]\n   },\n   \"url\" : \"https://www.setlist.fm/setlist/the-beatles/1964/hollywood-bowl-los-angeles-ca-63de4613.html\"\n}"
+    headers:
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:07:58 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding,Accept,Accept-Language
+      Via:
+      - 1.1 061a00fb73c7b9b18dbae9db08e7a852.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - udjE6gDY_rpCm7Royulul4ITq_5LupIX9B9A9XGD7Mkqb1j2XTLDXA==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Miss from cloudfront
+      x-amz-apigw-id:
+      - U0ozvEPQIAMFZUw=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '3014'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:07:58 GMT
+      x-amzn-RequestId:
+      - c3d5ccda-142d-4383-9728-26f66b987c14
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

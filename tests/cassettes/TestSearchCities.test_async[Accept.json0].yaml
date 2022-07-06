@@ -1,0 +1,59 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.setlist.fm
+      user-agent:
+      - python-httpx/0.23.0
+      x-api-key:
+      - DUMMY
+    method: GET
+    uri: https://api.setlist.fm/rest/1.0/search/cities?p=1&country=US&name=Hollywood&state=California&stateCode=CA
+  response:
+    content: "{\n   \"type\" : \"cities\",\n   \"itemsPerPage\" : 50,\n   \"page\"
+      : 1,\n   \"total\" : 1,\n   \"cities\" : [ {\n      \"id\" : \"5408076\",\n
+      \     \"name\" : \"West Hollywood\",\n      \"state\" : \"California\",\n      \"stateCode\"
+      : \"CA\",\n      \"coords\" : {\n         \"lat\" : 34.0900091,\n         \"long\"
+      : -118.3617443\n      },\n      \"country\" : {\n         \"code\" : \"US\",\n
+      \        \"name\" : \"United States\"\n      }\n   } ]\n}"
+    headers:
+      Cache-Control:
+      - no-transform, max-age=60
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '392'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 06 Jul 2022 02:07:52 GMT
+      Vary:
+      - Accept,Accept-Language
+      Via:
+      - 1.1 0d3bc0372b2119705524079214a98b3e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Ylll3fXzPVZ2sZ2-d57hqI0p6QzMF9_0MqHGbad9MpgorkGJPZZ3zQ==
+      X-Amz-Cf-Pop:
+      - EWR52-C2
+      X-Cache:
+      - Hit from cloudfront
+      x-amz-apigw-id:
+      - U0oy1HZUIAMFcjw=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '392'
+      x-amzn-Remapped-Date:
+      - Wed, 06 Jul 2022 02:07:52 GMT
+      x-amzn-RequestId:
+      - a8153d64-7aad-4250-97d8-967a7478871d
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1
