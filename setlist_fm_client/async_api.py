@@ -4,9 +4,8 @@ import typing
 import httpx
 
 from setlist_fm_client import models
-from setlist_fm_client.core import async_get
+from setlist_fm_client.core import async_get, build_params
 from setlist_fm_client.enums import Accept, Sort
-from setlist_fm_client.core import build_params
 
 __all__ = [
     "async_get_artist",
@@ -263,12 +262,7 @@ async def async_search_artists(
     Returns:
         'ArtistSearchResponse` if serialize is True, else `httpx.Response`
     """
-    kwargs["params"] = build_params(
-        p=p,
-        sort=sort.value,
-        artistMbid=mbid,
-        artistName=name
-    )
+    kwargs["params"] = build_params(p=p, sort=sort.value, artistMbid=mbid, artistName=name)
 
     return await async_get(
         f"/search/artists",
@@ -309,13 +303,7 @@ async def async_search_cities(
     Returns:
         'CitySearchResponse` if serialize is True, else `httpx.Response`
     """
-    kwargs["params"] = build_params(
-        p=p,
-        country=country,
-        name=name,
-        state=state,
-        stateCode=state_code
-    )
+    kwargs["params"] = build_params(p=p, country=country, name=name, state=state, stateCode=state_code)
     return await async_get(
         f"/search/cities",
         api_key=api_key,
@@ -383,12 +371,7 @@ async def async_search_venues(
         'VenueSearchResponse` if serialize is True, else `httpx.Response`
     """
     kwargs["params"] = build_params(
-        cityId=city_id,
-        cityName=city_name,
-        country=country,
-        state=state,
-        stateCode=state_code,
-        p=p
+        cityId=city_id, cityName=city_name, country=country, state=state, stateCode=state_code, p=p
     )
     return await async_get(
         f"/search/venues",
@@ -461,7 +444,7 @@ async def async_search_setlists(
         venueId=venue_id,
         venueName=venue_name,
         year=year,
-        p=p
+        p=p,
     )
     return await async_get(
         f"/search/setlists",

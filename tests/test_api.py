@@ -440,7 +440,7 @@ class TestSearchSetlists:
     TOUR_NAME = "26th Anniversary Tour"
     VENUE_ID = "43d23f0f"
     VENUE_NAME = "St. Joseph's Health Amphitheater at Lakeview"
-    YEAR = '2021'
+    YEAR = "2021"
 
     @pytest.mark.parametrize("accept", [enums.Accept.json, enums.Accept.json])
     def test(self, accept):
@@ -493,7 +493,7 @@ class TestSearchSetlists:
             venue_name=self.VENUE_NAME,
             year=self.YEAR,
             p=1,
-            serialize=True
+            serialize=True,
         )
         assert isinstance(response, models.ArtistSetListResponse)
         assert len(response.setlist) == 1
@@ -552,7 +552,7 @@ class TestSearchSetlists:
             venue_name=self.VENUE_NAME,
             year=self.YEAR,
             p=1,
-            serialize=True
+            serialize=True,
         )
         assert isinstance(response, models.ArtistSetListResponse)
         assert len(response.setlist) == 1
@@ -584,6 +584,7 @@ class TestGetSetlist:
         response = await async_api.async_get_setlist(self.SETLIST_ID, serialize=True)
         assert isinstance(response, models.ArtistSetList)
 
+
 @pytest.mark.vcr
 class TestGetVenue:
     VENUE_ID = "6bd6ca6e"
@@ -609,6 +610,7 @@ class TestGetVenue:
     async def test_async_serialize(self):
         response = await async_api.async_get_venue(self.VENUE_ID, serialize=True)
         assert isinstance(response, models.Venue)
+
 
 @pytest.mark.vcr
 class TestGetSetlistByVersion:

@@ -55,7 +55,6 @@ def _build_headers(
         # use api key from env var
         headers["x-api-key"] = client.api_key
 
-
     if headers.get("x-api-key") is None:
         raise ValueError(f"Must pass in api key as 'api_key' kwarg or set {SETLIST_FM_API_KEY_VAR_NAME!r} env var")
 
