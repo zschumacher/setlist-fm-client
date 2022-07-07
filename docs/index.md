@@ -1,9 +1,11 @@
 [![test](https://github.com/zschumacher/setlist-fm-client/actions/workflows/test.yml/badge.svg)](https://github.com/zschumacher/setlist-fm-client/actions/workflows/test.yml)
+[![PyPI version](https://badge.fury.io/py/setlist-fm-client.svg)](https://badge.fury.io/py/setlist-fm-client)
 [![Documentation Status](https://readthedocs.org/projects/setlist-fm-client/badge/?version=latest)](https://setlist-fm-client.readthedocs.io/en/latest/?badge=latest)
 [![codecov](https://codecov.io/gh/zschumacher/setlist-fm-client/branch/main/graph/badge.svg?token=ZNUE1K18VD)](https://codecov.io/gh/zschumacher/setlist-fm-client)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/setlist-fm-client)
 
 # setlist-fm-client
 `setlist-fm-client` is a python client for the  [setlist.fm REST API](https://api.setlist.fm/docs/1.0/index.html).
