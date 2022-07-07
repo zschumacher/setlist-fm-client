@@ -13,6 +13,9 @@
 * it uses [pydantic](https://pydantic-docs.helpmanual.io) for lightning fast data serialization
 * it uses [httpx](https://www.python-httpx.org) to provide both a sync and async api
 
+## Build History
+[![Build history](https://buildstats.info/github/chart/zschumacher/setlist-fm-client?branch=main)](https://github.com/zschumacher/setlist-fm-client/actions)
+
 ## Installation
 === "pip"
     ```console
