@@ -34,8 +34,8 @@ class Country(SetlistFmBaseModel):
 class City(SetlistFmBaseModel):
     id: str
     name: str
-    state: str
-    state_code: str
+    state: typing.Optional[str]
+    state_code: typing.Optional[str]
     coords: Coordinates
     country: Country
 
