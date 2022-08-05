@@ -4,6 +4,7 @@ nav:
   - Api: api.md
   - Async Api: async_api.md
   - Release Notes: release_notes.md
+  - Latest Changes: latest_changes.md
 
 theme:
   name: 'material'
