@@ -1,5 +1,5 @@
 
-<a href="setlist_fm_client/api.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 # <kbd>module</kbd> `api.py`
 
@@ -9,7 +9,7 @@
 
 ---
 
-<a href="setlist_fm_client/api.py#L28"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L29"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_artist`
 
@@ -45,7 +45,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_artist__mbid_.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L51"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L52"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_artist_setlists`
 
@@ -83,7 +83,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_artist__mbid__setlists.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L80"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L81"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_city`
 
@@ -119,7 +119,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_city__geoId_.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L102"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L103"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_user`
 
@@ -155,7 +155,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_user__userId_.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L124"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L125"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_venue`
 
@@ -191,7 +191,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_venue__venueId_.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L146"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L147"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_setlists_at_venue`
 
@@ -229,7 +229,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_venue__venueId__setlists.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L180"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L181"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_setlists_of_concerts_attended_by_user`
 
@@ -267,7 +267,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_user__userId__attended.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L209"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L209"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_setlists_edited_by_user`
 
@@ -307,7 +307,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_user__userId__attended.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L240"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L239"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `search_artists`
 
@@ -349,7 +349,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_search_artists.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L283"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L277"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `search_cities`
 
@@ -393,7 +393,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_search_cities.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L329"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L317"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `search_countries`
 
@@ -427,7 +427,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_search_countries.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L354"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L342"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `search_venues`
 
@@ -473,7 +473,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_search_venues.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L403"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L386"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `search_setlists`
 
@@ -535,7 +535,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_search_setlists.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L476"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L459"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_setlist`
 
@@ -573,7 +573,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_setlist__setlistId_.html
 
 ---
 
-<a href="setlist_fm_client/api.py#L504"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/api.py#L487"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_setlist_by_version`
 

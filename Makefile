@@ -64,10 +64,10 @@ clean-pyc: ## remove Python file artifacts
 	find . -name '__pycache__' -exec rm -fr {} +
 
 api-docs:
-	poetry run lazydocs setlist_fm_client/api.py --output-path stdout --no-watermark --no-remove-package-prefix > docs/api.md
+	poetry run lazydocs setlist_fm_client/api.py --output-path stdout --no-watermark --src-base-url https://github.com/zschumacher/setlist-fm-client/blob/main --no-remove-package-prefix > docs/api.md
 
 async-api-docs:
-	poetry run lazydocs setlist_fm_client/async_api.py --output-path stdout --no-watermark --no-remove-package-prefix > docs/async_api.md
+	poetry run lazydocs setlist_fm_client/async_api.py --output-path stdout --no-watermark --src-base-url https://github.com/zschumacher/setlist-fm-client/blob/main --no-remove-package-prefix > docs/async_api.md
 
 docs: api-docs async-api-docs ## spin up a local server for mkdocs
 	poetry run mkdocs serve
