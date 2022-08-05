@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "setlist-fm-client"
-version = "0.3.0"
+version = "0.4.0"
 description = "a python client for the setlist.fm api"
 authors = ["Zach Schumacher <zschu15@gmail.com>"]
 license = "MIT"
