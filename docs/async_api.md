@@ -1,5 +1,5 @@
 
-<a href="setlist_fm_client/async_api.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 # <kbd>module</kbd> `async_api.py`
 
@@ -9,7 +9,7 @@
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L28"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L29"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_get_artist`
 
@@ -45,7 +45,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_artist__mbid_.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L51"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L52"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_get_artist_setlists`
 
@@ -83,7 +83,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_artist__mbid__setlists.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L80"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L81"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_get_city`
 
@@ -119,7 +119,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_city__geoId_.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L102"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L103"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_get_user`
 
@@ -155,7 +155,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_user__userId_.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L124"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L125"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_get_venue`
 
@@ -191,7 +191,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_venue__venueId_.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L146"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L147"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_get_setlists_at_venue`
 
@@ -229,7 +229,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_venue__venueId__setlists.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L180"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L181"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_get_setlists_of_concerts_attended_by_user`
 
@@ -267,7 +267,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_user__userId__attended.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L208"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L209"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_get_setlists_edited_by_user`
 
@@ -307,7 +307,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_user__userId__attended.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L238"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L239"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_search_artists`
 
@@ -349,7 +349,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_async_searchartists.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L282"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L278"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_search_cities`
 
@@ -393,7 +393,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_async_searchcities.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L328"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L318"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_search_countries`
 
@@ -427,7 +427,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_async_searchcountries.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L353"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L343"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_search_venues`
 
@@ -473,7 +473,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_async_searchvenues.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L402"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L387"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_search_setlists`
 
@@ -535,7 +535,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_async_searchsetlists.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L475"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L460"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_get_setlist`
 
@@ -573,7 +573,7 @@ https://api.setlist.fm/docs/1.0/resource__1.0_setlist__setlistId_.html
 
 ---
 
-<a href="setlist_fm_client/async_api.py#L503"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/zschumacher/setlist-fm-client/blob/main/setlist_fm_client/async_api.py#L488"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_get_setlist_by_version`
 
